@@ -19,6 +19,9 @@ const config = {
 			ssr: false,
 			trailingSlash: 'always'
 		}),
+		prerender: {
+			default: true
+		},
 		// alias: {
 		// 	'$components': path.resolve('./src/components'),
 		// 	'$utils': path.resolve('./src/utils'),
