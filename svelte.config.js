@@ -1,16 +1,26 @@
 import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 import path from 'path';
+import { mdsvex } from 'mdsvex'
 
 const dev = process.env.npm_lifecycle_event === 'dev';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: preprocess({
-		scss: {
-			prependData: `@import './src/variables.scss';`
-		}
-	}),
+	preprocess: [
+		preprocess({
+			scss: {
+				prependData: `@import './src/variables.scss';`
+			}
+		}),
+		mdsvex({
+			extensions: ['.md'],
+			layout: {
+				projets: 'src/routes/projets/project.svelte'
+			},
+		})
+	],
+	extensions: ['.svelte', '.md'],
 	kit: {
 		adapter: adapter({
 			pages: 'build',

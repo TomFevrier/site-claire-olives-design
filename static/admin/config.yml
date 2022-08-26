@@ -1,23 +1,28 @@
 backend:
   name: git-gateway
   branch: master
+local_backend: true
 collections:
-  - name: routes
-    label: routes
-    folder: src/routes
+  - name: projects
+    label: Projets
+    label_singular: projet
+    folder: src/routes/projets
+    slug: '{{slug}}/+page'
+    path: '{{slug}}/+page.md'
     create: true
     fields:
       - name: title
         label: Titre
       - name: cover
         label: Image
+        required: false
         widget: image
       - name: body
         label: Texte
         widget: markdown
 locale: 'fr'
-media_folder: "static/uploads"
-public_folder: "/uploads"
+media_folder: 'static/uploads'
+public_folder: '/uploads'
 
 # site_url: https://your-site.com
 # display_url: https://your-site.com
