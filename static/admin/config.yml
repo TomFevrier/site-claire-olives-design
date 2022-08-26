@@ -8,9 +8,14 @@ collections:
     create: true
     fields:
       - name: title
-      - name: nav_label
+        label: Titre
+      - name: cover
+        label: Image
+        widget: image
       - name: body
+        label: Texte
         widget: markdown
+locale: 'fr'
 media_folder: "static/uploads"
 public_folder: "/uploads"
 
