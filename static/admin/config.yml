@@ -68,6 +68,7 @@ collections:
         fields:
           - name: events
             label: Événements
+            label_singular: Événement
             widget: list
             fields:
               - name: date
@@ -84,8 +85,9 @@ collections:
                 required: false
               - name: images
                 label: Images
+                label_singular: Image
                 widget: list
-                field: image
+                field: { name: image, label: image, widget: image }
                 required: false
   - name: objects
     label: Objets
