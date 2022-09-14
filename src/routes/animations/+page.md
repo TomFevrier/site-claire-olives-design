@@ -15,4 +15,7 @@ animations:
   - title: Sous la banquise
     caption: Au rayon frais
     url: https://vimeo.com/384321671
+  - title: Daybed Nagar
+    caption: Sur la banquise exactement (audio d’origine)
+    url: https://vimeo.com/478091667
 ---
