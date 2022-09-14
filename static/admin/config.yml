@@ -2,6 +2,12 @@ backend:
   name: git-gateway
   branch: master
 local_backend: true
+locale: 'fr'
+media_folder: 'static/uploads'
+public_folder: '/uploads'
+site_url: https://claire-olives-design.netlify.app
+display_url: https://claire-olives-design.netlify.app
+logo_url: https://claire-olives-design.netlify.app/uploads/logo.png
 collections:
   - name: pages
     label: Pages
@@ -38,8 +44,9 @@ collections:
         label: Archives
         file: src/routes/archives/+page.md
         fields:
-          - name: gallery
-            label: Galerie
+          - name: archives
+            label: Archives
+            label_singular: Archive
             widget: list
             fields:
               - name: image
@@ -53,7 +60,8 @@ collections:
         file: src/routes/en-vrac/+page.md
         fields:
           - name: gallery
-            label: Galerie
+            label: Images
+            label_singular: Image
             widget: list
             fields:
               - name: image
@@ -93,7 +101,6 @@ collections:
     label: Objets
     label_singular: Objet
     folder: src/routes/objets
-    slug: '{{slug}}/+page'
     path: '{{slug}}/+page.md'
     create: true
     fields:
@@ -117,9 +124,3 @@ collections:
           - name: description
             label: Description
             widget: markdown
-locale: 'fr'
-media_folder: 'static/uploads'
-public_folder: '/uploads'
-site_url: https://claire-olives-design.netlify.app
-display_url: https://claire-olives-design.netlify.app
-logo_url: https://claire-olives-design.netlify.app/uploads/logo.png

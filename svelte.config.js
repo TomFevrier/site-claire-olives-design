@@ -16,8 +16,9 @@ const config = {
 		mdsvex({
 			extensions: ['.md'],
 			layout: {
-				projets: 'src/routes/projets/project.svelte'
-			},
+				animations: 'src/routes/animations/layout.svelte',
+				objets: 'src/routes/objets/layout.svelte'
+			}
 		})
 	],
 	extensions: ['.svelte', '.md'],
@@ -29,9 +30,6 @@ const config = {
 			ssr: false,
 			trailingSlash: 'always'
 		}),
-		prerender: {
-			default: true
-		},
 		// alias: {
 		// 	'$components': path.resolve('./src/components'),
 		// 	'$utils': path.resolve('./src/utils'),
