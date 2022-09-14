@@ -3,10 +3,94 @@ backend:
   branch: master
 local_backend: true
 collections:
-  - name: projects
-    label: Projets
-    label_singular: projet
-    folder: src/routes/projets
+  - name: pages
+    label: Pages
+    files:
+      - name: about
+        label: About
+        file: src/routes/about/+page.md
+        fields:
+          - name: title
+            label: Titre
+          - name: cover
+            label: Image
+            widget: image
+          - name: body
+            label: Texte
+            widget: markdown
+      - name: animations
+        label: Animations
+        file: src/routes/animations/+page.md
+        fields:
+          - name: animations
+            label: Animations
+            widget: list
+            fields:
+              - name: url
+                label: Lien
+              - name: title
+                label: Titre
+              - name: caption
+                label: Légende
+                required: false
+                widget: markdown
+      - name: archives
+        label: Archives
+        file: src/routes/archives/+page.md
+        fields:
+          - name: gallery
+            label: Galerie
+            widget: list
+            fields:
+              - name: image
+                label: Image
+                widget: image
+              - name: caption
+                label: Légende
+                widget: markdown
+      - name: misc
+        label: En vrac
+        file: src/routes/en-vrac/+page.md
+        fields:
+          - name: gallery
+            label: Galerie
+            widget: list
+            fields:
+              - name: image
+                label: Image
+                widget: image
+              - name: caption
+                label: Légende
+                widget: markdown
+      - name: events
+        label: Événements
+        file: src/routes/evenements/+page.md
+        fields:
+          - name: events
+            label: Événements
+            widget: list
+            fields:
+              - name: date
+                label: Date
+                widget: datetime
+                time_format: false
+              - name: title
+                label: Titre
+              - name: description
+                label: Description
+                widget: markdown
+              - name: video
+                label: Vidéo
+                required: false
+              - name: images
+                label: Images
+                widget: list
+                field: image
+                required: false
+  - name: objects
+    label: Objets
+    label_singular: Objet
+    folder: src/routes/objets
     slug: '{{slug}}/+page'
     path: '{{slug}}/+page.md'
     create: true
@@ -15,15 +99,25 @@ collections:
         label: Titre
       - name: cover
         label: Image
-        required: false
         widget: image
-      - name: body
-        label: Texte
+      - name: description
+        label: Description
         widget: markdown
+      - name: models
+        label: Modèles
+        widget: list
+        fields:
+          - name: title
+            label: Titre
+          - name: cover
+            label: Image
+            widget: image
+          - name: description
+            label: Description
+            widget: markdown
 locale: 'fr'
 media_folder: 'static/uploads'
 public_folder: '/uploads'
-
-# site_url: https://your-site.com
-# display_url: https://your-site.com
-# logo_url: https://your-site.com/images/logo.svg
+site_url: https://claire-olives-design.netlify.app
+display_url: https://claire-olives-design.netlify.app
+logo_url: https://claire-olives-design.netlify.app/uploads/logo.png
