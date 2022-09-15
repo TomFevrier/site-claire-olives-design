@@ -30,11 +30,9 @@ const config = {
 			ssr: false,
 			trailingSlash: 'always'
 		}),
-		// alias: {
-		// 	'$components': path.resolve('./src/components'),
-		// 	'$utils': path.resolve('./src/utils'),
-		// 	'$stores': path.resolve('./src/stores')
-		// },
+		alias: {
+			'$lib': path.resolve('./src/lib')
+		},
 		paths: {
 			base: dev ? '' : '',
 		}

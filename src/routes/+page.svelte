@@ -1,9 +1,12 @@
 <script>
+	import { Logo } from '$lib';
+
 	export let data;
 	
 	$: ({ objects } = data);
 </script>
 
+<Logo />
 <h1>claire olivès</h1>
 
 <nav>
@@ -59,27 +62,27 @@
 
 		li {
 			&:nth-child(1) {
-				color: #E41A3F;
+				color: $orange;
 			}
 
 			&:nth-child(2) {
-				color: #1A171B;
+				color: $blue;
 			}
 
 			&:nth-child(3) {
-				color: #FFDE00;
+				color: $lavender;
 			}
 
 			&:nth-child(4) {
-				color: #969799;
+				color: $purple;
 			}
 
 			&:nth-child(5) {
-				color: #E41A3F;
+				color: $red;
 			}
 
 			&:nth-child(6) {
-				color: #10B4C0;
+				color: $orange;
 			}
 		}
 	}

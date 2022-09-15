@@ -4,6 +4,5 @@
 
 <slot />
 
-<style>
-
+<style lang='scss'>
 </style>
