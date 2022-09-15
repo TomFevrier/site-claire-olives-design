@@ -1,6 +1,6 @@
 ---
 title: Daybeds
-cover: nagar-perso-autre-06-02_956_658-e1581007878962.png
+cover: /uploads/nagar-perso-autre-06-02_956_658-e1581007878962.png
 models:
   - title: Kilo
     description: L 130 cm l 65 cm H 30 cm
