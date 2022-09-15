@@ -18,9 +18,12 @@ collections:
         fields:
           - name: title
             label: Titre
-          - name: cover
+          - name: image
             label: Image
             widget: image
+          - name: caption
+            label: Légende
+            required: false
           - name: body
             label: Texte
             widget: markdown
@@ -56,8 +59,8 @@ collections:
                 label: Légende
                 widget: markdown
       - name: misc
-        label: En vrac
-        file: src/routes/en-vrac/+page.md
+        label: Vrac
+        file: src/routes/vrac/+page.md
         fields:
           - name: gallery
             label: Images
@@ -70,13 +73,13 @@ collections:
               - name: caption
                 label: Légende
                 widget: markdown
-      - name: events
-        label: Événements
-        file: src/routes/evenements/+page.md
+      - name: exhibitions
+        label: Expositions
+        file: src/routes/expositions/+page.md
         fields:
-          - name: events
-            label: Événements
-            label_singular: Événement
+          - name: exhibitions
+            label: Expositions
+            label_singular: Exposition
             widget: list
             fields:
               - name: date
@@ -101,15 +104,12 @@ collections:
     label: Objets
     label_singular: Objet
     folder: src/routes/objets
-    path: '{{slug}}/+page.md'
+    path: '{{slug}}/+page'
     create: true
     media_folder: /uploads
     fields:
       - name: title
         label: Titre
-      - name: cover
-        label: Image
-        widget: image
       - name: body
         label: Description
         widget: markdown

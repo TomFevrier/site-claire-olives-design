@@ -1,6 +1,7 @@
 ---
-title: LE DESTIN TOTÉMIQUE DE CLAIRE OLIVÈS
-cover: /uploads/claire-accueil-11-02.jpg
+title: Le destin totémique de Claire Olivès
+caption: © Alfredo Piola
+image: /uploads/claire.png
 ---
 C’est dans son lieu de vie, à la fois atelier et show-room, qu’il faut venir dénicher le talent de Claire Olivès. Dans cette caverne d’Ali Baba contemporaine, vaste et lumineuse, s’entrelacent ses meubles intimes et ses dernières créations pour former un kaléidoscope de formes et de couleurs. Ce foisonnement, assez ordonné, s’offre comme un paysage domestique total, une vaste nature morte où tous les objets se complètent ou s’opposent, réagissent entre eux.
 
@@ -18,13 +19,13 @@ Pour éclairer tables et assises, des lampes à poser, plantées au sol ou la t�
 
 Mais qui est Claire Olivès, pas née de la dernière pluie ? Elle qui semble faire des pieds de nez aux totems d’Ettore Sottsass (dont les moulins à épices Alessi), elle qui reconstitue un effet Pop Art éclatant ou un univers plus intériorisé et méditatif ! Il y a dans tout cet ensemble les traces de son passé. Dont l’aventure la plus marquante est Totem, le groupe créé à Lyon en 1980 par quatre jeunes ébénistes dans une ancienne boulangerie. Totem qui a redessiné le design français de 1980 à 1987. (1)
 
-Claire Olivès fut donc la « fille » de cette joyeuse bande aux côtés de Jacques Bonnot, Frédérick du Chayla, Vincent Lemarchands. Elle quitte le groupe en 1986. S’installe alors à Paris, et multiplie les expériences : elle sera créatrice de chaussures, puis de tapis et de papiers-peints. En 1995, elle bifurque vers l’infographie, le « design de l’information » et le graphisme qui la mèneront à Libération de 2010 à 2014. Et voici qu’en 2016 cette touche-à-tout revient vers le design d’objets. Avec tout son univers sédimenté de couleurs, de formes, de réminiscences et de connaissances. –
+Claire Olivès fut donc la « fille » de cette joyeuse bande aux côtés de Jacques Bonnot, Frédérick du Chayla, Vincent Lemarchands. Elle quitte le groupe en 1986. S’installe alors à Paris, et multiplie les expériences : elle sera créatrice de chaussures, puis de tapis et de papiers-peints. En 1995, elle bifurque vers l’infographie, le « design de l’information » et le graphisme qui la mèneront à Libération de 2010 à 2014. Et voici qu’en 2016 cette touche-à-tout revient vers le design d’objets. Avec tout son univers sédimenté de couleurs, de formes, de réminiscences et de connaissances. –
 
 *Anne-Marie Fèvre*
 
 - - -
 
-## INTERVIEW
+## Interview
 
 *Qu’est qui vous pousse à revenir vers le design ?*
 
@@ -44,7 +45,7 @@ C’est le même principe de fabrication que les banquettes avec en plus un trav
 
 *L’unité dans votre travail c’est le bois tourné.*
 
-Pour le moment oui. A l’âge de 20 ans, j’ai reçu un apprentissage très classique de l’ébénisterie, façon tenons/mortaises. Je reste fidèle au bois, parce que c’est une matière vivante et noble, et à l’artisanat pour le côté pièce unique. Le « défaut unique » je dirais. Mais je ne connaissais pas le bois tourné. Je l’ai découvert grâce à un artisan tourneur-sur-bois à Romainville qui est devenu mon fabricant. Je me permets tous les jeux avec le bois tourné, des luminaires aux piétements. Bois laqué, mat ou brillant, bois naturel, pour des combinaisons de différents volumes et des jeux de finition. C’est ma marque de fabrique, ma signature. Ce sont des pièces en petite série, ou parfois uniques.
+Pour le moment oui. A l’âge de 20 ans, j’ai reçu un apprentissage très classique de l’ébénisterie, façon tenons/mortaises. Je reste fidèle au bois, parce que c’est une matière vivante et noble, et à l’artisanat pour le côté pièce unique. Le « défaut unique » je dirais. Mais je ne connaissais pas le bois tourné. Je l’ai découvert grâce à un artisan tourneur-sur-bois à Romainville qui est devenu mon fabricant. Je me permets tous les jeux avec le bois tourné, des luminaires aux piétements. Bois laqué, mat ou brillant, bois naturel, pour des combinaisons de différents volumes et des jeux de finition. C’est ma marque de fabrique, ma signature. Ce sont des pièces en petite série, ou parfois uniques.
 
 *Quels sont vos autres projets ?*
 
@@ -52,4 +53,4 @@ Je viens d’expérimenter l’impression 3D, avec une collection de six petits 
 
 *Propos recueillis par AMF*
 
-##### 1- La table Totem Exquis figure dans la collection du MAD, musée des Arts décoratifs de Paris. À voir dans l’exposition à venir en octobre 2022 : « Les années 80. Mode, design et graphisme en France »
+##### 1- La table Totem Exquis figure dans la collection du MAD, musée des Arts décoratifs de Paris. À voir dans l’exposition à venir en octobre 2022 : « Les années 80. Mode, design et graphisme en France »

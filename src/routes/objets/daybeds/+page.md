@@ -1,6 +1,5 @@
 ---
 title: Daybeds
-cover: /uploads/nagar-perso.png
 models:
   - title: Kilo
     description: L 130 cm l 65 cm H 30 cm

@@ -1,6 +1,5 @@
 ---
 title: Coffee Tables
-cover: /uploads/framboisesoir.png
 models:
   - description: En été, la nature, poussée matériellement vers l’extérieur et
       gonflée de formes et de couleurs, atteint une densité et une plénitude
@@ -20,7 +19,8 @@ models:
       spiritualisantes.
     cover: /uploads/blue-frost.png
 ---
-Une série de quatre coffee tables conçues sur le même principe que les daybeds : un piétement constitué de modules en bois tourné, des finitions mixtes, et une hauteur fixée à 30 cm du sol. Un plateau en verre qui s’encastre parfaitement dans les pieds, formant une surface arasée. Un travail sur les volumes et sur la couleur. Chaque plateau est imprimé d’une bande chromatique en cinq nuances, aux couleurs de chaque saison. Avec le noir en couleur de départ.
+
+**Une série de quatre coffee tables conçues sur le même principe que les daybeds : un piétement constitué de modules en bois tourné, des finitions mixtes, et une hauteur fixée à 30 cm du sol. Un plateau en verre qui s’encastre parfaitement dans les pieds, formant une surface arasée. Un travail sur les volumes et sur la couleur. Chaque plateau est imprimé d’une bande chromatique en cinq nuances, aux couleurs de chaque saison. Avec le noir en couleur de départ.**
 
 Plateau en verre trempé\
 Pieds en bois tourné, volumes inversés et finitions mixtes.\
