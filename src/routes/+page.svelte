@@ -39,7 +39,7 @@
 						<li>
 							<h4>{model.title}</h4>
 							<h5>{model.description}</h5>
-							<img src='uploads/{model.cover}' />
+							<img src={model.cover} />
 						</li>
 					{/each}
 				</ul>
