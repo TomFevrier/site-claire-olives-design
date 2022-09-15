@@ -2,9 +2,9 @@ backend:
   name: git-gateway
   branch: master
 local_backend: true
-locale: 'fr'
-media_folder: 'static/uploads'
-public_folder: '/uploads'
+locale: fr
+media_folder: static/uploads
+public_folder: /uploads
 site_url: https://claire-olives-design.netlify.app
 display_url: https://claire-olives-design.netlify.app
 logo_url: https://claire-olives-design.netlify.app/uploads/logo.png
@@ -52,6 +52,7 @@ collections:
               - name: image
                 label: Image
                 widget: image
+                media_folder: static/uploads
               - name: caption
                 label: Légende
                 widget: markdown
@@ -67,6 +68,7 @@ collections:
               - name: image
                 label: Image
                 widget: image
+                media_folder: static/uploads
               - name: caption
                 label: Légende
                 widget: markdown
@@ -95,7 +97,7 @@ collections:
                 label: Images
                 label_singular: Image
                 widget: list
-                field: { name: image, label: image, widget: image }
+                field: { name: image, label: image, widget: image, media_folder: static/uploads }
                 required: false
   - name: objects
     label: Objets
@@ -121,6 +123,7 @@ collections:
           - name: cover
             label: Image
             widget: image
+            media_folder: static/uploads
           - name: description
             label: Description
             widget: markdown
