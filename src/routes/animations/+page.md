@@ -3,9 +3,9 @@ animations:
   - title: Mimikko
     caption: Somewhere over the Rainbow
     url: https://vimeo.com/708304143
-  - url: https://vimeo.com648352930
-    title: Bunki
+  - title: Bunki
     caption: Renversant
+    url: https://vimeo.com648352930
   - title: Cubbi
     caption: Tiroir surprise
     url: https://vimeo.com/622452090

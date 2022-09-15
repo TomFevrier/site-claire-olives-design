@@ -110,7 +110,7 @@ collections:
       - name: cover
         label: Image
         widget: image
-      - name: description
+      - name: body
         label: Description
         widget: markdown
       - name: models

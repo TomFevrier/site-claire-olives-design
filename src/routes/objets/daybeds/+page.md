@@ -1,13 +1,12 @@
 ---
 title: Daybeds
 cover: nagar-perso-autre-06-02_956_658-e1581007878962.png
-description: bla bla bla
 models:
   - title: Kilo
     description: L 130 cm l 65 cm H 30 cm
-    cover: kilo-perso-05-02_1117_993-e1581007072540.png
+    cover: static/uploads/kilo-perso-05-02_1117_993-e1581007072540.png
   - title: Nagar
-    cover: nagar-perso-autre-06-02_956_658-e1581007878962.png
+    cover: static/uploads/nagar-perso-autre-06-02_956_658-e1581007878962.png
     description: L 180 cm l 60 cm H 30 cm
   - title: Shanti
     description: L 130 cm l 65 cm H 30 cm
