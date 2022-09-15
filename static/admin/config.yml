@@ -52,7 +52,6 @@ collections:
               - name: image
                 label: Image
                 widget: image
-                media_folder: static/uploads
               - name: caption
                 label: Légende
                 widget: markdown
@@ -68,7 +67,6 @@ collections:
               - name: image
                 label: Image
                 widget: image
-                media_folder: static/uploads
               - name: caption
                 label: Légende
                 widget: markdown
@@ -97,7 +95,7 @@ collections:
                 label: Images
                 label_singular: Image
                 widget: list
-                field: { name: image, label: image, widget: image, media_folder: static/uploads }
+                field: { name: image, label: image, widget: image }
                 required: false
   - name: objects
     label: Objets
@@ -105,6 +103,7 @@ collections:
     folder: src/routes/objets
     path: '{{slug}}/+page.md'
     create: true
+    media_folder: static/uploads
     fields:
       - name: title
         label: Titre
@@ -123,7 +122,6 @@ collections:
           - name: cover
             label: Image
             widget: image
-            media_folder: static/uploads
           - name: description
             label: Description
             widget: markdown
