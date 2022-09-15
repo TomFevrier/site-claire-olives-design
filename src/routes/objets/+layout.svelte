@@ -1,7 +1,10 @@
 <script>
-	export let title;
-	export let cover;
-	export let models;
+	import { page } from '$app/stores';
+	const {
+		title,
+		cover,
+		models
+	} = $page.data;
 </script>
 
 <h1>{title}</h1>

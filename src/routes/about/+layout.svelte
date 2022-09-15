@@ -1,9 +1,13 @@
 <script>
+	import { page } from '$app/stores';
+
 	import { Content } from '$lib';
 
-	export let title;
-	export let caption;
-	export let image;
+	const {
+		title,
+		caption,
+		image
+	} = $page.data;
 </script>
 
 <Content>

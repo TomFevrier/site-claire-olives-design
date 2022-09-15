@@ -1,7 +1,9 @@
 <script>
+	import { page } from '$app/stores';
+
 	import { Content } from '$lib';
 
-	export let animations;
+	const { animations } = $page.data;
 </script>
 
 <Content>

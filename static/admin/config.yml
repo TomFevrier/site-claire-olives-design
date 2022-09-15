@@ -106,7 +106,8 @@ collections:
     folder: src/routes/objets
     path: '{{slug}}/+page'
     create: true
-    media_folder: /uploads
+    media_folder: static/uploads
+    public_folder: /uploads
     fields:
       - name: title
         label: Titre

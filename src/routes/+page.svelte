@@ -15,10 +15,10 @@
 		{#each objects as object}
 			<li>
 				<a href={object.path}>
-					<h3>{object.meta.title}</h3>
 					<ul class='gallery'>
 						{#each object.meta.models as model}
-							<li>
+							<li class='model'>
+								<h3>{object.meta.title}</h3>
 								<h4>{model.title}</h4>
 								<img src={model.cover} />
 							</li>
@@ -37,9 +37,29 @@
 		margin: 0 auto;
 		padding: 1rem;
 
+		ul {
+			display: flex;
+			flex-direction: column;
+			gap: 2rem;
+		}
+
 		.gallery {
 			display: flex;
-			gap: 1rem;
+			flex-direction: row;
+			gap: 2rem;
+
+			.model {
+				h3 {
+					margin: 0;
+					font-size: 0.9rem;
+				}
+
+				h4 {
+					margin: 0;
+					font-size: 1rem;
+					text-transform: uppercase;
+				}
+			}
 		}
 
 		img {

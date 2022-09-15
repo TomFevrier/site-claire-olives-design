@@ -16,9 +16,9 @@ const config = {
 		mdsvex({
 			extensions: ['.md'],
 			layout: {
-				about: 'src/routes/about/layout.svelte',
-				animations: 'src/routes/animations/layout.svelte',
-				objets: 'src/routes/objets/layout.svelte'
+				// about: 'src/routes/about/layout.svelte',
+				// animations: 'src/routes/animations/layout.svelte',
+				// objets: 'src/routes/objets/layout.svelte'
 			}
 		})
 	],
@@ -34,9 +34,9 @@ const config = {
 		alias: {
 			'$lib': path.resolve('./src/lib')
 		},
-		paths: {
-			base: dev ? '' : '',
-		}
+		// paths: {
+		// 	base: dev ? '' : '',
+		// }
 	},
 };
 
