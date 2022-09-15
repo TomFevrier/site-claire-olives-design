@@ -2,6 +2,7 @@
 title: Le destin totémique de Claire Olivès
 caption: © Alfredo Piola
 image: /uploads/claire.png
+cover: /uploads/claire.png
 ---
 C’est dans son lieu de vie, à la fois atelier et show-room, qu’il faut venir dénicher le talent de Claire Olivès. Dans cette caverne d’Ali Baba contemporaine, vaste et lumineuse, s’entrelacent ses meubles intimes et ses dernières créations pour former un kaléidoscope de formes et de couleurs. Ce foisonnement, assez ordonné, s’offre comme un paysage domestique total, une vaste nature morte où tous les objets se complètent ou s’opposent, réagissent entre eux.
 
