@@ -12,7 +12,7 @@
 		{#each animations as animation}
 			{@const videoId = animation.url.match(/[0-9]{6,9}/)}
 			{#if videoId}
-				<li title={animation.title}>
+				<li>
 					<iframe title={animation.title} src='https://player.vimeo.com/video/{videoId}'></iframe>
 				</li>
 			{/if}
@@ -27,7 +27,7 @@
 
 	.grid {
 		width: 100%;
-		max-width: 16rem;
+		max-width: 20rem;
 		margin-top: 1rem;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);

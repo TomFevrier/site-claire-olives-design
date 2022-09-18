@@ -12,6 +12,15 @@ collections:
   - name: pages
     label: Pages
     files:
+      - name: featured
+        label: A la une
+        file: src/routes/featured.md
+        fields:
+          - name: image
+            label: Image
+            widget: image
+          - name: content
+            label: Texte
       - name: about
         label: About
         file: src/routes/about/+page.md
@@ -57,7 +66,6 @@ collections:
                 widget: image
               - name: caption
                 label: Légende
-                widget: markdown
       - name: misc
         label: Vrac
         file: src/routes/vrac/+page.md
@@ -72,7 +80,7 @@ collections:
                 widget: image
               - name: caption
                 label: Légende
-                widget: markdown
+                required: false
       - name: exhibitions
         label: Expositions
         file: src/routes/expositions/+page.md
@@ -111,6 +119,8 @@ collections:
     fields:
       - name: title
         label: Titre
+      - name: title_singular
+        label: Titre (singulier)
       - name: body
         label: Description
         widget: markdown

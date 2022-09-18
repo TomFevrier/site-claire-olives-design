@@ -1,69 +1,161 @@
 <script>
-	import { Menu } from '$lib';
+	import { Menu, MiniCarousel } from '$lib';
 
 	export let data;
 	
-	$: ({ objects } = data);
-</script>
+	$: ({ objects, featured } = data);
 
-<!-- <h1>claire olivès</h1> -->
+	$: console.log(objects, featured)
+</script>
 
 <Menu />
 
 <main>
-	<ul>
+	<ul class='galleries-layout'>
 		{#each objects as object}
 			<li>
-				<a href={object.path}>
-					<ul class='gallery'>
-						{#each object.meta.models as model}
-							<li class='model'>
-								<h3>{object.meta.title}</h3>
-								<h4>{model.title}</h4>
-								<img src={model.cover} />
-							</li>
-						{/each}
-					</ul>
-				</a>
+				<MiniCarousel path={object.path} {...object.meta} />
 			</li>
 		{/each}
+		{#each objects as object}
+			<li>
+				<MiniCarousel path={object.path} {...object.meta} />
+			</li>
+		{/each}
+		<li>
+			<MiniCarousel path={objects[0].path} {...objects[0].meta} />
+		</li>
 	</ul>
+	<section class='featured'>
+		<h3>A la une</h3>
+		<div class='container'>
+			<p>{featured.content}</p>
+			<img src={featured.image} alt='A la une' />
+		</div>
+	</section>
 </main>
 
 <style lang='scss'>
 	main {
 		width: 100%;
-		max-width: 64rem;
 		margin: 0 auto;
-		padding: 1rem;
+		padding: 2rem 3rem;
+		flex: 1;
+		overflow: hidden;
+		position: relative;
 
-		ul {
-			display: flex;
-			flex-direction: column;
-			gap: 2rem;
-		}
-
-		.gallery {
+		.galleries-layout {
+			max-height: 100%;
 			display: flex;
 			flex-direction: row;
-			gap: 2rem;
+			justify-content: space-between;
+			align-items: flex-start;
 
-			.model {
-				h3 {
-					margin: 0;
-					font-size: 0.9rem;
+			li {
+				min-width: 12rem;
+				max-width: 20rem;
+				height: 100%;
+				filter: grayscale(100%);
+				transition: filter 600ms ease-out;
+
+				&:hover {
+					filter: grayscale(0%);
 				}
 
-				h4 {
-					margin: 0;
-					font-size: 1rem;
-					text-transform: uppercase;
+				&:nth-child(1) {
+					margin-top: 80vh;
+					transform: translateY(-50%);
+				}
+
+				&:nth-child(2) {
+					margin-top: 60vh;
+					transform: translateY(-50%);
+				}
+
+				&:nth-child(3) {
+					margin-top: 40vh;
+					transform: translateY(-50%);
+				}
+
+				&:nth-child(4) {
+					margin-top: 20vh;
+					transform: translateY(-50%);
+				}
+
+				&:nth-child(5) {
+					margin-top: 0;
 				}
 			}
 		}
 
-		img {
-			width: 6rem;
+		@include lg {
+			padding: 2rem;
+			padding-left: 16rem;
+			overflow: auto;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			.galleries-layout {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: flex-start;
+
+				li {
+					height: auto;
+					margin-top: 0 !important;
+					transform: none !important;
+					filter: none;
+					max-width: 28rem;
+				}
+			}
+		}
+
+		@include md {
+			margin-top: 8rem;
+			padding-left: inherit;
+		}
+
+		.featured {
+			position: absolute;
+			bottom: 4rem;
+			right: 3rem;
+
+			h3 {
+				font-family: 'supersize-bk-box', sans-serif;
+				font-size: 1.2rem;
+				color: $red;
+				margin: 0.5rem 0;
+			}
+
+			.container {
+				display: flex;
+				align-items: flex-end;
+				width: 100%;
+				max-width: 32rem;
+
+				img {
+					width: 100%;
+					flex: 3;
+				}
+
+				p {
+					position: absolute;
+					font-size: 0.9rem;
+					text-align: right;
+					max-width: 16rem;
+					bottom: 0;
+					left: 0;
+					transform: translateX(calc(-100% - 2rem));
+					color: grey;
+					margin: 1rem;
+				}
+			}
+
+			@include xl {
+				display: none;
+			}
 		}
 	}
 </style>

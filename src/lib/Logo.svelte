@@ -52,32 +52,45 @@
 		left: 1rem;
 		display: block;
 		width: 8rem;
-
-		@include sm {
-			left: 50%;
-			transform: translateX(-50%);
-			width: 6rem;
-		}
-
-		&.orange {
-			.shape {
-				visibility: hidden;
-			}
-
-			.shape.orange {
-				visibility: hidden;
-			}
-
-			#mask-orange > path {
-				transform-box: fill-box;
-				transform-origin: center;
-				transform: scale(10);
-			}
-		}
+		z-index: 999;
 
 		svg {
 			width: 100%;
 		}
+
+		@include md {
+			left: 0;
+			top: 0;
+			width: 100%;
+			// backdrop-filter: blur(2px);
+			background-color: rgba($background, 0.9);
+			height: 6rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			// left: 50%;
+			// transform: translateX(-50%);
+
+			svg {
+				width: 5rem;
+			}
+		}
+
+		// &.orange {
+		// 	.shape {
+		// 		visibility: hidden;
+		// 	}
+
+		// 	.shape.orange {
+		// 		visibility: hidden;
+		// 	}
+
+		// 	#mask-orange > path {
+		// 		transform-box: fill-box;
+		// 		transform-origin: center;
+		// 		transform: scale(10);
+		// 	}
+		// }
 
 		.shape {
 			&.orange {

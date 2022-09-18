@@ -26,9 +26,27 @@
 </Content>
 
 <style lang='scss'>
-	:global(body) {
-		color: white;
-		background-color: $orange;
+	:global {
+		body {
+			color: white;
+			background-color: $orange;
+		}
+
+		footer {
+			p {
+				color: whitesmoke !important;
+
+				a {
+					color: white !important;
+				}
+			}
+		}
+
+		@include md {
+			.logo {
+				background-color: rgba($orange, 0.9) !important;
+			}
+		}
 	}
 
 	header {
@@ -61,7 +79,7 @@
 			}
 		}
 
-		@include sm {
+		@include md {
 			flex-direction: column;
 			align-items: center;
 
@@ -72,32 +90,6 @@
 					width: 8rem;
 				}
 			}
-		}
-	}
-
-	article {
-		text-align: justify;
-
-		:global(h2) {
-			font-size: 1.25rem;
-			text-align: left;
-			text-transform: uppercase;
-		}
-
-		:global(h3) {
-			font-size: 1.1rem;
-			text-align: left;
-			text-transform: uppercase;
-			margin: 0.25rem 0;
-		}
-
-		:global(p) {
-			margin: 0 0 1.5rem;
-			line-height: 110%;
-		}
-
-		:global(hr) {
-			border: 1px solid white;
 		}
 	}
 </style>

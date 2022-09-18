@@ -1,12 +1,13 @@
 ---
 title: Daybeds
+title_singular: Banc
 models:
   - title: Kilo
     description: L 130 cm l 65 cm H 30 cm
     cover: /uploads/kilo-perso.png
-  - title: Nagar
-    cover: /uploads/nagar-perso.png
-    description: L 180 cm l 60 cm H 30 cm
+#   - title: Nagar
+#     cover: /uploads/nagar-perso.png
+#     description: L 180 cm l 60 cm H 30 cm
   - title: Solo
     description: L 67 cm l 60 cm H 30 cm
     cover: /uploads/solo-perso.png
