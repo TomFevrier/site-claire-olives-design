@@ -14,7 +14,7 @@
 	<header>
 		<h1>about</h1>
 		<figure>
-			<img src={image} />
+			<img src={image} alt='Claire Olivès' />
 			<figcaption>{caption}</figcaption>
 		</figure>
 	</header>
