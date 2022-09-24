@@ -8,22 +8,34 @@
 	</div>
 	<ul>
 		<li>
-			<a href='/about'>about</a>
+			<a href='/about' data-sveltekit-prefetch>
+				about
+			</a>
 		</li>
 		<li>
-			<a href='/animations'>animations</a>
+			<a href='/animations' data-sveltekit-prefetch>
+				animations
+			</a>
 		</li>
 		<li>
-			<a href='/expositions'>expositions</a>
+			<a href='/expositions' data-sveltekit-prefetch>
+				expositions
+			</a>
 		</li>
 		<li>
-			<a href='/archives'>archives</a>
+			<a href='/archives' data-sveltekit-prefetch>
+				archives
+			</a>
 		</li>
 		<li>
-			<a href='/vrac'>vrac</a>
+			<a href='/vrac' data-sveltekit-prefetch>
+				vrac
+			</a>
 		</li>
 		<li>
-			<a href='/contact'>contact</a>
+			<a href='/contact' data-sveltekit-prefetch>
+				contact
+			</a>
 		</li>
 	</ul>
 	<a href='https://www.instagram.com/claire_olives/'>

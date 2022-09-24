@@ -26,27 +26,12 @@
 </Content>
 
 <style lang='scss'>
-	:global {
-		body {
-			color: white;
-			background-color: $orange;
-		}
-
-		footer {
-			p {
-				color: whitesmoke !important;
-
-				a {
-					color: white !important;
-				}
-			}
-		}
-
-		@include md {
-			.logo {
-				background-color: rgba($orange, 0.9) !important;
-			}
-		}
+	:root {
+		--background-color: #FF7B00;
+		--text-color: white;
+		--footer-text-color: whitesmoke;
+		--footer-text-color-accent: white;
+		--logo-background-color: rgba(#FF7B00, 0.9);
 	}
 
 	header {

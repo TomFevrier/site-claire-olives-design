@@ -12,12 +12,12 @@
 
 		p {
 			font-size: 0.8rem;
-			color: grey;
+			color: var(--footer-text-color, grey);
 			margin: 0;
 			text-align: right;
 
 			a {
-				color: dimgrey;
+				color: var(--footer-text-color-accent, dimgrey);
 			}
 		}
 

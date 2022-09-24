@@ -22,7 +22,7 @@
 		<ul class='models' style:transform='translateX({-slideIndex * 100}%)'>
 			{#each models as model, i}
 				<li class='model' class:active={slideIndex === i}>
-					<a href={path}>
+					<a href={path} data-sveltekit-prefetch>
 						<img src={model.cover} alt='{title} {model.title}' />
 					</a>
 				</li>

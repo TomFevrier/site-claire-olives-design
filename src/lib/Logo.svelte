@@ -63,7 +63,7 @@
 			top: 0;
 			width: 100%;
 			// backdrop-filter: blur(2px);
-			background-color: rgba($background, 0.9);
+			background-color: var(--logo-background-color, rgba(white, 0.5));
 			height: 6rem;
 			display: flex;
 			justify-content: center;

@@ -19,7 +19,8 @@
 
 <style lang='scss' global>
 	body {
-		background-color: $background;
+		color: var(--text-color, black);
+		background-color: var(--background-color, $background);
 	}
 
 	h1 {
