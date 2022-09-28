@@ -91,7 +91,7 @@ collections:
         fields:
           - name: events
             label: Events
-            label_singular: Exposition
+            label_singular: Event
             widget: list
             fields:
               - name: date
@@ -103,14 +103,17 @@ collections:
               - name: description
                 label: Description
                 widget: markdown
-              - name: video
-                label: Vidéo
+              - name: videos
+                label: Vidéos
+                label_singular: Vidéo
+                widget: list
+                field: { name: video, label: Vidéo }
                 required: false
               - name: images
                 label: Images
                 label_singular: Image
                 widget: list
-                field: { name: image, label: image, widget: image }
+                field: { name: image, label: Image, widget: image }
                 required: false
   - name: objects
     label: Objets
