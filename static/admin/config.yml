@@ -111,14 +111,25 @@ collections:
                 label: Vidéos
                 label_singular: Vidéo
                 widget: list
-                field: { name: video, label: Vidéo }
                 required: false
+                fields:
+                  - name: video
+                    label: Vidéo
+                  - name: caption
+                    label: Légende
+                    required: false
               - name: images
                 label: Images
                 label_singular: Image
                 widget: list
-                field: { name: image, label: Image, widget: image }
                 required: false
+                fields:
+                  - name: image
+                    label: Image
+                    widget: image
+                  - name: caption
+                    label: Légende
+                    required: false
   - name: objects
     label: Objets
     label_singular: Objet
