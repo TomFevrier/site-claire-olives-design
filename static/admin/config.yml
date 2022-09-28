@@ -97,6 +97,7 @@ collections:
               - name: date
                 label: Date
                 widget: datetime
+                date_format: DD/MM/YYYY
                 time_format: false
               - name: title
                 label: Titre
