@@ -107,6 +107,9 @@ collections:
               - name: cover
                 label: Image principale
                 widget: image
+              - name: caption
+                label: Légende
+                required: false
               - name: videos
                 label: Vidéos
                 label_singular: Vidéo
