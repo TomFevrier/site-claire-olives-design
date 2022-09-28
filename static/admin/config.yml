@@ -13,12 +13,16 @@ collections:
     label: Pages
     files:
       - name: featured
-        label: A la une
+        label: À la une
         file: src/routes/featured.md
         fields:
           - name: image
             label: Image
             widget: image
+            required: false
+          - name: video
+            label: Vidéo
+            required: false
           - name: content
             label: Texte
       - name: about
@@ -81,12 +85,12 @@ collections:
               - name: caption
                 label: Légende
                 required: false
-      - name: exhibitions
-        label: Expositions
-        file: src/routes/expositions/+page.md
+      - name: events
+        label: Events
+        file: src/routes/events/+page.md
         fields:
-          - name: exhibitions
-            label: Expositions
+          - name: events
+            label: Events
             label_singular: Exposition
             widget: list
             fields:
