@@ -103,6 +103,9 @@ collections:
               - name: description
                 label: Description
                 widget: markdown
+              - name: cover
+                label: Image principale
+                widget: image
               - name: videos
                 label: Vidéos
                 label_singular: Vidéo
