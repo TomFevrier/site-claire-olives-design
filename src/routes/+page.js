@@ -18,6 +18,6 @@ export async function load() {
 
 	return {
 		featured: featuredFile.metadata,
-		objects: allObjects
+		objects: allObjects.filter((d) => d.meta.models)
 	};
 }

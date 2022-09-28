@@ -116,8 +116,8 @@ collections:
                 widget: list
                 required: false
                 fields:
-                  - name: video
-                    label: Vidéo
+                  - name: url
+                    label: Lien
                   - name: caption
                     label: Légende
                     required: false

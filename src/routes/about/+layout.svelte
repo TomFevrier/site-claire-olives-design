@@ -10,10 +10,22 @@
 	} = $page.data;
 </script>
 
+<svelte:head>
+	<style>
+		:root {
+			--background-color: #FF7B00;
+			--text-color: white;
+			--footer-text-color: whitesmoke;
+			--footer-text-color-accent: white;
+			--logo-background-color: rgba(#FF7B00, 0.9);
+		}
+	</style>
+</svelte:head>
+
 <Content>
 	<header>
 		<h1>about</h1>
-		<figure>
+		<figure id='portrait'>
 			<img src={image} alt='Claire Olivès' />
 			<figcaption>{caption}</figcaption>
 		</figure>
@@ -26,13 +38,13 @@
 </Content>
 
 <style lang='scss'>
-	:root {
-		--background-color: #FF7B00;
-		--text-color: white;
-		--footer-text-color: whitesmoke;
-		--footer-text-color-accent: white;
-		--logo-background-color: rgba(#FF7B00, 0.9);
-	}
+	// :root {
+	// 	--background-color: #FF7B00;
+	// 	--text-color: white;
+	// 	--footer-text-color: whitesmoke;
+	// 	--footer-text-color-accent: white;
+	// 	--logo-background-color: rgba(#FF7B00, 0.9);
+	// }
 
 	header {
 		width: 100%;
@@ -45,7 +57,7 @@
 			margin: 0;
 		}
 
-		figure {
+		#portrait {
 			position: relative;
 			margin-right: 1rem;
 
@@ -57,7 +69,7 @@
 				position: absolute;
 				bottom: 0;
 				left: 100%;
-				transform: rotate(-90deg);
+				transform: translateY(100%) rotate(-90deg);
 				transform-origin: top left;
 				font-size: 0.8rem;
 				white-space: nowrap;
@@ -68,8 +80,8 @@
 			flex-direction: column;
 			align-items: center;
 
-			figure {
-				margin: 1rem 0;
+			#portrait {
+				margin: 4rem 0 1rem;
 
 				img {
 					width: 8rem;

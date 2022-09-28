@@ -142,7 +142,7 @@
 
 				.feather {
 					fill: none;
-					stroke: black;
+					stroke: $purple;
 					stroke-width: 2px;
 					stroke-linecap: round;
 					stroke-linejoin: round;
@@ -195,18 +195,12 @@
 					flex: 1 0 100%;
 
 					figure {
-						// position: relative;
 
 						img {
 							width: 100%;
 						}
 
 						figcaption {
-							// position: absolute;
-							// top: 100%;
-							// left: 0;
-							// width: 100%;
-
 							color: grey;
 							font-size: 0.9rem;
 							text-align: center;

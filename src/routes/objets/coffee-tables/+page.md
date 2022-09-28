@@ -1,6 +1,6 @@
 ---
 title: Coffee Tables
-title_singular: Table basse
+title_singular: Coffee Table
 models:
   - title: Citron noir
     cover: /uploads/citronnoir.png

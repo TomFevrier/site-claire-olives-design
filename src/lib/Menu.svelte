@@ -18,8 +18,8 @@
 			</a>
 		</li>
 		<li>
-			<a href='/expositions' data-sveltekit-prefetch>
-				expositions
+			<a href='/events' data-sveltekit-prefetch>
+				events
 			</a>
 		</li>
 		<li>

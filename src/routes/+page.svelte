@@ -1,5 +1,5 @@
 <script>
-	import { Menu, MiniCarousel } from '$lib';
+	import { Menu, MiniCarousel, VideoEmbed } from '$lib';
 
 	export let data;
 	
@@ -26,13 +26,19 @@
 			<MiniCarousel path={objects[0].path} {...objects[0].meta} />
 		</li>
 	</ul>
-	<section class='featured'>
-		<h3>A la une</h3>
-		<div class='container'>
-			<p>{featured.content}</p>
-			<img src={featured.image} alt='A la une' />
-		</div>
-	</section>
+	{#if featured.image || featured.video}
+		<section class='featured'>
+			<h3>A la une</h3>
+			<div class='container'>
+				<p>{featured.content}</p>
+				{#if featured.video}
+					<VideoEmbed title='A la une' url={featured.video} autoplay loop muted />
+				{:else if featured.image}
+					<img src={featured.image} alt='A la une' />
+				{/if}
+			</div>
+		</section>
+	{/if}
 </main>
 
 <style lang='scss'>
@@ -45,7 +51,7 @@
 		position: relative;
 
 		.galleries-layout {
-			max-height: 100%;
+			// max-height: 100%;
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
@@ -91,7 +97,7 @@
 		@include lg {
 			padding: 2rem;
 			padding-left: 16rem;
-			overflow: auto;
+			overflow: visible;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -101,9 +107,9 @@
 				flex-direction: column;
 				justify-content: flex-start;
 				align-items: flex-start;
+				gap: 4rem;
 
 				li {
-					height: auto;
 					margin-top: 0 !important;
 					transform: none !important;
 					filter: none;
@@ -115,6 +121,7 @@
 		@include md {
 			margin-top: 8rem;
 			padding-left: inherit;
+			padding: 1rem;
 		}
 
 		.featured {
@@ -133,11 +140,17 @@
 				display: flex;
 				align-items: flex-end;
 				width: 100%;
-				max-width: 32rem;
+				max-width: 24rem;
 
 				img {
 					width: 100%;
-					flex: 3;
+				}
+
+				iframe {
+					display: block;
+					border: none;
+					width: 100%;
+					aspect-ratio: 1;
 				}
 
 				p {
@@ -154,7 +167,30 @@
 			}
 
 			@include xl {
-				display: none;
+				.container {
+					max-width: 16rem;
+				}
+			}
+
+			@include lg {
+				position: relative;
+				bottom: auto;
+				right: auto;
+				margin-top: 6rem;
+
+				.container {
+					flex-direction: column-reverse;
+					align-items: flex-start;
+					max-width: 24rem;
+
+					p {
+						position: relative;
+						text-align: left;
+						transform: none;
+						margin: 0.5rem 0;
+						max-width: none;
+					}
+				}
 			}
 		}
 	}

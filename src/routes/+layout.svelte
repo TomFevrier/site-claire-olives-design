@@ -27,6 +27,7 @@
 		font-family: 'supersize-bk-box', sans-serif;
 		font-size: 1.8rem;
 		text-align: center;
+		margin: 1rem 0 5rem;
 
 		@include sm {
 			font-size: 1.5rem;
