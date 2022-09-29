@@ -34,15 +34,15 @@ collections:
             label_singular: Carrousel
             widget: list
             field:
-              - name: models
-                label: Modèles
-                widget: relation
-                collection: objects
-                value_field: "models.*.title"
-                search_fields: ["models.*.title"]
-                display_fields: ["title_singular", "models.*.title"]
-                multiple: true
-                min: 3
+              name: models
+              label: Modèles
+              widget: relation
+              collection: objects
+              value_field: "models.*.title"
+              search_fields: ["models.*.title"]
+              display_fields: ["title_singular", "models.*.title"]
+              multiple: true
+              min: 3
       - name: about
         label: About
         file: src/routes/about/+page.md
@@ -111,6 +111,7 @@ collections:
             label: Events
             label_singular: Event
             widget: list
+            add_to_top: true
             fields:
               - name: date
                 label: Date
