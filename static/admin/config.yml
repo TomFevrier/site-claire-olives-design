@@ -28,8 +28,9 @@ collections:
       - name: carousels
         label: Carrousels
         label_singular: Carrousel
+        file: src/routes/carousels.md
         widget: list
-        field:
+        fields:
           - name: models
             label: Modèles
             widget: relation
