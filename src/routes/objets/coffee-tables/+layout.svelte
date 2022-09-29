@@ -9,7 +9,7 @@
 <svelte:head>
 	<style>
 		:root {
-			--background-color: #E9EDF9;
+			--background-color: #D0D9E8;
 		}
 	</style>
 </svelte:head>
@@ -30,16 +30,21 @@
 
 <style lang='scss'>
 	h1 {
-		color: $brown;
+		color: $olive;
 		text-transform: lowercase;
 	}
 
 	article {
-		font-size: 0.9rem;
+		color: $olive;
 		
-		:global(strong) {
-			color: $brown;
-			font-size: 1.2rem;
+		:global {
+			strong {
+				font-size: 1.2rem;
+			}
+
+			em {
+				font-size: 0.9rem;
+			}
 		}
 		
 	}

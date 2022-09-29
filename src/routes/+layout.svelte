@@ -31,6 +31,7 @@
 
 		@include sm {
 			font-size: 1.5rem;
+			margin-bottom: 2.5rem;
 		}
 	}
 

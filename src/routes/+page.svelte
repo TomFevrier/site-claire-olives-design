@@ -4,8 +4,6 @@
 	export let data;
 	
 	$: ({ objects, featured } = data);
-
-	$: console.log(objects, featured)
 </script>
 
 <Menu />

@@ -103,7 +103,7 @@
 			display: none;
 		}
 
-		@include md {
+		@include lg {
 			left: auto;
 			right: 0;
 			top: 0;

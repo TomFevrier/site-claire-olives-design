@@ -58,18 +58,28 @@
 			width: 100%;
 		}
 
-		@include md {
+		@include lg {
 			left: 0;
 			top: 0;
 			width: 100%;
 			// backdrop-filter: blur(2px);
-			background-color: var(--logo-background-color, rgba(white, 0.5));
 			height: 6rem;
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			// left: 50%;
-			// transform: translateX(-50%);
+
+			&::before {
+				content: "";
+				position: absolute;
+				inset: 0;
+				background: linear-gradient(
+					to bottom,
+					var(--background-color, $background) 0%,
+					var(--background-color, $background) 25%,
+					transparent);
+				// opacity: 0.5;
+				z-index: -1;
+			}
 
 			svg {
 				width: 5rem;

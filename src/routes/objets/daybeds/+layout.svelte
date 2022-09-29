@@ -39,7 +39,7 @@
 		
 		:global {
 			strong {
-				font-size: 1.1rem;
+				font-size: 1.2rem;
 			}
 
 			em {

@@ -17,7 +17,6 @@
 			--text-color: white;
 			--footer-text-color: whitesmoke;
 			--footer-text-color-accent: white;
-			--logo-background-color: rgba(#FF7B00, 0.9);
 		}
 	</style>
 </svelte:head>
@@ -38,14 +37,6 @@
 </Content>
 
 <style lang='scss'>
-	// :root {
-	// 	--background-color: #FF7B00;
-	// 	--text-color: white;
-	// 	--footer-text-color: whitesmoke;
-	// 	--footer-text-color-accent: white;
-	// 	--logo-background-color: rgba(#FF7B00, 0.9);
-	// }
-
 	header {
 		width: 100%;
 		display: flex;

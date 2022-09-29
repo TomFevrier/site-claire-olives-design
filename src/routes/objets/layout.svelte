@@ -8,8 +8,6 @@
 		cover,
 		models
 	} = $page.data;
-
-	$: console.log($page.data)
 </script>
 
 <Content>

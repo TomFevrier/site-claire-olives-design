@@ -19,7 +19,7 @@
 				<h3 class='date'>
 					{new Date(event.date).toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })}
 				</h3>
-				<div class='content'>
+				<article>
 					<figure class='cover'>
 						<img src={event.cover} alt='' />
 						{#if event.caption}
@@ -51,8 +51,7 @@
 							</li>
 						{/each}
 					</ul>
-				</div>
-				
+				</article>
 			</li>
 		{/each}
 	</ul>
@@ -83,7 +82,8 @@
 				margin: 0;
 			}
 
-			.content {
+			article {
+				text-align: left;
 				display: grid;
 				grid-template-areas:
 					"a a a x"
@@ -140,23 +140,4 @@
 			}
 		}
 	}
-
-	// .grid {
-	// 	width: 100%;
-	// 	margin-top: 1rem;
-	// 	display: grid;
-	// 	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-	// 	gap: 1rem;
-
-	// 	@include xs {
-	// 		grid-template-columns: repeat(2, 1fr);
-	// 	}
-
-	// 	li {
-	// 		img {
-	// 			display: block;
-	// 			width: 100%;
-	// 		}
-	// 	}
-	// }
 </style>
