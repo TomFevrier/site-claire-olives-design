@@ -25,6 +25,19 @@ collections:
             required: false
           - name: content
             label: Texte
+      - name: carousels
+        label: Carrousels
+        label_singular: Carrousel
+        widget: list
+        field:
+          - name: models
+            label: Modèles
+            widget: relation
+            collection: objects
+            value_field: "models.*.title"
+            search_fields: ["models.*.title"]
+            multiple: true
+            min: 3
       - name: about
         label: About
         file: src/routes/about/+page.md
