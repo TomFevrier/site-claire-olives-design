@@ -1,11 +1,11 @@
 ---
 carousels:
-  - url: /objets/daybeds
+  - path: /objets/daybeds
     models:
       - Pilar
       - Kilo
       - Solo
-  - url: /objets/coffee-tables
+  - path: /objets/coffee-tables
     models:
       - Citron noir
       - Framboise du Soir

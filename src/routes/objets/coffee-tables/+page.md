@@ -3,15 +3,19 @@ title: Coffee Tables
 title_singular: Coffee Table
 models:
   - title: Citron noir
+	  subtitle: Printemps
     cover: /uploads/citronnoir.png
     description: Le caractère jeune, clair et rayonnant de la nature au printemps est exprimé par des couleurs lumineuses. Le jaune est la couleur la plus proche du blanc, et le jaune-vert constitue une gradation par rapport au jaune.
   - title: Framboise du Soir
+    subtitle: Eté
     cover: /uploads/framboisesoir.png
     description: En été, la nature, poussée matériellement vers l’extérieur et gonflée de formes et de couleurs, atteint une densité et une plénitude maximales. Les couleurs chaudes, denses et vivantes (…) traduisent les impressions colorées de l’été.
   - title: Otoño
+    subtitle: Automne
     cover: /uploads/otono.png
     description: En automne, la végétation verte meurt, elle se décompose et se pare de couleurs brunes et violettes. Le rouge-orangé est dense et opaque. Il rayonne chaudement rempli de sa propre lumière. Lorsqu’il passe au rouge-orangé, le rouge augmente son caractère chaud et devient feu ardent.
   - title: Givre Bleu
+    subtitle: Hiver
     cover: /uploads/blue-frost.png
     description: Pour représenter l’hiver (…) nous avons besoin de couleurs intériorisantes, froides et rayonnantes vers l’intérieur, transparentes et spiritualisantes.
 ---

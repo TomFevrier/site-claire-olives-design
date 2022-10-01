@@ -34,8 +34,8 @@ collections:
             label_singular: Carrousel
             widget: list
             fields:
-              - name: url
-                label: Lien
+              - name: path
+                label: Chemin
               - name: models
                 label: Modèles
                 widget: relation
@@ -175,9 +175,20 @@ collections:
         fields:
           - name: title
             label: Titre
+          - name: subtitle
+            label: Sous-titre
           - name: cover
-            label: Image
+            label: Image principale
             widget: image
+          - name: zenithal_view
+            label: Vue zénithale
+            widget: image
+            required: false
+          - name: lateral_view
+            label: Vue latérale
+            widget: image
+            required: false
           - name: description
             label: Description
             widget: markdown
+            required: false

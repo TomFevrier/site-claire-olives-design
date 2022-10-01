@@ -3,25 +3,25 @@
 
 	export let data;
 	
-	$: ({ objects, featured } = data);
+	$: ({ featured, carousels } = data);
 </script>
 
 <Menu />
 
 <main>
 	<ul class='galleries-layout'>
-		{#each objects as object}
+		{#each carousels as carousel}
 			<li>
-				<MiniCarousel path={object.path} {...object.meta} />
+				<MiniCarousel {...carousel} />
 			</li>
 		{/each}
-		{#each objects as object}
+		{#each carousels as carousel}
 			<li>
-				<MiniCarousel path={object.path} {...object.meta} />
+				<MiniCarousel {...carousel} />
 			</li>
 		{/each}
 		<li>
-			<MiniCarousel path={objects[0].path} {...objects[0].meta} />
+			<MiniCarousel {...carousels[0]} />
 		</li>
 	</ul>
 	{#if featured.image || featured.video}

@@ -1,6 +1,5 @@
 <script>
-	let title;
-	export { title as title_singular };
+	export let title;
 	export let models;
 	export let path;
 
