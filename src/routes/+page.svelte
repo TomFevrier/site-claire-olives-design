@@ -4,6 +4,7 @@
 	export let data;
 	
 	$: ({ featured, carousels } = data);
+	$: console.log(carousels)
 </script>
 
 <Menu />

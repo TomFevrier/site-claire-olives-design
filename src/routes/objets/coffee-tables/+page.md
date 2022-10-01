@@ -3,7 +3,7 @@ title: Coffee Tables
 title_singular: Coffee Table
 models:
   - title: Citron noir
-	  subtitle: Printemps
+    subtitle: Printemps
     cover: /uploads/citronnoir.png
     description: Le caractère jeune, clair et rayonnant de la nature au printemps est exprimé par des couleurs lumineuses. Le jaune est la couleur la plus proche du blanc, et le jaune-vert constitue une gradation par rapport au jaune.
   - title: Framboise du Soir
