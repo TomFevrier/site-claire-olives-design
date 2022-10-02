@@ -79,38 +79,6 @@ collections:
                 label: Légende
                 required: false
                 widget: markdown
-      - name: archives
-        label: Archives
-        file: src/routes/archives/+page.md
-        preview_path: archives
-        fields:
-          - name: archives
-            label: Archives
-            label_singular: Archive
-            widget: list
-            identifier_field: caption
-            fields:
-              - name: image
-                label: Image
-                widget: image
-              - name: caption
-                label: Légende
-      - name: misc
-        label: Vrac
-        file: src/routes/vrac/+page.md
-        preview_path: vrac
-        fields:
-          - name: gallery
-            label: Images
-            label_singular: Image
-            widget: list
-            fields:
-              - name: image
-                label: Image
-                widget: image
-              - name: caption
-                label: Légende
-                required: false
       - name: events
         label: Events
         file: src/routes/events/+page.md
@@ -162,6 +130,92 @@ collections:
                   - name: caption
                     label: Légende
                     required: false
+      - name: archives
+        label: Archives
+        file: src/routes/archives/+page.md
+        preview_path: archives
+        fields:
+          - name: archives
+            label: Archives
+            label_singular: Archive
+            widget: list
+            identifier_field: caption
+            fields:
+              - name: image
+                label: Image
+                widget: image
+              - name: caption
+                label: Légende
+      - name: misc
+        label: Vrac
+        file: src/routes/vrac/+page.md
+        preview_path: vrac
+        fields:
+          - name: gallery
+            label: Images
+            label_singular: Image
+            widget: list
+            fields:
+              - name: image
+                label: Image
+                widget: image
+              - name: caption
+                label: Légende
+                required: false
+      - name: luminaires
+        label: Luminaires
+        label_singular: Lampe
+        file: src/routes/objets/luminaires/+page.md
+        preview_path: objets/luminaires
+        fields:
+          - name: description
+            label: Description générale
+            widget: markdown
+          - name: body
+            label: Description
+            widget: markdown
+          - name: images
+            label: Images
+            label_singular: Image
+            widget: list
+            required: false
+            fields:
+              - name: image
+                label: Image
+                widget: image
+              - name: caption
+                label: Légende
+                required: false
+          - name: models
+            label: Modèles
+            widget: list
+            fields:
+              - name: title
+                label: Titre
+              - name: dimensions
+                label: Dimensions
+              - name: lateral_view
+                label: Vue latérale
+                widget: image
+                required: false
+              - name: cover
+                label: Image
+                widget: image
+                required: false
+              - name: description
+                label: Description
+                widget: markdown
+                required: false
+              - name: variants
+                label: Variations
+                label_singular: Variation
+                widget: list
+                fields:
+                  - name: title
+                    label: Titre
+                  - name: cover
+                    label: Image
+                    widget: image
   - name: objects
     label: Objets
     label_singular: Objet
@@ -200,57 +254,3 @@ collections:
             label: Description
             widget: markdown
             required: false
-  - name: luminaires
-    label: Luminaires
-    label_singular: Lampe
-    file: src/routes/objets/luminaires/+page.md
-    preview_path: objets/luminaires
-    fields:
-      - name: description
-        label: Description générale
-        widget: markdown
-      - name: body
-        label: Description
-        widget: markdown
-      - name: images
-        label: Images
-        label_singular: Image
-        widget: list
-        required: false
-        fields:
-          - name: image
-            label: Image
-            widget: image
-          - name: caption
-            label: Légende
-            required: false
-      - name: models
-        label: Modèles
-        widget: list
-        fields:
-          - name: title
-            label: Titre
-          - name: dimensions
-            label: Dimensions
-          - name: lateral_view
-            label: Vue latérale
-            widget: image
-            required: false
-          - name: cover
-            label: Image
-            widget: image
-            required: false
-          - name: description
-            label: Description
-            widget: markdown
-            required: false
-          - name: variants
-            label: Variations
-            label_singular: Variation
-            widget: list
-            fields:
-              - name: title
-                label: Titre
-              - name: cover
-                label: Image
-                widget: image
