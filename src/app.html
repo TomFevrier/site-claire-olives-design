@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang='fr'>
-
 <head>
 	<meta charset='utf-8' />
-	<link rel='icon' href='%sveltekit.assets%/favicon.png' />
 	<meta name='viewport' content='width=device-width' />
+
+	<link rel='apple-touch-icon' sizes='180x180' href='%sveltekit.assets%/apple-touch-icon.png'>
+	<link rel='icon' type='image/png' sizes='32x32' href='%sveltekit.assets%/favicon-32x32.png'>
+	<link rel='icon' type='image/png' sizes='16x16' href='%sveltekit.assets%/favicon-16x16.png'>
+	<link rel='manifest' href='%sveltekit.assets%/site.webmanifest'>
+	<link rel='mask-icon' href='%sveltekit.assets%/safari-pinned-tab.svg' color='#ff7b00'>
+	<meta name='msapplication-TileColor' content='#f9fdf1'>
+	<meta name='theme-color' content='#ffffff'>
+
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css'></i>
 
 	%sveltekit.head%
 
@@ -17,15 +25,15 @@
 				scriptTimeout: 3000,
 				async: true
 			},
-			h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+			h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,'')+' wf-inactive';},config.scriptTimeout),tk=d.createElement('script'),f=false,s=d.getElementsByTagName('script')[0],a;h.className+=' wf-loading';tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!='complete'&&a!='loaded')return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
 		})(document);
 	</script>
-
-	<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css'></i>
 </head>
 
 <body>
-	<div id='sveltekit'>%sveltekit.body%</div>
+	<div id='sveltekit'>
+		%sveltekit.body%
+	</div>
 
 	<script>
 		if (window.netlifyIdentity) {
@@ -39,5 +47,4 @@
 		}
 	</script>
 </body>
-
 </html>
