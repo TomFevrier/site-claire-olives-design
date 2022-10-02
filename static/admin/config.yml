@@ -7,7 +7,7 @@ media_folder: /static/uploads
 public_folder: /uploads
 site_url: https://claire-olives-design.netlify.app
 display_url: https://claire-olives-design.netlify.app
-logo_url: https://claire-olives-design.netlify.app/uploads/logo.png
+logo_url: https://claire-olives-design.netlify.app/uploads/logo-bg.png
 collections:
   - name: pages
     label: Pages
