@@ -12,7 +12,20 @@ export async function load() {
 		})
 	);
 
-	const allModels = allObjects.reduce((models, object) => [...models, ...(object.models || [])], []);
+	const allModels = allObjects.reduce((previousModels, object) => {
+		if (!object.models || object.models.length === 0) return previousModels;
+
+		const models = object.models[0].cover
+			? object.models
+			: object.models.reduce((previousVariants, model) => [...previousVariants, ...model.variants], []);
+
+		return [
+			...previousModels,
+			...models
+		];
+	}, []);
+
+	console.log(allModels)
 
 	return {
 		featured,

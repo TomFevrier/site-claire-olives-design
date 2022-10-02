@@ -12,7 +12,7 @@ images:
 models:
   - title: Vikki
     dimensions: H 50 cm Ø 15 cm
-	lateral_view: /uploads/vikki-lat.png
+    lateral_view: /uploads/vikki-lat.png
     variants:
       - title: Blue jean
         cover: /uploads/vikki-bluejean.png
@@ -22,7 +22,7 @@ models:
         cover: /uploads/vikki-vertigo.png
   - title: Mikko
     dimensions: H 67 cm Ø 17 cm
-	lateral_view: /uploads/mikko-lat.png
+    lateral_view: /uploads/mikko-lat.png
     variants:
       - title: British Colony
         cover: /uploads/mikko-british-colony.png
@@ -31,6 +31,7 @@ models:
       - title: Rouge fakir
         cover: /uploads/mikko-rougefakir.png
 ---
+
 **La MIR, rouge et blanc, reprend les codes de signalétique d’une balise de sécurité.**  
 **La VIKKI, monochrome, est construite selon le principe basique de la pyramide.**  
 **La MIKKO, mélange les couleurs et les tonalités pour former une mini tour.**  
