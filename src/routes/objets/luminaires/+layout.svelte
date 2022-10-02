@@ -3,7 +3,12 @@
 
 	import { Content } from '$lib';
 
-	const { title, models } = $page.data;
+	const {
+		title,
+		description,
+		images,
+		models
+	} = $page.data;
 </script>
 
 <svelte:head>
@@ -16,6 +21,9 @@
 
 <Content>
 	<h1>{title}</h1>
+	<article>
+		{@html description}
+	</article>
 	<article>
 		<slot />
 	</article>
@@ -42,14 +50,5 @@
 			font-size: 1.2rem;
 		}
 		
-	}
-
-	.grid {
-		width: 100%;
-		max-width: 24rem;
-		margin-top: 1rem;
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 1rem;
 	}
 </style>

@@ -39,8 +39,6 @@
 			position: relative;
 
 			img {
-				display: block;
-				width: 100%;
 				transition: all 300ms ease-out;
 			}
 

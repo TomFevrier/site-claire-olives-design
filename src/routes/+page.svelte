@@ -4,7 +4,6 @@
 	export let data;
 	
 	$: ({ featured, carousels } = data);
-	$: console.log(carousels)
 </script>
 
 <Menu />
@@ -140,17 +139,6 @@
 				align-items: flex-end;
 				width: 100%;
 				max-width: 24rem;
-
-				img {
-					width: 100%;
-				}
-
-				iframe {
-					display: block;
-					border: none;
-					width: 100%;
-					aspect-ratio: 1;
-				}
 
 				p {
 					position: absolute;

@@ -19,13 +19,38 @@
 	<article>
 		<slot />
 	</article>
-	<!-- <ul class='grid'>
-		{#each animations as { title, url }}
-			<li>
-				<VideoEmbed {title} {url} />
+	<ul class='models'>
+		{#each models as model}
+			<li class='model'>
+				<figure class='cover'>
+					<img src={model.cover} alt='' />
+				</figure>
+				<article>
+					<h2 class='title'>
+						{model.title}
+					</h2>
+					<h3 class='subtitle'>
+						{model.subtitle}
+					</h3>
+					{#if model.description}
+						<p class='description'>
+							{@html model.description.replace(/\n/g, '<br />')}
+						</p>
+					{/if}
+				</article>
+				{#if model.zenithal_view}
+					<figure class='zenithal-view'>
+						<img src={model.zenithal_view} alt='' />
+					</figure>
+				{/if}
+				{#if model.lateral_view}
+					<figure class='lateral-view'>
+						<img src={model.lateral_view} alt='' />
+					</figure>
+				{/if}
 			</li>
 		{/each}
-	</ul> -->
+	</ul>
 </Content>
 
 <style lang='scss'>
@@ -36,25 +61,152 @@
 
 	article {
 		color: $olive;
+		text-align: left;
 		
 		:global {
 			strong {
 				font-size: 1.2rem;
+				font-weight: inherit;
 			}
 
 			em {
 				font-size: 0.9rem;
 			}
 		}
-		
 	}
 
-	.grid {
-		width: 100%;
-		max-width: 24rem;
-		margin-top: 1rem;
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		gap: 1rem;
+	.models {
+		display: flex;
+		flex-direction: column;
+		gap: 6rem;
+		margin: 4rem 0;
+
+		.model {
+			display: grid;
+			grid-template-columns: 1fr 8rem 1fr 1fr;
+			grid-template-areas:
+				"a a b b"
+				"c d d d";
+
+			.cover {
+				grid-area: a;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: relative;
+
+				&::before {
+					content: "";
+					position: absolute;
+					inset: 0;
+					background-color: #E6EBF3;
+					z-index: -1;
+				}
+
+				img {
+					transform: translateX(4rem);
+				}
+			}
+
+			article {
+				grid-area: b;
+				padding: 2rem 2rem 2rem 6rem;
+				width: 100%;
+
+				.title {
+					font-size: 1.6rem;
+					text-transform: uppercase;
+					margin: 0;
+				}
+
+				.subtitle {
+					font-size: 1.3rem;
+					text-transform: none;
+					font-weight: inherit;
+					margin: 0;
+				}
+
+				.description {
+					font-size: 1rem;
+					font-style: italic;
+					margin: 2rem 0;
+				}
+			}
+
+			.zenithal-view {
+				grid-area: c;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				img {
+					max-width: 16rem;
+				}
+			}
+
+			.lateral-view {
+				grid-area: d;
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+				position: relative;
+
+				&::before {
+					content: "";
+					position: absolute;
+					inset: 0;
+					background-color: #E6EBF3;
+					z-index: -1;
+				}
+
+				img {
+					max-width: 24rem;
+					padding: 1rem 2rem;
+				}
+			}
+
+			@include md {
+				grid-template-columns: 1fr 1fr 4rem 1fr 1fr;
+				grid-template-areas:
+					"a a a b b"
+					"c c d d d";
+
+				.cover {
+					img {
+						transform: none;
+					}
+				}
+
+				article {
+					padding-left: 2rem;
+				}
+
+				.lateral-view {
+					justify-content: center;
+				}
+			}
+
+			@include sm {
+				display: flex;
+				flex-wrap: wrap;
+
+				article {
+					padding: 0;
+					margin-top: 1rem;
+				}
+
+				.zenithal-view {
+					width: 33%;
+				}
+
+				.lateral-view {
+					width: 66%;
+
+					img {
+						padding: 1rem;
+					}
+				}
+			}
+		}
 	}
 </style>

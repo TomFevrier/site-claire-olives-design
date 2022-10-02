@@ -193,7 +193,8 @@ collections:
               - name: title
                 label: Titre
               - name: dimensions
-                label: Dimensions
+                label: Dimensionsw
+                widget: markdown
               - name: lateral_view
                 label: Vue latérale
                 widget: image

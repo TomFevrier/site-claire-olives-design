@@ -38,8 +38,16 @@ figure {
 	margin: 0;
 }
 
+figcaption {
+	color: grey;
+	font-size: 0.9rem;
+	font-weight: 500;
+	margin: 0.25rem 0;
+}
+
 img {
 	display: block;
+	width: 100%;
 }
 
 button {

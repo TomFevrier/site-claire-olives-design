@@ -11,7 +11,7 @@
 		padding: 1rem;
 
 		p {
-			font-size: 0.8rem;
+			font-size: 0.9rem;
 			color: var(--footer-text-color, grey);
 			margin: 0;
 			text-align: right;

@@ -26,9 +26,9 @@
 							<figcaption>{event.caption}</figcaption>
 						{/if}
 					</figure>
-					<div class='description'>
+					<p class='description'>
 						{@html event.description.replace(/\n/g, '<br />')}
-					</div>
+					</p>
 					<ul class='gallery'>
 						{#each (event.videos || []) as { url, caption }}
 							<li>
@@ -78,7 +78,7 @@
 
 			.date {
 				font-size: 1rem;
-				font-weight: normal;
+				font-weight: 600;
 				margin: 0;
 			}
 
@@ -89,17 +89,6 @@
 					"a a a x"
 					"c c c b";
 				gap: 0.5rem;
-
-				figure {
-					img {
-						width: 100%;
-					}
-
-					figcaption {
-						color: grey;
-						font-size: 0.9rem;
-					}
-				}
 			
 				.cover {
 					width: 100%;

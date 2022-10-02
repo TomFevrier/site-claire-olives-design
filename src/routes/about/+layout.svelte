@@ -62,8 +62,8 @@
 				left: 100%;
 				transform: translateY(100%) rotate(-90deg);
 				transform-origin: top left;
-				font-size: 0.8rem;
 				white-space: nowrap;
+				margin: 0;
 			}
 		}
 

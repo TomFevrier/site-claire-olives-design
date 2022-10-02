@@ -195,14 +195,11 @@
 					flex: 1 0 100%;
 
 					figure {
-
 						img {
 							width: 100%;
 						}
 
 						figcaption {
-							color: grey;
-							font-size: 0.9rem;
 							text-align: center;
 						}
 					}
