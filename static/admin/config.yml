@@ -244,3 +244,13 @@ collections:
             label: Description
             widget: markdown
             required: false
+          - name: variants
+            label: Variations
+            label_singular: Variation
+            widget: list
+            fields:
+              - name: title
+                label: Titre
+              - name: cover
+                label: Image
+                widget: image
