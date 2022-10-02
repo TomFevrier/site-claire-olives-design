@@ -3,7 +3,7 @@ backend:
   branch: master
 local_backend: true
 locale: fr
-media_folder: static/uploads
+media_folder: /static/uploads
 public_folder: /uploads
 site_url: https://claire-olives-design.netlify.app
 display_url: https://claire-olives-design.netlify.app
@@ -33,6 +33,7 @@ collections:
             label: Carrousels
             label_singular: Carrousel
             widget: list
+            identifier_field: path
             fields:
               - name: path
                 label: Chemin
@@ -40,14 +41,15 @@ collections:
                 label: Modèles
                 widget: relation
                 collection: objects
-                value_field: "models.*.title"
-                search_fields: ["title_singular", "models.*.title"]
-                display_fields: ["title_singular", "models.*.title"]
+                value_field: 'models.*.title'
+                search_fields: ['title_singular', 'models.*.title']
+                display_fields: ['title_singular', 'models.*.title']
                 multiple: true
                 min: 3
       - name: about
         label: About
         file: src/routes/about/+page.md
+        preview_path: about
         fields:
           - name: title
             label: Titre
@@ -63,6 +65,7 @@ collections:
       - name: animations
         label: Animations
         file: src/routes/animations/+page.md
+        preview_path: animations
         fields:
           - name: animations
             label: Animations
@@ -79,11 +82,13 @@ collections:
       - name: archives
         label: Archives
         file: src/routes/archives/+page.md
+        preview_path: archives
         fields:
           - name: archives
             label: Archives
             label_singular: Archive
             widget: list
+            identifier_field: caption
             fields:
               - name: image
                 label: Image
@@ -93,6 +98,7 @@ collections:
       - name: misc
         label: Vrac
         file: src/routes/vrac/+page.md
+        preview_path: vrac
         fields:
           - name: gallery
             label: Images
@@ -108,12 +114,14 @@ collections:
       - name: events
         label: Events
         file: src/routes/events/+page.md
+        preview_path: events
         fields:
           - name: events
             label: Events
             label_singular: Event
             widget: list
             add_to_top: true
+            identifier_field: title
             fields:
               - name: date
                 label: Date
@@ -159,8 +167,8 @@ collections:
     label_singular: Objet
     folder: src/routes/objets
     path: '{{slug}}/+page'
-    media_folder: /static/uploads
-    public_folder: /uploads
+    preview_path: 'objets/{{slug}}'
+    create: true
     fields:
       - name: title
         label: Titre
@@ -186,6 +194,50 @@ collections:
             required: false
           - name: lateral_view
             label: Vue latérale
+            widget: image
+            required: false
+          - name: description
+            label: Description
+            widget: markdown
+            required: false
+  - name: luminaires
+    label: Luminaires
+    label_singular: Lampe
+    file: src/routes/objets/luminaires/+page.md
+    preview_path: objets/luminaires
+    fields:
+      - name: description
+        label: Description générale
+        widget: markdown
+      - name: body
+        label: Description
+        widget: markdown
+      - name: images
+        label: Images
+        label_singular: Image
+        widget: list
+        required: false
+        fields:
+          - name: image
+            label: Image
+            widget: image
+          - name: caption
+            label: Légende
+            required: false
+      - name: models
+        label: Modèles
+        widget: list
+        fields:
+          - name: title
+            label: Titre
+          - name: dimensions
+            label: Dimensions
+          - name: lateral_view
+            label: Vue latérale
+            widget: image
+            required: false
+          - name: cover
+            label: Image
             widget: image
             required: false
           - name: description
