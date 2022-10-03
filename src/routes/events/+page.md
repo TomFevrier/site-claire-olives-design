@@ -39,7 +39,8 @@ events:
 
       **Retour Possible** est un projet multimédia qui s’inscrit dans la mouvance de l’Art Documentary. Une signalétique sensible articulée par le travail de deux artistes.
     cover: /uploads/retour-possible-1.jpg
-    caption: Lorem ipsum
+    caption: Performance sonore d'Amandine Casadamont avec des sons enregistrés à
+      Fukushima
     images:
       - image: /uploads/retour-possible-2.png
         caption: Lorem ipsum
