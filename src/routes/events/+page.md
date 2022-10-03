@@ -20,7 +20,7 @@ events:
   - date: 2017-06-01T15:58:21.857Z
     title: Retour possible
     description: >-
-      ***Retour Possible***, une exposition, en 2017, dans le Marais à Paris en
+      **Retour Possible**, une exposition, en 2017, dans le Marais à Paris en
       collaboration avec la documentariste et sound-artiste, Amandine
       Casadamont, qui développe depuis 2015, un travail autour de la
       radioactivité et le mal invisible sur la zone sinistrée de Fukushima.
@@ -37,7 +37,7 @@ events:
 
       En parallèle, elle réalise une série de vidéos : les mini-motions, courtes animations sous forme de balades graphiques dans l’univers de la catastrophe. 
 
-      ***Retour Possible*** est un projet multimédia qui s’inscrit dans la mouvance de l’Art Documentary. Une signalétique sensible articulée par le travail de deux artistes.
+      **Retour Possible** est un projet multimédia qui s’inscrit dans la mouvance de l’Art Documentary. Une signalétique sensible articulée par le travail de deux artistes.
     cover: /uploads/retour-possible-1.jpg
     caption: Lorem ipsum
     images:
