@@ -1,6 +1,6 @@
 ---
 events:
-  - date: 2020-05-23T16:02:13.380Z
+  - date: 2022-10-03T20:31:11.171Z
     title: Le Bon Marché
     description: Autour de ces tables à l’effet liquide, des banquettes, un peu
       comme des charpoys indiens, mates, sombres, plus mysérieuses. Leurs
@@ -13,7 +13,7 @@ events:
     caption: Pop Up au Bon Marché avec le collection Sous La Banquise
     images:
       - image: /uploads/le-bon-marche-2.jpg
-        caption: Lorem ipsum
+        caption: Mikko & Vikki en vitrine au Bon Marché
     videos:
       - url: https://vimeo.com/432299455
         caption: De la Pipistrello à la Vikki
