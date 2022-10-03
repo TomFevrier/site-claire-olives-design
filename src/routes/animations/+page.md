@@ -24,4 +24,7 @@ animations:
   - url: https://vimeo.com/326401232
     title: Coffee Table Citron Noir
     caption: C﻿itron Noir
+  - url: https://vimeo.com/313365018
+    title: Coffee Table Givre Bleu
+    caption: C﻿offee Table Hiver
 ---
