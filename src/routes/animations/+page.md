@@ -27,4 +27,7 @@ animations:
   - url: https://vimeo.com/313365018
     title: Coffee Table Givre Bleu
     caption: C﻿offee Table d'Hiver
+  - url: https://vimeo.com/313365018
+    title: Prendre la Vague
+    caption: D﻿aybed Nagar, indoor et outdoor
 ---
