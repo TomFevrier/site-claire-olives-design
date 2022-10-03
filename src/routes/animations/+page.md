@@ -18,4 +18,10 @@ animations:
   - title: Daybed Nagar
     caption: Sur la banquise exactement (audio d’origine)
     url: https://vimeo.com/478091667
+  - url: https://vimeo.com/359555106
+    title: Bipolaire
+    caption: L﻿ampe Bipolaire
+  - url: https://vimeo.com/326401232
+    title: Coffee Table Citron Noir
+    caption: C﻿itron Noir
 ---
