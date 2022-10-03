@@ -13,7 +13,7 @@ events:
     caption: Pop Up Store au Bon Marché avec le collection Sous La Banquise
     images:
       - image: /uploads/le-bon-marche-2.jpg
-        caption: Mikko & Vikki en vitrine au Bon Marché
+        caption: Mikko & Vikki en vitrine au Bon Marché Rive Gauche
     videos:
       - url: https://vimeo.com/432299455
         caption: De la Pipistrello à la Vikki
