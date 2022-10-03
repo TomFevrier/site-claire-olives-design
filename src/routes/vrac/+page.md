@@ -3,6 +3,7 @@ gallery:
   - image: /uploads/bipolaire.png
   - image: /uploads/bipolaire-blanche.png
   - image: /uploads/bipolaire-bureaunelson.png
+    caption: La Bipolaire bleu pétrole
   - image: /uploads/bipolaire-jaune-bleupetrole.png
   - image: /uploads/bipolaire-jaune-rouge.png
   - image: /uploads/bipolaire-nelson-gp.png
