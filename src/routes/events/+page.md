@@ -10,7 +10,7 @@ events:
       naturel, agrémentés de quelques touches laquées de turquoise, de rouge ou
       de blanc. On s’y assied ou s’y allonge à 30 cm du sol.
     cover: /uploads/le-bon-marche-1.jpg
-    caption: Pop Up au Bon Marché avec le collection Sous La Banquise
+    caption: Pop Up Store au Bon Marché avec le collection Sous La Banquise
     images:
       - image: /uploads/le-bon-marche-2.jpg
         caption: Mikko & Vikki en vitrine au Bon Marché
