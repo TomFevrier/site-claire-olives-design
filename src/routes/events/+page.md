@@ -31,9 +31,7 @@ events:
       En 2017 quel est le visage de ces villes? Qui les habitent? Comment appréhende t-on son quotidien sous l’ère radioactive ?
 
 
-      En s’interrogeant sur ce retour possible Claire Olivès propose de décliner une de ses créations : le daybed. Un objet simple, utile et « positif » destiné à accueillir les déplacés, dans cet univers chaotique. 
-
-      Le daybed est un lit de repos, un banc, tout terrain, en bois et sangles. Un objet accueillant, une zone de confort à 30 cm du sol.
+      En s’interrogeant sur ce retour possible Claire Olivès propose de décliner une de ses créations : le daybed. Un objet simple, utile et « positif » destiné à accueillir les déplacés, dans cet univers chaotique. Le daybed est un lit de repos, un banc, tout terrain, en bois et sangles. Un objet accueillant, une zone de confort à 30 cm du sol.
 
       En parallèle, elle réalise une série de vidéos : les mini-motions, courtes animations sous forme de balades graphiques dans l’univers de la catastrophe. 
 
