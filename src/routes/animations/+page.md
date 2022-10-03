@@ -23,8 +23,8 @@ animations:
     caption: L﻿ampe Bipolaire
   - url: https://vimeo.com/326401232
     title: Coffee Table Citron Noir
-    caption: C﻿itron Noir
+    caption: Coffee Table de Printemps
   - url: https://vimeo.com/313365018
     title: Coffee Table Givre Bleu
-    caption: C﻿offee Table Hiver
+    caption: C﻿offee Table d'Hiver
 ---
