@@ -43,7 +43,7 @@ events:
       - image: /uploads/retour-possible-2.png
         caption: Daybed Green Rest
       - image: /uploads/retour-possible-3.jpg
-        caption: Lorem ipsum
+        caption: Carte du Japon et daybed Green Rest
     videos:
       - url: https://vimeo.com/753839667
         caption: Kinetic Ballad 171
