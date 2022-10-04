@@ -43,7 +43,7 @@ events:
       - image: /uploads/retour-possible-2.png
         caption: Daybed Green Rest
       - image: /uploads/retour-possible-3.jpg
-        caption: Carte du Japon et daybed Green Rest
+        caption: Daybed Green Rest à l'Espace Oppidum
     videos:
       - url: https://vimeo.com/753839667
         caption: Kinetic Ballad 171
