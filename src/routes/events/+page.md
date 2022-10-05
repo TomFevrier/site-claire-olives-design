@@ -38,8 +38,7 @@ events:
       occasion claire produits une série de mini-motions, courtes animations
       sous forme de balades graphiques. A l’Espace Oppidum, Paris IIIe.
     cover: /uploads/retour-possible-1.jpg
-    caption: Live d'Amandine Casadamont, édition d'un Vinyl composé en zone de
-      stockage de déchets radioactifs
+    caption: Performance sonore d'Amandine Casadamont à l'Espace Oppidum, juin 2017
     images:
       - image: /uploads/retour-possible-2.png
         caption: Daybed Green Rest
