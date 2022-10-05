@@ -20,7 +20,7 @@ events:
       au-dessus de la Grande Epicerie du grand magasin parisien. Les papilles
       sont en éveil !
     cover: /uploads/le-bon-marche-1.jpg
-    caption: Pop Up Store au Bon Marché avec le collection Sous La Banquise
+    caption: Pop Up Store au Bon Marché avec la collection Sous La Banquise
     images:
       - image: /uploads/le-bon-marche-2.jpg
         caption: Mikko & Vikki en vitrine au Bon Marché Rive Gauche

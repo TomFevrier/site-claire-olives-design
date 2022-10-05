@@ -12,7 +12,9 @@
 		{#each gallery as { image, caption = '' }}
 			<li class='image'>
 				<img src={image} alt={caption} />
-				<p class='caption'>Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+				{#if caption}
+					<p class='caption'>{caption}</p>
+				{/if}
 			</li>
 		{/each}
 	</ul>

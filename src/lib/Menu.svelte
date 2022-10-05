@@ -123,6 +123,7 @@
 				right: 2rem;
 				top: 3rem;
 				transform: translateY(calc(0.7rem - 50%));
+				background-color: transparent;
 				pointer-events: all;
 				cursor: pointer;
 
