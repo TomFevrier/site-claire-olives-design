@@ -32,5 +32,5 @@ animations:
     caption: D﻿aybeds Nagar, indoor & outdoor
   - url: https://vimeo.com/manage/videos/533206030
     title: Bye Bye Daft Punk
-    caption: L﻿a Mimikko et le chat des Daft Punk
+    caption: Mimikko et le chat des Daft Punk
 ---
