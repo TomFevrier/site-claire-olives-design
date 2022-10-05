@@ -8,7 +8,7 @@ events:
     images:
       - image: /uploads/parisdesignweek-7.jpg
         caption: ""
-      - image: /uploads/parisdesignweek-6.jpg
+      - image: /uploads/imagebft.png
         caption: ""
       - image: /uploads/parisdesignweek-2.jpg
     caption: A la Boutique For Tomorrow, septembre 2021
