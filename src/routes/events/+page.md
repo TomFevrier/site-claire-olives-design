@@ -33,10 +33,10 @@ events:
       documentariste et sound-artiste, Amandine Casadamont, à son retour de
       Fukushima. Un reportage photo sur la zone sinistrée et un vinyl en édition
       limitée composé en zone de stockage de déchets radioactifs sont proposés
-      dans la galerie. Les daybeds de claire sont mis à disposition des
-      visiteurs venus écouter les performances sonores d’Amandine. A cet
-      occasion claire produits une série de mini-motions, courtes animations
-      sous forme de balades graphiques. A l’Espace Oppidum, Paris IIIe.
+      dans la galerie. Les daybeds de Claire sont mis à disposition des
+      visiteurs venus écouter les performances sonores d’Amandine  A cet
+      occasion Claire produit une série de mini-motions, courtes animations sous
+      forme de balades graphiques. A l’Espace Oppidum, Paris IIIe.
     cover: /uploads/retour-possible-1.jpg
     caption: Performance sonore d'Amandine Casadamont à l'Espace Oppidum
     images:
