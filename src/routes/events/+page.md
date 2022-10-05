@@ -38,7 +38,7 @@ events:
       visiteurs venus écouter les performances sonores d’Amandine. 
 
 
-      A cet occasion Claire produit une série de mini-motions, courtes animations sous forme de balades graphiques. Et aussi, un daybed en édition spéciale, le Green Rest, avec un pied qui reprend les codes d’une balise de sécurité, destiné à accueillir les déplacés.  A l’Espace Oppidum, Paris IIIe.
+      A cet occasion Claire produit une série de mini-motions, courtes animations sous forme de balades graphiques. Et aussi, un daybed en édition spéciale, le Green Rest, avec un pied qui reprend les codes d’une balise de sécurité. A l’Espace Oppidum, Paris IIIe.
     cover: /uploads/retour-possible-1.jpg
     caption: Performance sonore d'Amandine Casadamont à l'Espace Oppidum
     images:
