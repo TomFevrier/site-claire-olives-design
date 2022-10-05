@@ -4,7 +4,7 @@ events:
     title: Paris Design Week à la Boutique For Tomorrow
     description: A l’occasion de la Paris Design Week, aménagement d’un espace à la
       Boutique For Tomorrow, à Paris XVIIIe.
-    cover: /uploads/parisdesignweek-9.jpg
+    cover: /uploads/parisdesignweek-10.jpg
     images:
       - image: /uploads/parisdesignweek-7.jpg
         caption: Les Coffee Tables
