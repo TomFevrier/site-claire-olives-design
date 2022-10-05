@@ -6,6 +6,8 @@ gallery:
     caption: La Bipolaire bleu pétrole
   - image: /uploads/bipolaire-jaune-bleupetrole.png
   - image: /uploads/cables-mimiko-o.png
+  - image: /uploads/mimikko-new-arrival-16.png
+    caption: Mimikko
   - image: /uploads/bipolaire-jaune-rouge.png
   - image: /uploads/bipolaire-nelson-gp.png
   - image: /uploads/city-londres.png
@@ -15,6 +17,4 @@ gallery:
   - image: /uploads/melting-pot.png
   - image: /uploads/otono-c3.png
   - image: /uploads/otono-ch.png
-  - image: /uploads/mimikko-new-arrival-16.png
-    caption: Mimikko
 ---
