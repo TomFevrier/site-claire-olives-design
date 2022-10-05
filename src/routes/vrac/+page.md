@@ -15,5 +15,6 @@ gallery:
   - image: /uploads/melting-pot.png
   - image: /uploads/otono-c3.png
   - image: /uploads/otono-ch.png
-  - image: /uploads/otono-o-c.png
+  - image: /uploads/mimikko-new-arrival-16.png
+    caption: Mimikko
 ---
