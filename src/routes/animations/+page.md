@@ -27,10 +27,10 @@ animations:
   - url: https://vimeo.com/313365018
     title: Coffee Table Givre Bleu
     caption: C﻿offee Table d'Hiver
-  - url: https://vimeo.com/manage/videos/251470235
-    title: Prendre la vague
-    caption: D﻿aybeds Nagar, indoor & outdoor
   - url: https://vimeo.com/manage/videos/533206030
     title: Bye Bye Daft Punk
     caption: Mimikko et le chat des Daft Punk
+  - url: https://vimeo.com/manage/videos/251470235
+    title: Prendre la vague
+    caption: D﻿aybeds Nagar, indoor & outdoor
 ---
