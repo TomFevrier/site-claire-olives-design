@@ -3,9 +3,7 @@ events:
   - date: 2021-09-08T12:22:14.435Z
     title: Paris Design Week à la Boutique For Tomorrow
     description: A l’occasion de la Paris Design Week 2021, claire olivès investit
-      l’espace de la Boutique For Tomorrow. Du bois tourné, des assemblages de
-      volumes, de la couleur en rythme, des finitions mixtes, le tout appliqué à
-      des daybeds, coffee tables et luminaires.
+      l’espace de la Boutique For Tomorrow.
     cover: /uploads/parisdesignweek-10.jpg
     images:
       - image: /uploads/parisdesignweek-7.jpg
