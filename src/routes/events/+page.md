@@ -29,14 +29,16 @@ events:
         caption: De la Pipistrello à la Vikki
   - date: 2017-06-01T15:58:21.857Z
     title: Retour Possible
-    description: En juin 2017, « Retour Possible », une exposition partagée avec la
+    description: >-
+      En juin 2017, « Retour Possible », une exposition partagée avec la
       documentariste et sound-artiste, Amandine Casadamont, à son retour de
       Fukushima. Un reportage photo sur la zone sinistrée et un vinyl en édition
       limitée, composé en zone de stockage de déchets radioactifs, sont proposés
       dans la galerie. Les daybeds de Claire sont mis à disposition des
-      visiteurs venus écouter les performances sonores d’Amandine. A cet
-      occasion Claire produit une série de mini-motions, courtes animations sous
-      forme de balades graphiques. A l’Espace Oppidum, Paris IIIe.
+      visiteurs venus écouter les performances sonores d’Amandine. 
+
+
+      A cet occasion Claire produit une série de mini-motions, courtes animations sous forme de balades graphiques. Et aussi, un daybed en édition spéciale, le Green Rest, avec un pied qui reprend les codes d’une balise de sécurité, destiné à accueillir les déplacés.  A l’Espace Oppidum, Paris IIIe.
     cover: /uploads/retour-possible-1.jpg
     caption: Performance sonore d'Amandine Casadamont à l'Espace Oppidum
     images:
