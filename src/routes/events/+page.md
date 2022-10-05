@@ -9,6 +9,7 @@ events:
       - image: /uploads/parisdesignweek-7.jpg
         caption: Les Coffee Tables
       - image: /uploads/parisdesignweek-6.jpg
+        caption: Vikki orange et Mimikko verte au premier plan
     caption: A la Boutique For Tomorrow, septembre 2021
   - date: 2020-05-23T20:31:11.171Z
     title: Le Bon Marché
