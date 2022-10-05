@@ -14,13 +14,8 @@ events:
     caption: A la Boutique For Tomorrow, septembre 2021
   - date: 2020-05-23T20:31:11.171Z
     title: Le Bon Marché
-    description: Autour de ces tables à l’effet liquide, des banquettes, un peu
-      comme des charpoys indiens, mates, sombres, plus mysérieuses. Leurs
-      assises, des cadres tendus de sangle tissée en polyester et fil de
-      chanvre, forment partiellement des damiers. Pour les pieds, des piles de
-      différents modules en bois tourné ou laqué. Le noir et le brun du bois
-      naturel, agrémentés de quelques touches laquées de turquoise, de rouge ou
-      de blanc. On s’y assied ou s’y allonge à 30 cm du sol.
+    description: Le Bon Marché accueille la collection Sous la Banquise, sur un Pop
+      Up Store, au rayon luminaires.
     cover: /uploads/le-bon-marche-1.jpg
     caption: Pop Up Store au Bon Marché avec le collection Sous La Banquise
     images:
