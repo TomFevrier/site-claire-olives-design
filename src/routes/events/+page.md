@@ -1,13 +1,5 @@
 ---
 events:
-  - date: 2021-09-08T12:22:14.435Z
-    title: ParisDesignWeek à la Boutique For Tomorrow
-    description: A l’occasion de la Paris Design Week, aménagement d’un espace à la
-      Boutique For Tomorrow, à Paris XVIIIe.
-    cover: /uploads/parisdesignweek-9.jpg
-    images:
-      - image: /uploads/parisdesignweek-7.jpg
-        caption: Les Coffee Tables
   - date: 2020-05-23T20:31:11.171Z
     title: Le Bon Marché
     description: Autour de ces tables à l’effet liquide, des banquettes, un peu
@@ -25,6 +17,14 @@ events:
     videos:
       - url: https://vimeo.com/432299455
         caption: De la Pipistrello à la Vikki
+  - date: 2021-09-08T12:22:14.435Z
+    title: ParisDesignWeek à la Boutique For Tomorrow
+    description: A l’occasion de la Paris Design Week, aménagement d’un espace à la
+      Boutique For Tomorrow, à Paris XVIIIe.
+    cover: /uploads/parisdesignweek-9.jpg
+    images:
+      - image: /uploads/parisdesignweek-7.jpg
+        caption: Les Coffee Tables
   - date: 2017-06-01T15:58:21.857Z
     title: Retour Possible
     description: >-
