@@ -14,11 +14,11 @@ events:
     caption: A la Boutique For Tomorrow, septembre 2021
   - date: 2020-05-23T20:31:11.171Z
     title: Le Bon Marché
-    description: Un Pop Up Store au Bon Marché, à l’été 2020, à la sortie du premier
-      confinement. La collection Sous la Banquise s’expose pour la première
-      fois, au rayon luminaires, et côtoie la célèbre Pipistrello de Gae Aulenti
-      !  Juste au-dessus de la Grande Epicerie du célèbre grand magasin
-      parisien.
+    description: Un Pop Up Store au Bon Marché, à l’été 2020. La collection de
+      lampes Sous la Banquise s’expose pour la première fois, au rayon
+      luminaires, et côtoie la célèbre Pipistrello de Gae Aulenti !  Juste
+      au-dessus de la Grande Epicerie du grand magasin parisien. Les papilles
+      sont en éveil !
     cover: /uploads/le-bon-marche-1.jpg
     caption: Pop Up Store au Bon Marché avec le collection Sous La Banquise
     images:
