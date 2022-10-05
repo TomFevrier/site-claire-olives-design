@@ -1,5 +1,13 @@
 ---
 events:
+  - date: 2021-09-08T12:22:14.435Z
+    title: ParisDesignWeek à la Boutique For Tomorrow
+    description: A l’occasion de la Paris Design Week, aménagement d’un espace à la
+      Boutique For Tomorrow, à Paris XVIIIe.
+    cover: /uploads/parisdesignweek-9.jpg
+    images:
+      - image: /uploads/parisdesignweek-7.jpg
+        caption: Les Coffee Tables
   - date: 2020-05-23T20:31:11.171Z
     title: Le Bon Marché
     description: Autour de ces tables à l’effet liquide, des banquettes, un peu
@@ -20,11 +28,11 @@ events:
   - date: 2017-06-01T15:58:21.857Z
     title: Retour Possible
     description: >-
-      « Retour Possible », une exposition, en 2017, dans le Marais à Paris en
-      collaboration avec la documentariste et sound-artiste, Amandine
-      Casadamont, qui développe depuis 2015, un travail autour de la
-      radioactivité et le mal invisible sur la zone sinistrée de Fukushima.
-      habitables et au retour de sa population.
+      « Retour Possible », une exposition, en 2017, à à Paris en collaboration
+      avec la documentariste et sound-artiste, Amandine Casadamont, qui
+      développe depuis 2015, un travail autour de la radioactivité et le mal
+      invisible sur la zone sinistrée de Fukushima. habitables et au retour de
+      sa population.
 
       Ces zones sont aujourd’hui de nouveau ouvertes et le gouvernement japonais a appelé ses habitants à y retourner malgré un taux de radioactivité supérieur à 1 mSv par an. En effet le taux de radioactivité légal a été revu à 20 mSv par les autorités japonaises. 
 
@@ -37,8 +45,8 @@ events:
 
       « Retour Possible » est un projet multimédia qui s’inscrit dans la mouvance de l’Art Documentary. Une signalétique sensible articulée par le travail de deux artistes.
     cover: /uploads/retour-possible-1.jpg
-    caption: Live d'Amandine Casadamont, compositions en zone de stockage de déchets
-      radioactifs
+    caption: Live d'Amandine Casadamont, édition d'un Vinyl composé en zone de
+      stockage de déchets radioactifs
     images:
       - image: /uploads/retour-possible-2.png
         caption: Daybed Green Rest
