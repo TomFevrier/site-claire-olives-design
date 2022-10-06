@@ -1,5 +1,10 @@
 ---
 events:
+  - date: 2018-11-02T10:28:01.444Z
+    title: ESPACE SOULIER AU BON MARCHÉ
+    description: Edition spéciale de quatre daybeds installés à l’Espace Soulier, au
+      troisième étage du Bon Marché, rayon chaussures enfant.
+    cover: /uploads/espacesoulier-bm-4.jpg
   - date: 2021-09-08T12:22:14.435Z
     title: Paris Design Week à la Boutique For Tomorrow
     description: A l’occasion de la Paris Design Week 2021, claire olivès investit
