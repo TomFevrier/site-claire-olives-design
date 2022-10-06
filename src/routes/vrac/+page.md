@@ -2,10 +2,10 @@
 gallery:
   - image: /uploads/bipolaire.png
     caption: La Bipolaire dans tous ses états
-  - image: /uploads/mimikko-new-arrival-11.png
-    caption: Mimikko sans tête
   - image: /uploads/bipolaire-blanche.png
     caption: Bipolaire blanche
+  - image: /uploads/mimikko-new-arrival-11.png
+    caption: Mimikko sans tête
   - image: /uploads/bipolaire-bureaunelson.png
     caption: Bipolaire turquoise sur un bureau de Georges Nelson
   - image: /uploads/bipolaire-jaune-bleupetrole.png
