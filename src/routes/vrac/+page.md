@@ -37,9 +37,9 @@ gallery:
     caption: Table de jeu
   - image: /uploads/mimikko-new-arrival-21.png
     caption: En bout de table
-  - image: /uploads/double-jeu.png
-    caption: Double jeu
   - image: /uploads/vikki-eames-6.png
     caption: Quand Vikky rencontre Charlie
   - image: /uploads/mir-tokyo.png
+  - image: /uploads/double-jeu.png
+    caption: Double jeu
 ---
