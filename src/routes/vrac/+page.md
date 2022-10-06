@@ -30,4 +30,6 @@ gallery:
     caption: Coffee table Otoño
   - image: /uploads/otono-ch.png
     caption: Table de jeu
+  - image: /uploads/mimikko-new-arrival-21.png
+    caption: Les Mimikko en bout de table
 ---
