@@ -35,4 +35,5 @@ gallery:
   - image: /uploads/mimikko-new-arrival-21.png
     caption: Les Mimikko en bout de table
   - image: /uploads/vikki-eames-6.png
+  - image: /uploads/mikko-toutes.png
 ---
