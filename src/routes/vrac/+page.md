@@ -38,4 +38,5 @@ gallery:
     caption: En bout de table
   - image: /uploads/vikki-eames-6.png
     caption: Quand Vikky rencontre Charlie
+  - image: /uploads/mikko-kilo-14.png
 ---
