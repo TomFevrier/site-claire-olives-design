@@ -32,6 +32,9 @@ events:
     description: Edition spéciale de quatre daybeds installés à l’Espace Soulier, au
       troisième étage du Bon Marché, rayon chaussures enfant.
     cover: /uploads/espacesoulier-bm-4.jpg
+    images:
+      - image: /uploads/espacesoulier-bm-2.jpg
+      - image: /uploads/espacesoulier-bm-1.jpg
   - date: 2017-06-01T15:58:21.857Z
     title: Retour Possible
     description: >-
