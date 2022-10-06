@@ -1,9 +1,11 @@
 ---
 gallery:
   - image: /uploads/bipolaire.png
+    caption: La Bipolaire dans tous ses états
   - image: /uploads/bipolaire-blanche.png
+    caption: Bipolaire blanche
   - image: /uploads/bipolaire-bureaunelson.png
-    caption: La Bipolaire bleu pétrole
+    caption: Bipolaire bleu pétrole sur un bureau de Georges Nelson
   - image: /uploads/bipolaire-jaune-bleupetrole.png
   - image: /uploads/cables-mimiko-o.png
   - image: /uploads/mimikko-new-arrival-16.png
