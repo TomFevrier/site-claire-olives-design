@@ -22,6 +22,7 @@ gallery:
     caption: Equilibre
   - image: /uploads/double-jeu.png
     caption: Double jeu
+  - image: /uploads/mikko-toutes.png
   - image: /uploads/magasins-generaux.png
     caption: Trio de Mikko
   - image: /uploads/cables-mimiko-c.png
@@ -35,5 +36,4 @@ gallery:
   - image: /uploads/mimikko-new-arrival-21.png
     caption: Les Mimikko en bout de table
   - image: /uploads/vikki-eames-6.png
-  - image: /uploads/mikko-toutes.png
 ---
