@@ -13,7 +13,7 @@ gallery:
   - image: /uploads/cables-mimiko-o.png
     caption: Dans les câbles multicolores
   - image: /uploads/mimikko-new-arrival-16.png
-    caption: Rangée de Mimikko
+    caption: Vibration de Mimikko
   - image: /uploads/bipolaire-jaune-rouge.png
     caption: Harmonie en rouge et jaune
   - image: /uploads/city-londres.png
@@ -23,6 +23,7 @@ gallery:
   - image: /uploads/double-jeu.png
     caption: Double jeu
   - image: /uploads/mikko-toutes.png
+    caption: Mikko City
   - image: /uploads/magasins-generaux.png
     caption: Trio de Mikko
   - image: /uploads/cables-mimiko-c.png
@@ -34,6 +35,7 @@ gallery:
   - image: /uploads/otono-ch.png
     caption: Table de jeu
   - image: /uploads/mimikko-new-arrival-21.png
-    caption: Les Mimikko en bout de table
+    caption: En bout de table
   - image: /uploads/vikki-eames-6.png
+    caption: Quand Vikky rencontre Charlie
 ---
