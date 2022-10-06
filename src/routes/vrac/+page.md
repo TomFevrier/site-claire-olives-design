@@ -32,4 +32,8 @@ gallery:
     caption: Table de jeu
   - image: /uploads/mimikko-new-arrival-21.png
     caption: Les Mimikko en bout de table
+  - image: /uploads/mimikko-new-arrival-19.png
+    caption: Equilibre
+  - image: /uploads/mimikko-new-arrival-11.png
+    caption: Mimikko sans tête
 ---
