@@ -30,6 +30,7 @@ gallery:
     caption: Melting Pot
   - image: /uploads/otono-c3.png
     caption: Coffee table Otoño
+  - image: /uploads/mikko-kilo-14.png
   - image: /uploads/double-jeu.png
     caption: Double jeu
   - image: /uploads/otono-ch.png
@@ -38,5 +39,4 @@ gallery:
     caption: En bout de table
   - image: /uploads/vikki-eames-6.png
     caption: Quand Vikky rencontre Charlie
-  - image: /uploads/mikko-kilo-14.png
 ---
