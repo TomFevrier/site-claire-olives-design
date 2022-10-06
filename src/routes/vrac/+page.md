@@ -16,8 +16,6 @@ gallery:
     caption: Vibration de Mimikko
   - image: /uploads/bipolaire-jaune-rouge.png
     caption: Harmonie en rouge et jaune
-  - image: /uploads/vikki-eames-6.png
-    caption: Quand Vikky rencontre Charlie
   - image: /uploads/city-londres.png
     caption: La City de Londres à l'horizon
   - image: /uploads/mimikko-new-arrival-19.png
@@ -38,4 +36,6 @@ gallery:
     caption: Table de jeu
   - image: /uploads/mimikko-new-arrival-21.png
     caption: En bout de table
+  - image: /uploads/vikki-eames-6.png
+    caption: Quand Vikky rencontre Charlie
 ---
