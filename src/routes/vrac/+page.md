@@ -16,8 +16,6 @@ gallery:
     caption: Rangée de Mimikko
   - image: /uploads/bipolaire-jaune-rouge.png
     caption: Harmonie en rouge et jaune
-  - image: /uploads/bipolaire-nelson-gp.png
-    caption: Bipolaire turquoise
   - image: /uploads/city-londres.png
     caption: La City de Londres à l'horizon
   - image: /uploads/mimikko-new-arrival-19.png
