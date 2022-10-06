@@ -20,18 +20,18 @@ gallery:
     caption: La City de Londres à l'horizon
   - image: /uploads/mimikko-new-arrival-19.png
     caption: Equilibre
-  - image: /uploads/double-jeu.png
-    caption: Double jeu
-  - image: /uploads/mikko-toutes.png
-    caption: Mikko City
   - image: /uploads/magasins-generaux.png
     caption: Trio de Mikko
+  - image: /uploads/mikko-toutes.png
+    caption: Mikko City
   - image: /uploads/cables-mimiko-c.png
     caption: Dans les câbles multicolores
   - image: /uploads/melting-pot.png
     caption: Melting Pot
   - image: /uploads/otono-c3.png
     caption: Coffee table Otoño
+  - image: /uploads/double-jeu.png
+    caption: Double jeu
   - image: /uploads/otono-ch.png
     caption: Table de jeu
   - image: /uploads/mimikko-new-arrival-21.png
