@@ -39,4 +39,7 @@ gallery:
     caption: Quand Vikky rencontre Charlie
   - image: /uploads/double-jeu.png
     caption: Double jeu
+  - image: /uploads/mimkko-fluo-tokyo.png
+    caption: Planque au Palais de Tokyo
+  - image: /uploads/mir-tokyo.png
 ---
