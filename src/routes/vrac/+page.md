@@ -4,6 +4,8 @@ gallery:
     caption: La Bipolaire dans tous ses états
   - image: /uploads/mimikko-new-arrival-11.png
     caption: Mimikko sans tête
+  - image: /uploads/mimkko-fluo-tokyo.png
+    caption: Planque au Palais de Tokyo
   - image: /uploads/bipolaire-blanche.png
     caption: Bipolaire blanche
   - image: /uploads/bipolaire-bureaunelson.png
@@ -39,7 +41,5 @@ gallery:
     caption: Quand Vikky rencontre Charlie
   - image: /uploads/double-jeu.png
     caption: Double jeu
-  - image: /uploads/mimkko-fluo-tokyo.png
-    caption: Planque au Palais de Tokyo
   - image: /uploads/mir-tokyo.png
 ---
