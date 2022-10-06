@@ -35,6 +35,7 @@ events:
     images:
       - image: /uploads/espacesoulier-bm-2.jpg
       - image: /uploads/espacesoulier-bm-1.jpg
+      - image: /uploads/espacesoulier-bm-3.jpg
   - date: 2017-06-01T15:58:21.857Z
     title: Retour Possible
     description: >-
