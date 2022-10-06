@@ -2,6 +2,8 @@
 gallery:
   - image: /uploads/bipolaire.png
     caption: La Bipolaire dans tous ses états
+  - image: /uploads/mimikko-new-arrival-11.png
+    caption: Mimikko sans tête
   - image: /uploads/bipolaire-blanche.png
     caption: Bipolaire blanche
   - image: /uploads/bipolaire-bureaunelson.png
@@ -34,6 +36,4 @@ gallery:
     caption: Table de jeu
   - image: /uploads/mimikko-new-arrival-21.png
     caption: Les Mimikko en bout de table
-  - image: /uploads/mimikko-new-arrival-11.png
-    caption: Mimikko sans tête
 ---
