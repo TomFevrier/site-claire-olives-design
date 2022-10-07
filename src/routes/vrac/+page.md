@@ -44,4 +44,6 @@ gallery:
     caption: Double jeu
   - image: /uploads/mkko-fluo-copie.png
     caption: Mimikko Fluo
+  - image: /uploads/bipolaire-jaune-bleue.png
+    caption: Dos à dos
 ---
