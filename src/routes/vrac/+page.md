@@ -39,11 +39,9 @@ gallery:
     caption: En bout de table
   - image: /uploads/vikki-eames-6.png
     caption: Quand Vikky rencontre Charlie
-  - image: /uploads/mkko-fluo-copie.png
-    caption: Mimikko Fluo
+  - image: /uploads/bipolaire-jaune-bleue.png
+    caption: Dos à dos
   - image: /uploads/mir-tokyo.png
   - image: /uploads/double-jeu.png
     caption: Double jeu
-  - image: /uploads/bipolaire-jaune-bleue.png
-    caption: Dos à dos
 ---
