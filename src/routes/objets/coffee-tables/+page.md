@@ -31,7 +31,7 @@ models:
     lateral_view: /uploads/otono-lat.png
   - title: Givre Bleu
     subtitle: Hiver
-    cover: /uploads/givre-bleu-def.png
+    cover: givre-bleu-2.png
     description: Pour représenter l’hiver (…) nous avons besoin de couleurs
       intériorisantes, froides et rayonnantes vers l’intérieur, transparentes et
       spiritualisantes.
