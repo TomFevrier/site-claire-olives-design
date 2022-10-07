@@ -42,4 +42,6 @@ gallery:
   - image: /uploads/mir-tokyo.png
   - image: /uploads/double-jeu.png
     caption: Double jeu
+  - image: /uploads/mkko-fluo-copie.png
+    caption: Mimikko Fluo
 ---
