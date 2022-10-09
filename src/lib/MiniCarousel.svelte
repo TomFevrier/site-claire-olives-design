@@ -1,4 +1,6 @@
 <script>
+	import { swipe } from 'svelte-gestures';
+
 	export let title;
 	export let models;
 	export let path;
@@ -13,14 +15,23 @@
 		slideIndex = Math.min(slideIndex + 1, models.length - 1);
 	}
 
+	const handleSwipe = (e) => {
+		switch (e.detail.direction) {
+			case 'right':
+				return prev();
+			case 'left':
+				return next();
+		}
+	}
+
 	$: activeModel = models[slideIndex];
 </script>
 
 <div class='mini-carousel'>
-	<div class='container'>
+	<div class='container' use:swipe={{ touchAction: 'pan-y', timeframe: 300, minSwipeDistance: 60 }} on:swipe={handleSwipe}>
 		<ul class='models' style:transform='translateX({-slideIndex * 100}%)'>
 			{#each models as model, i}
-				<li class='model' class:active={slideIndex === i}>
+				<li class='model' class:active={slideIndex === i} style:mask-image='url({model.cover})'>
 					<a href={path} data-sveltekit-prefetch>
 						<img src={model.cover} alt='{title} {model.title}' />
 					</a>
@@ -73,7 +84,10 @@
 				.model {
 					flex: 1 0 100%;
 					opacity: 0;
+					background-color: $purple;
 					transition: opacity 200ms ease-out;
+					mask-size: 100%;
+					mask-repeat: no-repeat;
 
 					&.active {
 						opacity: 1;
@@ -81,6 +95,12 @@
 
 					img {
 						width: 100%;
+						transition: all 300ms ease-out;
+
+						&:hover {
+							filter: grayscale(100%) contrast(200%);
+							mix-blend-mode: screen;
+						}
 					}
 				}
 			}

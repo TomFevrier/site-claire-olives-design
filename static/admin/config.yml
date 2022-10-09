@@ -45,7 +45,6 @@ collections:
                 search_fields: ['title_singular', 'models.*.title', ]
                 display_fields: ['title_singular', 'models.*.title']
                 multiple: true
-                min: 3
       - name: about
         label: About
         file: src/routes/about/+page.md

@@ -13,14 +13,6 @@
 				<MiniCarousel {...carousel} />
 			</li>
 		{/each}
-		{#each carousels as carousel}
-			<li>
-				<MiniCarousel {...carousel} />
-			</li>
-		{/each}
-		<li>
-			<MiniCarousel {...carousels[0]} />
-		</li>
 	</ul>
 	{#if featured.image || featured.video}
 		<section class='featured'>
@@ -28,7 +20,7 @@
 			<div class='container'>
 				<p>{featured.content}</p>
 				{#if featured.video}
-					<VideoEmbed title='A la une' url={featured.video} autoplay loop muted />
+					<VideoEmbed title='A la une' url={featured.video} loop />
 				{:else if featured.image}
 					<img src={featured.image} alt='A la une' />
 				{/if}
@@ -45,28 +37,26 @@
 		flex: 1;
 		overflow: hidden;
 		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 
 		.galleries-layout {
-			// max-height: 100%;
+			flex: 1;
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: flex-start;
+			width: 100%;
+			max-height: 100%;
 
 			li {
 				min-width: 12rem;
 				max-width: 20rem;
-				height: 100%;
-				filter: grayscale(100%);
-				transition: filter 600ms ease-out;
-
-				&:hover {
-					filter: grayscale(0%);
-				}
 
 				&:nth-child(1) {
-					margin-top: 80vh;
-					transform: translateY(-50%);
+					align-self: flex-end;
 				}
 
 				&:nth-child(2) {
@@ -80,7 +70,7 @@
 				}
 
 				&:nth-child(4) {
-					margin-top: 20vh;
+					margin-top: 30vh;
 					transform: translateY(-50%);
 				}
 
@@ -91,8 +81,9 @@
 		}
 
 		@include lg {
-			padding: 2rem;
-			padding-left: 16rem;
+			margin-top: 8rem;
+			padding-left: inherit;
+			padding: 1rem;
 			overflow: visible;
 			display: flex;
 			flex-direction: column;
@@ -102,22 +93,19 @@
 				display: flex;
 				flex-direction: column;
 				justify-content: flex-start;
-				align-items: flex-start;
+				align-items: center;
 				gap: 4rem;
 
 				li {
 					margin-top: 0 !important;
 					transform: none !important;
-					filter: none;
-					max-width: 28rem;
+					max-width: 20rem;
+
+					&:nth-child(1) {
+						align-self: inherit;
+					}
 				}
 			}
-		}
-
-		@include md {
-			margin-top: 8rem;
-			padding-left: inherit;
-			padding: 1rem;
 		}
 
 		.featured {

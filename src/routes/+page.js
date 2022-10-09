@@ -28,6 +28,17 @@ export async function load() {
 	return {
 		featured,
 		carousels: carousels.map(({ path, models }) => {
+			// Luminaires
+			if (models.length === 1) {
+				const model = allObjects.find((object) => object.title === 'Luminaires').models.find((model) => models[0] === model.title);
+				return {
+					path,
+					title: 'Lampe',
+					models: model.variants.map((variant) => ({ ...variant, title: model.title }))
+				};
+			}
+
+			// Autres objets
 			return {
 				path,
 				title: allObjects.find((object) => object.models?.some((model) => models[0] === model.title)).title_singular,

@@ -50,8 +50,8 @@ models:
     variants:
       - title: Purple
         cover: /uploads/mimikko-purple.png
-      - title: Rainbow
-        cover: /uploads/mimikko-rainbow.png
+      - title: Rainbo
+        cover: /uploads/mimikko-rainbo.png
       - title: Vert sprite
         cover: /uploads/mimikko-vertsprite.png
   - title: Bipolaire
