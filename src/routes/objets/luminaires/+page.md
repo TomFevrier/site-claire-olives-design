@@ -10,8 +10,17 @@ images:
   - image: /uploads/mimikko-toutes.png
   - image: /uploads/sous-la-banquise.png
 models:
+  - title: Mir
+    dimensions: |-
+      H 53 cm  
+      Ø Base 17 cm  
+      Ø Globe 15 cm
+    lateral_view: /uploads/mir-lat.png
+    variants: []
   - title: Vikki
-    dimensions: H 50 cm Ø 15 cm
+    dimensions: |-
+      H 50 cm  \
+      Ø 15 cm
     lateral_view: /uploads/vikki-lat.png
     variants:
       - title: Blue jean
@@ -21,7 +30,9 @@ models:
       - title: Vertigo
         cover: /uploads/vikki-vertigo.png
   - title: Mikko
-    dimensions: H 67 cm Ø 17 cm
+    dimensions: |-
+      H 67 cm  \
+      Ø 17 cm
     lateral_view: /uploads/mikko-lat.png
     variants:
       - title: British Colony
@@ -30,6 +41,19 @@ models:
         cover: /uploads/mikko-jaune-rouge.png
       - title: Rouge fakir
         cover: /uploads/mikko-rougefakir.png
+  - title: Mimikko
+    dimensions: |-
+      H 36 cm  
+      Ø Base 15 cm  
+      Ø Globe 15 cm
+    lateral_view: /uploads/mimikko-lat.png
+    variants:
+      - title: Purple
+        cover: /uploads/mimikko-purple.png
+      - title: Rainbow
+        cover: /uploads/mimikko-rainbow.png
+      - title: Vert sprite
+        cover: /uploads/mimikko-vertsprite.png
 ---
 
 **La MIR, rouge et blanc, reprend les codes de signalétique d’une balise de sécurité.**  
