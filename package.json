@@ -9,6 +9,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^1.0.0-next.43",
 		"@sveltejs/kit": "^1.0.0-next.483",
+		"autoprefixer": "^10.4.12",
 		"mdsvex": "^0.10.6",
 		"sass": "^1.54.9",
 		"svelte": "^3.50.1",

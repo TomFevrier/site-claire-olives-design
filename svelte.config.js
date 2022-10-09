@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import sveltePreprocess from 'svelte-preprocess';
+import autoprefixer from 'autoprefixer';
 import { mdsvex } from 'mdsvex';
 import path from 'path';
 
@@ -11,7 +12,10 @@ const config = {
 		sveltePreprocess({
 			scss: {
 				prependData: `@import './src/variables.scss';`
-			}	
+			},
+			postcss: {
+				plugins: [autoprefixer()]
+			}
 		}),
 		mdsvex({
 			extensions: ['.md']
