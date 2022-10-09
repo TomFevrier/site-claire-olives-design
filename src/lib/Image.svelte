@@ -5,7 +5,7 @@
 
 	let isLoaded = true;
 
-	const sizes = [160, 256, 320, 480, 640, 800, 960, 1280];
+	const sizes = [160, 256, 320, 400, 480, 640, 800, 960, 1280];
 
 	const srcset = sizes.map((size) => `${src.replace('uploads', `images/${size}`)} ${size}w`).join(', ');
 </script>
