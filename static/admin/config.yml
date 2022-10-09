@@ -42,8 +42,8 @@ collections:
                 widget: relation
                 collection: objects
                 value_field: 'models.*.title'
-                search_fields: ['title_singular', 'models.*.title']
-                display_fields: ['title_singular', 'models.*.title']
+                search_fields: ['title_singular', 'models.*.title', 'models.*.variants.*.title']
+                display_fields: ['title_singular', 'models.*.title', 'models.*.variants.*.title']
                 multiple: true
                 min: 3
       - name: about
@@ -193,7 +193,7 @@ collections:
               - name: title
                 label: Titre
               - name: dimensions
-                label: Dimensionsw
+                label: Dimensions
                 widget: markdown
               - name: lateral_view
                 label: Vue latérale
