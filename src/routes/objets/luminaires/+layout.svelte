@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 
-	import { Content } from '$lib';
+	import { Content, Image } from '$lib';
 
 	const {
 		title,
@@ -26,7 +26,7 @@
 	</article>
 	{#if images && images.length > 0}
 		<figure class='cover'>
-			<img src={images[0].image} alt='' />
+			<Image src={images[0].image} size={800} alt='' />
 			{#if images[0].caption}
 				<figcaption>{images[0].caption}</figcaption>
 			{/if}
@@ -45,7 +45,7 @@
 				</article>
 				{#if model.lateral_view}
 					<figure class='lateral-view'>
-						<img src={model.lateral_view} alt='' />
+						<Image src={model.lateral_view} size={400} alt='' />
 					</figure>
 				{/if}
 			</li>
@@ -53,7 +53,7 @@
 	</ul>
 	{#if images && images.length > 1}
 		<figure class='cover'>
-			<img src={images[1].image} alt='' />
+			<Image src={images[1].image} size={800} alt='' />
 			{#if images[1].caption}
 				<figcaption>{images[1].caption}</figcaption>
 			{/if}
@@ -75,7 +75,7 @@
 				</article>
 				{#if models.at(-1).lateral_view}
 					<figure class='lateral-view'>
-						<img src={models.at(-1).lateral_view} alt='' />
+						<Image src={models.at(-1).lateral_view} size={400} alt='' />
 					</figure>
 				{/if}
 			</div>
@@ -86,7 +86,7 @@
 			{/if}
 		</div>
 		<figure class='cover'>
-			<img src={models.at(-1).cover} alt='' />
+			<Image src={models.at(-1).cover} size={800} alt='' />
 		</figure>
 	</div>
 </Content>
@@ -131,7 +131,9 @@
 	.model {
 		background-color: #E1E5F6;
 		position: relative;
+		min-width: 50%;
 		max-width: 24rem;
+		aspect-ratio: 1;
 
 		article {
 			position: absolute;

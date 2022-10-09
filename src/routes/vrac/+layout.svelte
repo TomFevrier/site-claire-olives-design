@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 
-	import { Content } from '$lib';
+	import { Content, Image } from '$lib';
 
 	const { gallery } = $page.data;
 </script>
@@ -11,7 +11,7 @@
 	<ul class='grid'>
 		{#each gallery as { image, caption = '' }}
 			<li class='image'>
-				<img src={image} alt={caption} />
+				<Image src={image} size={400} alt={caption} />
 				{#if caption}
 					<p class='caption'>{caption}</p>
 				{/if}
@@ -39,8 +39,9 @@
 		.image {
 			background-color: $red;
 			position: relative;
+			overflow: hidden;
 
-			img {
+			:global(img) {
 				transition: all 300ms ease-out;
 			}
 
@@ -57,7 +58,7 @@
 			}
 
 			&:hover {
-				img {
+				:global(img) {
 					filter: grayscale(100%) contrast(200%);
 					mix-blend-mode: screen;
 				}

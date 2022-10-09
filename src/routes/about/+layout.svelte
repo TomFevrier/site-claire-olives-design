@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 
-	import { Content } from '$lib';
+	import { Content, Image } from '$lib';
 
 	const {
 		title,
@@ -25,7 +25,7 @@
 	<header>
 		<h1>about</h1>
 		<figure id='portrait'>
-			<img src={image} alt='Claire Olivès' />
+			<Image src={image} size={256} alt='Claire Olivès' />
 			<figcaption>{caption}</figcaption>
 		</figure>
 	</header>
@@ -51,10 +51,7 @@
 		#portrait {
 			position: relative;
 			margin-right: 1rem;
-
-			img {
-				width: 10rem;
-			}
+			width: 10rem;
 
 			figcaption {
 				position: absolute;
@@ -74,10 +71,7 @@
 
 			#portrait {
 				margin: 4rem 0 1rem;
-
-				img {
-					width: 8rem;
-				}
+				width: 8rem;
 			}
 		}
 	}

@@ -52,7 +52,6 @@
 		position: fixed;
 		left: 3rem;
 		top: 10rem;
-		overflow: hidden;
 		z-index: 999;
 
 		display: flex;
@@ -66,40 +65,41 @@
 			li {
 				font-family: 'supersize-bk-box', sans-serif;
 				font-size: 1.2rem;
+				transition: transform 100ms ease-out;
 
 				&:nth-child(1) {
-					color: $orange;
+					color: var(--text-color, $orange);
 				}
 
 				&:nth-child(2) {
-					color: $blue;
+					color: var(--text-color, $blue);
 				}
 
 				&:nth-child(3) {
-					color: $lavender;
+					color: var(--text-color, $lavender);
 				}
 
 				&:nth-child(4) {
-					color: $purple;
+					color: var(--text-color, $purple);
 				}
 
 				&:nth-child(5) {
-					color: $red;
+					color: var(--text-color, $red);
 				}
 
 				&:nth-child(6) {
-					color: $orange;
+					color: var(--text-color, $orange);
 				}
 
 				&:hover {
-					color: black;
+					transform: translateX(4px);
 				}
 			}
 		}
 
 		.fi-instagram {
 			font-size: 2.5rem;
-			color: $blue;
+			color: var(--text-color, $blue);
 		}
 
 		.burger {
@@ -136,7 +136,7 @@
 					&, &::before, &::after {
 						width: 100%;
 						height: 0.3rem;
-						background-color: $blue;
+						background-color: var(--text-color, $blue);
 						border-radius: 0.15rem;
 					}
 
@@ -159,12 +159,12 @@
 				align-items: center;
 				gap: 0.5rem;
 				opacity: 0;
-				transition: opacity 300ms ease;
+				transition: opacity 100ms ease;
 			}
 
 			.fi-instagram {
 				opacity: 0;
-				transition: opacity 300ms ease;
+				transition: opacity 100ms ease;
 			}
 
 			&.active {

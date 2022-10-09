@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 
-	import { Content } from '$lib';
+	import { Content, Image } from '$lib';
 
 	const { title, models } = $page.data;
 </script>
@@ -23,7 +23,7 @@
 		{#each models as model}
 			<li class='model'>
 				<figure class='cover'>
-					<img src={model.cover} alt='' />
+					<Image src={model.cover} size={480} alt='' />
 				</figure>
 				<article>
 					<h2 class='title'>
@@ -40,12 +40,12 @@
 				</article>
 				{#if model.zenithal_view}
 					<figure class='zenithal-view'>
-						<img src={model.zenithal_view} alt='' />
+						<Image src={model.zenithal_view} size={400} alt='' />
 					</figure>
 				{/if}
 				{#if model.lateral_view}
 					<figure class='lateral-view'>
-						<img src={model.lateral_view} alt='' />
+						<Image src={model.lateral_view} size={400} alt='' />
 					</figure>
 				{/if}
 			</li>
@@ -106,7 +106,7 @@
 					z-index: -1;
 				}
 
-				img {
+				:global(img) {
 					transform: scale(1.2);
 				}
 			}
@@ -142,7 +142,7 @@
 				justify-content: center;
 				align-items: center;
 
-				img {
+				:global(img) {
 					max-width: 16rem;
 				}
 			}
@@ -167,7 +167,7 @@
 				grid-template-rows: 1fr 4rem 1fr;
 
 				.cover {
-					img {
+					:global(img) {
 						transform: none;
 					}
 				}

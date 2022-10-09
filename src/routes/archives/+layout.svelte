@@ -3,7 +3,7 @@
 
 	import { swipe } from 'svelte-gestures';
 
-	import { Content } from '$lib';
+	import { Content, Image } from '$lib';
 
 	const { archives } = $page.data;
 
@@ -87,7 +87,7 @@
 			>
 				<li>
 					<figure>
-						<img src={archives.at(-1).image} alt={archives.at(-1).caption} />
+						<Image src={archives.at(-1).image} size={640} alt={archives.at(-1).caption} />
 						<figcaption>
 							{archives.at(-1).caption}
 						</figcaption>
@@ -96,7 +96,7 @@
 				{#each archives as archive}
 					<li>
 						<figure>
-							<img src={archive.image} alt={archive.caption} />
+							<Image src={archive.image} size={640} alt={archive.caption} />
 							<figcaption>
 								{archive.caption}
 							</figcaption>
@@ -105,7 +105,7 @@
 				{/each}
 				<li>
 					<figure>
-						<img src={archives[0].image} alt={archives[0].caption} />
+						<Image src={archives[0].image} size={640} alt={archives[0].caption} />
 						<figcaption>
 							{archives[0].caption}
 						</figcaption>
@@ -195,10 +195,6 @@
 					flex: 1 0 100%;
 
 					figure {
-						img {
-							width: 100%;
-						}
-
 						figcaption {
 							text-align: center;
 						}

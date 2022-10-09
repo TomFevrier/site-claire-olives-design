@@ -188,10 +188,6 @@
 			svg {
 				width: 5rem;
 			}
-
-			h1 {
-				display: none;
-			}
 		}
 	}
 	

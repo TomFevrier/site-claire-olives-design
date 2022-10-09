@@ -1,6 +1,8 @@
 <script>
 	import { swipe } from 'svelte-gestures';
 
+	import { Image } from '$lib';
+
 	export let title;
 	export let models;
 	export let path;
@@ -31,9 +33,9 @@
 	<div class='container' use:swipe={{ touchAction: 'pan-y', timeframe: 300, minSwipeDistance: 60 }} on:swipe={handleSwipe}>
 		<ul class='models' style:transform='translateX({-slideIndex * 100}%)'>
 			{#each models as model, i}
-				<li class='model' class:active={slideIndex === i} style:mask-image='url({model.cover})'>
+				<li class='model' class:active={slideIndex === i} style='--mask: url({model.cover.replace('static', 'images/160')});'>
 					<a href={path} data-sveltekit-prefetch>
-						<img src={model.cover} alt='{title} {model.title}' />
+						<Image src={model.cover} size={320} alt='{title} {model.title}' />
 					</a>
 				</li>
 			{/each}
@@ -84,17 +86,25 @@
 				.model {
 					flex: 1 0 100%;
 					opacity: 0;
-					background-color: $purple;
+					position: relative;
 					transition: opacity 200ms ease-out;
-					mask-size: 100%;
-					mask-repeat: no-repeat;
+
+					&::before {
+						content: "";
+						position: absolute;
+						inset: 0;
+						background-color: $purple;
+						mask-image: var(--mask);
+						mask-size: 100%;
+						mask-repeat: no-repeat;
+						z-index: -1;
+					}
 
 					&.active {
 						opacity: 1;
 					}
 
-					img {
-						width: 100%;
+					:global(img) {
 						transition: all 300ms ease-out;
 
 						&:hover {

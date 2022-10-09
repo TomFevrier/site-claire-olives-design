@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 
-	import { Content } from '$lib';
+	import { Content, Image } from '$lib';
 
 	const { title, models } = $page.data;
 </script>
@@ -23,7 +23,7 @@
 		{#each models as model}
 			<li class='model'>
 				<figure class='cover'>
-					<img src={model.cover} alt='' />
+					<Image src={model.cover} size={480} alt='' />
 				</figure>
 				<article>
 					<h2 class='title'>
@@ -40,12 +40,12 @@
 				</article>
 				{#if model.zenithal_view}
 					<figure class='zenithal-view'>
-						<img src={model.zenithal_view} alt='' />
+						<Image src={model.zenithal_view} size={256} alt='' />
 					</figure>
 				{/if}
 				{#if model.lateral_view}
 					<figure class='lateral-view'>
-						<img src={model.lateral_view} alt='' />
+						<Image src={model.lateral_view} size={400} alt='' />
 					</figure>
 				{/if}
 			</li>
@@ -83,7 +83,7 @@
 
 		.model {
 			display: grid;
-			grid-template-columns: 1fr 8rem 1fr 1fr;
+			grid-template-columns: 1fr 6rem 1fr 1fr;
 			grid-template-areas:
 				"a a b b"
 				"c d d d";
@@ -103,7 +103,7 @@
 					z-index: -1;
 				}
 
-				img {
+				:global(img) {
 					transform: translateX(4rem);
 				}
 			}
@@ -139,7 +139,7 @@
 				justify-content: center;
 				align-items: center;
 
-				img {
+				:global(img) {
 					max-width: 16rem;
 				}
 			}
@@ -159,7 +159,7 @@
 					z-index: -1;
 				}
 
-				img {
+				:global(img) {
 					max-width: 24rem;
 					padding: 1rem 2rem;
 				}
@@ -172,7 +172,7 @@
 					"c c d d d";
 
 				.cover {
-					img {
+					:global(img) {
 						transform: none;
 					}
 				}
@@ -202,7 +202,7 @@
 				.lateral-view {
 					width: 66%;
 
-					img {
+					:global(img) {
 						padding: 1rem;
 					}
 				}

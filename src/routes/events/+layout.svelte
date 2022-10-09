@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 
-	import { Content, VideoEmbed } from '$lib';
+	import { Content, Image, VideoEmbed } from '$lib';
 
 	const { events } = $page.data;
 </script>
@@ -19,7 +19,7 @@
 				</h3>
 				<article>
 					<figure class='cover'>
-						<img src={event.cover} alt='' />
+						<Image src={event.cover} size={800} alt='' />
 						{#if event.caption}
 							<figcaption>{event.caption}</figcaption>
 						{/if}
@@ -41,7 +41,7 @@
 						{#each (event.images || []) as { image, caption }}
 							<li>
 								<figure class='image'>
-									<img src={image} alt='' />
+									<Image src={image} size={320} alt='' />
 									{#if caption}
 										<figcaption>{caption}</figcaption>
 									{/if}

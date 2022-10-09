@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import sveltePreprocess from 'svelte-preprocess';
+import { mdsvex } from 'mdsvex';
 import path from 'path';
-import { mdsvex } from 'mdsvex'
 
 const dev = process.env.npm_lifecycle_event === 'dev';
 
@@ -14,12 +14,7 @@ const config = {
 			}	
 		}),
 		mdsvex({
-			extensions: ['.md'],
-			layout: {
-				// about: 'src/routes/about/layout.svelte',
-				// animations: 'src/routes/animations/layout.svelte',
-				// objets: 'src/routes/objets/layout.svelte'
-			}
+			extensions: ['.md']
 		})
 	],
 	extensions: ['.svelte', '.md'],

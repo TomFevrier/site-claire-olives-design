@@ -1,5 +1,5 @@
 <script>
-	import { MiniCarousel, VideoEmbed } from '$lib';
+	import { MiniCarousel, Image, VideoEmbed } from '$lib';
 
 	export let data;
 	
@@ -22,7 +22,7 @@
 				{#if featured.video}
 					<VideoEmbed title='A la une' url={featured.video} loop />
 				{:else if featured.image}
-					<img src={featured.image} alt='A la une' />
+					<Image src={featured.image} size={320} alt='A la une' />
 				{/if}
 			</div>
 		</section>
