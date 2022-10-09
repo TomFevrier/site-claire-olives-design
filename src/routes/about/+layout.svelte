@@ -64,6 +64,7 @@
 				transform-origin: top left;
 				white-space: nowrap;
 				margin: 0;
+				color: whitesmoke;
 			}
 		}
 

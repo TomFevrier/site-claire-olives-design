@@ -1,7 +1,7 @@
 <script>
 	import { page } from '$app/stores';
 
-	import { Logo, Footer } from '$lib';
+	import { Logo, Menu, Footer } from '$lib';
 
 	import '../app.css';
 	
@@ -14,6 +14,7 @@
 	</title>
 </svelte:head>
 <Logo />
+<Menu />
 <slot />
 <Footer />
 

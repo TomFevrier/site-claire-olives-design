@@ -1,5 +1,8 @@
 <script>
+	import { beforeNavigate } from '$app/navigation';
 	let isMenuVisible = false;
+
+	beforeNavigate(() => isMenuVisible = false);
 </script>
 
 <nav class:active={isMenuVisible}>
@@ -103,17 +106,16 @@
 			display: none;
 		}
 
-		@include lg {
-			left: auto;
-			right: 0;
-			top: 0;
+		@include xl {
+			inset: 0;
 			align-items: center;
 			width: 100%;
 			padding: 2rem;
-			margin-top: 6rem;
+			padding-top: 6rem;
 			pointer-events: none;
-			background-color: rgba($background, 0);
+			background-color: rgba(var(--background-color, $background), 0);
 			transition: background-color 300ms ease;
+			// backdrop-filter: blur(5px);
 
 			.burger {
 				display: block;
@@ -167,7 +169,7 @@
 
 			&.active {
 				pointer-events: all;
-				background-color: rgba($background, 0.9);
+				background-color: var(--background-color, $background);
 
 				.burger {
 					.burger-line {

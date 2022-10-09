@@ -4,8 +4,6 @@
 	import { Content, VideoEmbed } from '$lib';
 
 	const { events } = $page.data;
-
-	console.log(events)
 </script>
 
 <Content>

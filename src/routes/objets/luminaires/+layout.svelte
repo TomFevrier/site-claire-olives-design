@@ -21,19 +21,74 @@
 
 <Content>
 	<h1>{title}</h1>
-	<article>
-		{@html description}
+	<article id='description'>
+		{description}
 	</article>
+	{#if images && images.length > 0}
+		<figure class='cover'>
+			<img src={images[0].image} alt='' />
+			{#if images[0].caption}
+				<figcaption>{images[0].caption}</figcaption>
+			{/if}
+		</figure>
+	{/if}
+	<ul class='models'>
+		{#each models.slice(0, 4) as model}
+			<li class='model'>
+				<article>
+					<h2 class='title'>
+						{model.title}
+					</h2>
+					<p class='dimensions'>
+						{@html model.dimensions.replace(/\n/g, '<br />')}
+					</p>
+				</article>
+				{#if model.lateral_view}
+					<figure class='lateral-view'>
+						<img src={model.lateral_view} alt='' />
+					</figure>
+				{/if}
+			</li>
+		{/each}
+	</ul>
+	{#if images && images.length > 1}
+		<figure class='cover'>
+			<img src={images[1].image} alt='' />
+			{#if images[1].caption}
+				<figcaption>{images[1].caption}</figcaption>
+			{/if}
+		</figure>
+	{/if}
 	<article>
 		<slot />
 	</article>
-	<!-- <ul class='grid'>
-		{#each animations as { title, url }}
-			<li>
-				<VideoEmbed {title} {url} />
-			</li>
-		{/each}
-	</ul> -->
+	<div id='bipolaire'>
+		<div class='wrapper'>
+			<div class='model'>
+				<article>
+					<h2 class='title'>
+						{models.at(-1).title}
+					</h2>
+					<p class='dimensions'>
+						{@html models.at(-1).dimensions.replace(/\n/g, '<br />')}
+					</p>
+				</article>
+				{#if models.at(-1).lateral_view}
+					<figure class='lateral-view'>
+						<img src={models.at(-1).lateral_view} alt='' />
+					</figure>
+				{/if}
+			</div>
+			{#if models.at(-1).description}
+				<p class='description'>
+					{models.at(-1).description}
+				</p>
+			{/if}
+		</div>
+		<figure class='cover'>
+			<img src={models.at(-1).cover} alt='' />
+		</figure>
+	</div>
 </Content>
 
 <style lang='scss'>
@@ -43,12 +98,89 @@
 	}
 
 	article {
-		font-size: 0.9rem;
-		
-		:global(strong) {
-			color: $brown;
+		color: $brown;
+		text-align: left;
+
+		&#description {
 			font-size: 1.2rem;
 		}
 		
+		:global {
+			strong {
+				font-size: 1.2rem;
+				font-weight: inherit;
+			}
+
+			em {
+				font-size: 0.9rem;
+				color: var(--text-color, black);
+			}
+		}
+	}
+
+	.models {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2rem;
+
+		@include sm {
+			grid-template-columns: 1fr;
+		}
+	}
+
+	.model {
+		background-color: #E1E5F6;
+		position: relative;
+		max-width: 24rem;
+
+		article {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			padding: 1rem;
+
+			h2 {
+				font-size: 1.4rem;
+				margin: 0.25rem 0;
+			}
+
+			p {
+				margin: 0;
+			}
+		}
+	
+		.lateral-view {
+			width: 100%;
+		}
+	}
+
+	#bipolaire {
+		margin-top: 6rem;
+
+		.wrapper {
+			display: flex;
+			align-items: flex-end;
+			gap: 1rem;
+
+			.model {
+				flex: 1;
+
+				article {
+					top: 0;
+					bottom: auto;
+				}
+			}
+
+			.description {
+				flex: 1;
+				margin: 0;
+				color: $brown;
+			}
+
+			@include md {
+				flex-direction: column;
+				align-items: center;
+			}
+		}
 	}
 </style>

@@ -1,12 +1,10 @@
 <script>
-	import { Menu, MiniCarousel, VideoEmbed } from '$lib';
+	import { MiniCarousel, VideoEmbed } from '$lib';
 
 	export let data;
 	
 	$: ({ featured, carousels } = data);
 </script>
-
-<Menu />
 
 <main>
 	<ul class='galleries-layout'>

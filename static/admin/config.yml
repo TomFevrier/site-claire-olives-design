@@ -170,7 +170,7 @@ collections:
         fields:
           - name: description
             label: Description générale
-            widget: markdown
+            widget: text
           - name: body
             label: Description
             widget: markdown
@@ -223,6 +223,8 @@ collections:
     folder: src/routes/objets
     path: '{{slug}}/+page'
     preview_path: 'objets/{{slug}}'
+    media_folder: /static/uploads
+    public_folder: /uploads
     create: true
     fields:
       - name: title

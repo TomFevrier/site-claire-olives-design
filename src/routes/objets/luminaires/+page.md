@@ -1,11 +1,11 @@
 ---
 title: Luminaires
 title_singular: Lampe
-description: "**Une famille de luminaires en bois tourné laqué, aux volumes
+description: "Une famille de luminaires en bois tourné laqué, aux volumes
   simples, empilés, colorés. Une ampoule LED blanc mat, un dimmer pour moduler
   la lumière, un câble électrique en provenance du Piémont, assorti aux couleurs
   du modèle, c’est là tout un savoir-faire artisanal mis à l’honneur et pensé
-  pour que ces lampes vous rendent heureux. Fabriquées en Ile-de-France.**"
+  pour que ces lampes vous rendent heureux. Fabriquées en Ile-de-France."
 images:
   - image: /uploads/mimikko-toutes.png
   - image: /uploads/sous-la-banquise.png
@@ -19,7 +19,7 @@ models:
     variants: []
   - title: Vikki
     dimensions: |-
-      H 50 cm  \
+      H 50 cm  
       Ø 15 cm
     lateral_view: /uploads/vikki-lat.png
     variants:
@@ -31,7 +31,7 @@ models:
         cover: /uploads/vikki-vertigo.png
   - title: Mikko
     dimensions: |-
-      H 67 cm  \
+      H 67 cm  
       Ø 17 cm
     lateral_view: /uploads/mikko-lat.png
     variants:
@@ -76,8 +76,8 @@ models:
 
 **Ici encore, on retrouve un travail sur la couleur.**
 
-*On peut modifier dans une certaine mesure l’aspect d’une couleur sans agir directement sur elle par un mélange matériel quelconque. Il suffit seulement, pour cela, de la placer à côté d’une autre couleur qui selon qu’elle sera analogue ou opposée, atténuera ou exaltera son intensité.*\
+*On peut modifier dans une certaine mesure l’aspect d’une couleur sans agir directement sur elle par un mélange matériel quelconque. Il suffit seulement, pour cela, de la placer à côté d’une autre couleur qui selon qu’elle sera analogue ou opposée, atténuera ou exaltera son intensité.*  
 *Forichon, La Couleur*
 
-*Le blanc possède le son d’un silence que nous arrivons soudainement à comprendre.*\
+*Le blanc possède le son d’un silence que nous arrivons soudainement à comprendre.*  
 *Kandinsky, Le Spiritualisme dans l’Art*

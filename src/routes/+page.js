@@ -17,15 +17,13 @@ export async function load() {
 
 		const models = object.models[0].cover
 			? object.models
-			: object.models.reduce((previousVariants, model) => [...previousVariants, ...model.variants], []);
+			: object.models.reduce((previousVariants, model) => [...previousVariants, ...(model.variants || [])], []);
 
 		return [
 			...previousModels,
 			...models
 		];
 	}, []);
-
-	console.log(allModels)
 
 	return {
 		featured,
