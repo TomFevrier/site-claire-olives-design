@@ -1,0 +1,30 @@
+name: Generate thumbnails
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - static/uploads/*
+jobs:
+  generate_thumbnails:
+    name: Generate thumbnails
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@master
+      - name: Process Images
+        id: images
+        uses: subic/ghaction-thumbnails@v1.1
+        with:
+          source: 'static/uploads'
+          output: 'static/images'
+          sizes: '160,256,320,480,640,800,960,1280'
+      - name: Commit thumbnail folder
+        run: |
+          echo "Committing folder ${{steps.images.outputs.thumbnails}}"
+          git config --local user.name "${{github.actor}}"
+          git config --local user.email "${{github.actor}}@users.noreply.github.com"
+          git add ./${{steps.images.outputs.thumbnails}}" || exit 0
+          git commit -m "[skip ci] Auto-generated missing thumbnails" -a || exit 0
+          git push -f -q https://${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
