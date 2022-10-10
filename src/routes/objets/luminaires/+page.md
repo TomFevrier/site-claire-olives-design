@@ -37,12 +37,14 @@ models:
       Ø 17 cm
     lateral_view: /uploads/mikko-lat.png
     variants:
+      - title: Ultra Orange
+        cover: /uploads/mikko-1-ultra-orange.png
       - title: British Colony
-        cover: /uploads/mikko-british-colony.png
-      - title: Jaune & rouge
-        cover: /uploads/mikko-jaune-rouge.png
+        cover: /uploads/mikko-2-british-colony.png
       - title: Rouge fakir
-        cover: /uploads/mikko-rougefakir.png
+        cover: /uploads/mikko-3-rouge-fakir.png
+      - title: Jaune & rouge
+        cover: /uploads/mikko-4-jaune-rouge.png
   - title: Mimikko
     dimensions: |-
       H 36 cm  
