@@ -44,7 +44,7 @@ models:
       - title: Rouge fakir
         cover: /uploads/mikko-3-rouge-fakir.png
       - title: India Song
-        cover: /uploads/mikko-5-indiasong.png
+        cover: /uploads/mikko-5-indiasong2.png
   - title: Mimikko
     dimensions: |-
       H 36 cm  
