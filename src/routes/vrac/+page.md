@@ -44,4 +44,6 @@ gallery:
   - image: /uploads/mir-tokyo.png
   - image: /uploads/double-jeu.png
     caption: Double jeu
+  - image: /uploads/mimikko-verte.png
+    caption: Vert printemps
 ---
