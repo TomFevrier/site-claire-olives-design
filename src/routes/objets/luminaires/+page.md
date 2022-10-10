@@ -23,12 +23,14 @@ models:
       Ø 15 cm
     lateral_view: /uploads/vikki-lat.png
     variants:
-      - title: Blue jean
-        cover: /uploads/vikki-bluejean.png
-      - title: Tartan
-        cover: /uploads/vikki-tartan.png
+      - title: Orange amère
+        cover: /uploads/vikki-1-orange-amere.png
       - title: Vertigo
-        cover: /uploads/vikki-vertigo.png
+        cover: /uploads/vikki-2-vertigo.png
+      - title: Blue jean
+        cover: /uploads/vikki-4-bluejean.png
+      - title: Tartan
+        cover: /uploads/vikki-3-tartan.png
   - title: Mikko
     dimensions: |-
       H 67 cm  
