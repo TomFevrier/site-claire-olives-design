@@ -7,9 +7,9 @@ carousels:
     models:
       - Nagar
       - Pilar
+      - Shanti
       - Kilo
       - Solo
-      - Shanti
   - path: /objets/luminaires
     models:
       - Vikki
