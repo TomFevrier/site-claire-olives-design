@@ -50,10 +50,10 @@ models:
       Ø Globe 15 cm
     lateral_view: /uploads/mimikko-lat.png
     variants:
-      - title: Jaune Ikea
-        cover: /uploads/mimikko-1-jaune-ikea.png
       - title: Vert sprite
         cover: /uploads/mimikko-2-vert-sprite.png
+      - title: Jaune Ikea
+        cover: /uploads/mimikko-1-jaune-ikea.png
       - title: Purple
         cover: /uploads/mimikko-4-purple.png
       - title: Rainbo
