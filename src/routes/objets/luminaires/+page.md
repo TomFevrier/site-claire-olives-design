@@ -43,8 +43,8 @@ models:
         cover: /uploads/mikko-2-british-colony.png
       - title: Rouge fakir
         cover: /uploads/mikko-3-rouge-fakir.png
-      - title: Jaune & rouge
-        cover: /uploads/mikko-4-jaune-rouge.png
+      - title: India Song
+        cover: /uploads/mikko-5-indiasong.png
   - title: Mimikko
     dimensions: |-
       H 36 cm  
