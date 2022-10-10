@@ -60,6 +60,8 @@ models:
         cover: /uploads/mimikko-4-purple.png
       - title: Rainbo
         cover: /uploads/mimikko-3-rainbo.png
+      - title: Rose
+        cover: /uploads/mimikko-5-rose.png
   - title: Bipolaire
     dimensions: |-
       l 19 cm  
