@@ -1,11 +1,11 @@
 ---
 title: Luminaires
 title_singular: Lampe
-description: "Une famille de luminaires en bois tourné laqué, aux volumes
+description: Une famille de luminaires en bois tourné laqué, aux volumes
   simples, empilés, colorés. Une ampoule LED blanc mat, un dimmer pour moduler
   la lumière, un câble électrique en provenance du Piémont, assorti aux couleurs
   du modèle, c’est là tout un savoir-faire artisanal mis à l’honneur et pensé
-  pour que ces lampes vous rendent heureux. Fabriquées en Ile-de-France."
+  pour que ces lampes vous rendent heureux. Fabriquées en Ile-de-France.
 images:
   - image: /uploads/mimikko-toutes.png
   - image: /uploads/sous-la-banquise.png
@@ -48,12 +48,14 @@ models:
       Ø Globe 15 cm
     lateral_view: /uploads/mimikko-lat.png
     variants:
-      - title: Purple
-        cover: /uploads/mimikko-purple.png
-      - title: Rainbo
-        cover: /uploads/mimikko-rainbo.png
+      - title: Jaune Ikea
+        cover: /uploads/mimikko-1-jaune-ikea.png
       - title: Vert sprite
-        cover: /uploads/mimikko-vertsprite.png
+        cover: /uploads/mimikko-2-vert-sprite.png
+      - title: Purple
+        cover: /uploads/mimikko-4-purple.png
+      - title: Rainbo
+        cover: /uploads/mimikko-3-rainbo.png
   - title: Bipolaire
     dimensions: |-
       l 19 cm  
