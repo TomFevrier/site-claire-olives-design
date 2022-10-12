@@ -31,6 +31,8 @@ models:
         cover: /uploads/vikki-4-bluejean.png
       - title: Tartan
         cover: /uploads/vikki-3-tartan.png
+      - title: Rouge
+        cover: /uploads/vikki-5-rouge.png
   - title: Mikko
     dimensions: |-
       H 67 cm  
