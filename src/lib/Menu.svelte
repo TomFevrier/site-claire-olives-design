@@ -41,7 +41,7 @@
 			</a>
 		</li>
 	</ul>
-	<a href='https://www.instagram.com/claire_olives/'>
+	<a href='https://www.instagram.com/claire_olives/' target='_blank'>
 		<i class='fi fi-instagram'></i>
 	</a>
 </nav>

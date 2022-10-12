@@ -8,7 +8,7 @@ animations:
     url: https://vimeo.com/432299455
   - title: Bunki
     caption: Renversant
-    url: https://vimeo.com648352930
+    url: https://vimeo.com/648352930
   - title: Cubbi
     caption: Tiroir surprise
     url: https://vimeo.com/622452090
@@ -20,13 +20,13 @@ animations:
     url: https://vimeo.com/478091667
   - url: https://vimeo.com/359555106
     title: Bipolaire
-    caption: L﻿ampe Bipolaire
+    caption: Lampe Bipolaire
   - url: https://vimeo.com/326401232
     title: Coffee Table Citron Noir
     caption: Coffee Table de Printemps
   - url: https://vimeo.com/313365018
     title: Coffee Table Givre Bleu
-    caption: C﻿offee Table d'Hiver
+    caption: Coffee Table d'Hiver
   - url: https://vimeo.com/manage/videos/533206030
     title: Bye Bye Daft Punk
     caption: Mimikko et le chat des Daft Punk

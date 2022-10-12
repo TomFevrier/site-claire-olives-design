@@ -130,10 +130,9 @@
 
 	.model {
 		background-color: #E1E5F6;
-		position: relative;
-		min-width: 50%;
 		max-width: 24rem;
 		aspect-ratio: 1;
+		position: relative;
 
 		article {
 			position: absolute;

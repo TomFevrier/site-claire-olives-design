@@ -77,7 +77,6 @@ collections:
               - name: caption
                 label: Légende
                 required: false
-                widget: markdown
       - name: events
         label: Events
         file: src/routes/events/+page.md

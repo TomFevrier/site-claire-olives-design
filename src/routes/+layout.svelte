@@ -5,13 +5,19 @@
 
 	import '../app.css';
 	
-	$: pageTitle = $page.routeId ? $page.routeId.split('/').at(-1) : '';
+	$: pageTitle = $page.routeId
+		? [$page.routeId.split('/').at(-1), 'claire olivès design'].join(' • ')
+		: 'claire olivès design';
+
 </script>
 
 <svelte:head>
 	<title>
-		{[pageTitle, 'claire olivès design'].filter(Boolean).join(' • ')}
+		{pageTitle}
 	</title>
+
+	<meta property='og:title' content={pageTitle} />
+	<meta property='twitter:title' content={pageTitle} />
 </svelte:head>
 <Logo />
 <Menu />

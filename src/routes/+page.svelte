@@ -16,11 +16,11 @@
 	</ul>
 	{#if featured.image || featured.video}
 		<section class='featured'>
-			<h3>A la une</h3>
+			<h3>A la Une</h3>
 			<div class='container'>
 				<p>{featured.content}</p>
 				{#if featured.video}
-					<VideoEmbed title='A la une' url={featured.video} loop />
+					<VideoEmbed title='A la Une' url={featured.video} loop />
 				{:else if featured.image}
 					<Image src={featured.image} size={320} alt='A la une' />
 				{/if}
