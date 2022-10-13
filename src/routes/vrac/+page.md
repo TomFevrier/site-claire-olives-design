@@ -42,6 +42,7 @@ gallery:
   - image: /uploads/bipolaire-jaune-bleue.png
     caption: Dos à dos
   - image: /uploads/mir-tokyo.png
+    caption: Attention danger
   - image: /uploads/double-jeu.png
     caption: Double jeu
   - image: /uploads/mimikko-verte.png
