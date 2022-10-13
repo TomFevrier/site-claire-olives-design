@@ -27,7 +27,7 @@ gallery:
   - image: /uploads/mikko-toutes.png
     caption: Mikko City
   - image: /uploads/cables-mimiko-c.png
-    caption: Dans les câbles multicolores
+    caption: Câbles de jeu
   - image: /uploads/melting-pot.png
     caption: Melting Pot
   - image: /uploads/otono-c3.png
@@ -46,5 +46,5 @@ gallery:
   - image: /uploads/double-jeu.png
     caption: Double jeu
   - image: /uploads/mimikko-verte.png
-    caption: Vert printemps
+    caption: Vert pomme
 ---
