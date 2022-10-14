@@ -9,7 +9,7 @@ archives:
   - image: /uploads/carrousel-004.png
     caption: Atelier Totem, chaise Zobi, table ZigZag, commode Aigle, Lyon 1982
   - image: /uploads/carrousel-005.png
-    caption: Les peintres Vincent Corpet, Denis Laget et Claire Olivès chez Totem,
+    caption: Les peintres Vincent Corpet, Denis Laget et claire olivès chez Totem,
       Lyon 1983
   - image: /uploads/carrousel-006.png
     caption: Exposition Totem 1980-1987, Musée d’art moderne de Saint-Etienne, 2000
