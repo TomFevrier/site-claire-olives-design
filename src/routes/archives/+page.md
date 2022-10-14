@@ -6,7 +6,7 @@ archives:
   - image: /uploads/carrousel-002.png
     caption: Performance Lasdada, Totem chez Arrivetz, Lyon 1982
   - image: /uploads/carrousel-003.png
-    caption: Chaise Zlip, Totem chez Arrivetz, Lyon 1982
+    caption: Chaise Zlip, claire olivès pour Totem chez Arrivetz, Lyon 1982
   - image: /uploads/carrousel-004.png
     caption: Atelier Totem, chaise Zobi, table ZigZag, commode Aigle, Lyon 1982
   - image: /uploads/carrousel-005.png
