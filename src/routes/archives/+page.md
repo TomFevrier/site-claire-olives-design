@@ -22,7 +22,7 @@ archives:
   - image: /uploads/carrousel-010.png
     caption: Exposition Totem 1980-1987, Musée d’art moderne de Saint-Etienne, 2000
   - image: /uploads/carrousel-011.png
-    caption: Restaurant Le petit Faucheux, Tours 1981
+    caption: Restaurant Le Petit Faucheux, Tours 1981
   - image: /uploads/carrousel-012.png
     caption: Table Totem Exquis, édition Totem 1983
   - image: /uploads/carrousel-013.png
@@ -30,15 +30,16 @@ archives:
   - image: /uploads/carrousel-014.png
     caption: Exposition Totem au VIA, Paris 1981
   - image: /uploads/carrousel-015.png
-    caption: Chaise Lolly Pop, édition Totem 1981
+    caption: Chaise Lolly Pop, claire olivès pour Totem 1981
   - image: /uploads/carrousel-016.png
-    caption: Secrétaire Rosa, édition Totem 1981
+    caption: Secrétaire Rosa, claire olivès pour Totem 1981
   - image: /uploads/carrousel-017.png
-    caption: Chaise Azul, édition Totem 1981
+    caption: Chaise Azul, claire olivès pour Totem 1981
   - image: /uploads/carrousel-018.png
-    caption: Chaise Zlip, édition Totem 1983
+    caption: Chaise Zlip, claire olivès pour Totem, 1983
   - image: /uploads/carrousel-019.png
-    caption: Coffret à bijoux, édition Totem, exposition Fondation Cartier 1986
+    caption: Coffret à bijoux, claire olivès pour Totem, exposition Fondation
+      Cartier, 1986
   - image: /uploads/carrousel-020.png
     caption: Groupe Totem, catalogue Totem 80/83
   - image: /uploads/carrousel-021.png
