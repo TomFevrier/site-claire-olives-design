@@ -1,5 +1,5 @@
 ---
-image: /uploads/rainbo-playful-3.png
+image: /uploads/rainbo-purple-rainbo.png
 video: ""
 content: La Mimikko Rainbo est en vente à la boutique du MAD-Paris
 ---
