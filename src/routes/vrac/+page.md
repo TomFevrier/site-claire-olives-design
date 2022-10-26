@@ -12,8 +12,8 @@ gallery:
     caption: Bipolaire turquoise sur un bureau de Georges Nelson
   - image: /uploads/bipolaire-jaune-bleupetrole.png
     caption: Entre les deux mon cœur balance
-  - image: /uploads/cables-mimiko-o.png
-    caption: Dans les câbles multicolores
+  - image: /uploads/fierté-1.png
+    caption: Marche des fiertés à Pantin (2021)
   - image: /uploads/mimikko-new-arrival-16.png
     caption: Vibration de Mimikko
   - image: /uploads/bipolaire-jaune-rouge.png
