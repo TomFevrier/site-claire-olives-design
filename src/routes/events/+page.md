@@ -42,10 +42,10 @@ events:
     description: >-
       En juin 2017, « Retour Possible », une exposition partagée avec la
       documentariste et sound-artiste, Amandine Casadamont, à son retour de
-      Fukushima. Un reportage photo sur la zone sinistrée et un vinyl en édition
-      limitée, composé en zone de stockage de déchets radioactifs, sont proposés
-      dans la galerie. Les daybeds de Claire sont mis à disposition des
-      visiteurs venus écouter les performances sonores d’Amandine. 
+      Fukushima. Un reportage photo sur la zone sinistrée et un vinyle en
+      édition limitée, composé en zone de stockage de déchets radioactifs, sont
+      proposés dans la galerie. Les daybeds de Claire sont mis à disposition des
+      visiteurs venus écouter les performances sonores d’Amandine.  
 
 
       A cet occasion Claire produit une série de mini-motions, courtes animations sous forme de ballades graphiques. Et aussi, un daybed en édition spéciale, le Green Rest, avec un pied qui reprend les codes d’une balise de sécurité. A l’Espace Oppidum, Paris IIIe.
