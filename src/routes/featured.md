@@ -1,5 +1,6 @@
 ---
-image: /uploads/rainbo-playful-3.png
+image: /uploads/jose-claire-4.png
 video: ""
-content: La Mimikko Rainbo est en vente à la boutique du MAD-Paris
+content: Happening le samedi 5 novembre à Pantin avec l'artiste colombien José
+  Sierra Vega
 ---
