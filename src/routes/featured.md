@@ -1,6 +1,5 @@
 ---
-image: /uploads/quotidien-du-corps.png
+image: /uploads/quotidien-du-corps-expo.png
 video: ""
-content: Happening le samedi 5 novembre à Pantin avec l'artiste colombien José
-  Sierra Vega
+content: Installation des luminaires pour l'Event du 5 novembre
 ---
