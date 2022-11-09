@@ -1,5 +1,15 @@
 ---
 events:
+  - date: 2022-11-05T14:22:52.872Z
+    title: « QUOTIDIEN DU CORPS »
+    description: >-
+      Deux artistes, deux univers et un event iconoclaste
+
+
+      Rencontre inattendue entre deux artistes aux univers et mediums différents, cet happening est placé sous le signe de la couleur, de la découverte et d’une approche festive de l’art. Si les aspects transgressifs et le retour à l’enfance sous-tendent leur travail, ils s’inscrivent également dans une démarche artistique consciente, réfléchie, en prise avec les soubresauts de notre société.\
+
+      *claire olivès*, designer française et *josé sierra vega*, artiste colombien, conjuguent ici une passion commune pour un art jubilatoire et résolument engagé.
+    cover: /uploads/quotidien-du-corps.png
   - date: 2021-09-08T12:22:14.435Z
     title: Paris Design Week à la Boutique For Tomorrow
     description: A l’occasion de la Paris Design Week 2021, claire olivès investit
