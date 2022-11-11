@@ -9,6 +9,9 @@ events:
       Rencontre inattendue entre deux artistes aux univers et médiums différents, cet happening est placé sous le signe de la couleur, de la découverte et d’une approche festive de l’art. Si les aspects transgressifs et le retour à l’enfance sous-tendent leur travail, ils s’inscrivent également dans une démarche artistique consciente, réfléchie, en prise avec les soubresauts de notre société.\
 
       *claire olivès*, designer française et *josé sierra vega*, artiste colombien, conjuguent ici une passion commune pour un art jubilatoire et résolument engagé. Nous vous invitons à les rencontrer autour de leurs dernières œuvres.
+
+
+      F﻿loreal Duran
     cover: /uploads/quotidien-du-corps-expo.png
     images:
       - image: /uploads/quotidien-du-corps-1.png
