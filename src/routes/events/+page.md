@@ -16,9 +16,9 @@ events:
       Agent d’artiste, commissaire d’exposition
     cover: /uploads/quotidien-du-corps-expo.png
     images:
+      - image: /uploads/quotidien-du-corps.png
       - image: /uploads/quotidien-du-corps-1.png
       - image: /uploads/quotidien-du-corps-2.png
-      - image: /uploads/quotidien-du-corps.png
   - date: 2021-09-08T12:22:14.435Z
     title: Paris Design Week à la Boutique For Tomorrow
     description: A l’occasion de la Paris Design Week 2021, claire olivès investit
