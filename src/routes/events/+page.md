@@ -1,5 +1,13 @@
 ---
 events:
+  - date: 2022-10-12T09:41:37.713Z
+    title: LES ANNÉES 80, mode, design et graphisme en France
+    cover: /uploads/totem-mad-11.jpg
+    caption: ""
+    description: Les Années 80 au MAD. Les pièces du groupe TOTEM exposées dans la
+      nef du Musée des Arts décoratifs de Paris en témoins d'une décennie
+      dynamique et rebelle, bouleversant les codes du «less is more» qui régnait
+      dans le milieu du design à l'époque
   - date: 2022-11-05T14:22:52.872Z
     title: « QUOTIDIEN DU CORPS »
     description: >-
