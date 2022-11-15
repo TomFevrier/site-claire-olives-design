@@ -6,12 +6,12 @@ events:
       Deux artistes, deux univers et un event iconoclaste
 
 
-      Rencontre inattendue entre deux artistes aux univers et mediums différents, cet happening est placé sous le signe de la couleur, de la découverte et d’une approche festive de l’art. Si les aspects transgressifs et le retour à l’enfance sous-tendent leur travail, ils s’inscrivent également dans une démarche artistique consciente, réfléchie, en prise avec les soubresauts de notre société. claire olivès, designer française et josé sierra vega, artiste colombien, conjuguent ici une passion commune pour un art jubilatoire et résolument engagé. 
+      Rencontre inattendue entre deux artistes aux univers et mediums différents, cet happening est placé sous le signe de la couleur, de la découverte et d’une approche festive de l’art. Si les aspects transgressifs et le retour à l’enfance sous-tendent leur travail, ils s’inscrivent également dans une démarche artistique consciente, réfléchie, en prise avec les soubresauts de notre société. claire olivès, designer française et josé sierra vega, artiste colombien, conjuguent ici une passion commune pour un art jubilatoire et résolument engagé.
 
 
       \
 
-      Floréal Duran \
+      Floréal Duran\
 
       Agent d’artiste, commissaire d’exposition
     cover: /uploads/quotidien-du-corps-2.png
@@ -26,7 +26,7 @@ events:
     description: Les Années 80 au MAD. Les pièces du groupe TOTEM exposées dans la
       nef du Musée des Arts décoratifs de Paris en témoins d'une décennie
       dynamique et rebelle, bouleversant les codes du «less is more» qui régnait
-      dans le milieu du design à l'époque
+      dans le milieu du design à l'époque.
   - date: 2021-09-08T12:22:14.435Z
     title: Paris Design Week à la Boutique For Tomorrow
     description: A l’occasion de la Paris Design Week 2021, claire olivès investit
