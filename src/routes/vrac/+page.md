@@ -45,6 +45,6 @@ gallery:
     caption: Attention danger
   - image: /uploads/double-jeu.png
     caption: Double jeu
-  - image: /uploads/mimikko-verte.png
-    caption: Vert pomme
+  - image: /uploads/vikki-mimikko.png
+    caption: Îlot bleu et vert
 ---
