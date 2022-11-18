@@ -1,5 +1,6 @@
 ---
-image: /uploads/quotidien-du-corps-expo.png
-video: ""
-content: Installation de la collection de luminaires pour l'Event du 5 novembre à Pantin
+image: ""
+video: https://vimeo.com/756104762
+content: La MADtime, petite horloge murale réalisée en édition limitée pour la
+  boutique du MAD
 ---
