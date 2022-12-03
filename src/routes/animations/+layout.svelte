@@ -27,7 +27,7 @@
 
 	.grid {
 		width: 100%;
-		max-width: 24rem;
+		max-width: 32rem;
 		margin-top: 1rem;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);

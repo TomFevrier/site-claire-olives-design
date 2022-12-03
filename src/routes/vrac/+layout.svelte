@@ -1,24 +1,40 @@
 <script>
 	import { page } from '$app/stores';
 
-	import { Content, Image } from '$lib';
+	import { Content, Image, Lightbox } from '$lib';
 
 	const { gallery } = $page.data;
+
+	let isLightboxOpen = false;
+	let enlargedItem = null;
+
+	const openLightbox = (item) => {
+		enlargedItem = item;
+		isLightboxOpen = true;
+	}
+
+	const closeLightbox = () => {
+		enlargedItem = null;
+		isLightboxOpen = false;
+	}
 </script>
 
 <Content>
 	<h1>vrac</h1>
 	<ul class='grid'>
-		{#each gallery as { image, caption = '' }}
-			<li class='image'>
-				<Image src={image} size={400} alt={caption} />
-				{#if caption}
-					<p class='caption'>{caption}</p>
+		{#each gallery as item}
+			<li class='image' on:click={() => openLightbox(item)}>
+				<Image src={item.image} size={400} alt={item.caption || ''} />
+				{#if item.caption}
+					<p class='caption'>{item.caption}</p>
 				{/if}
 			</li>
 		{/each}
 	</ul>
 </Content>
+{#if isLightboxOpen}
+	<Lightbox {...enlargedItem} on:close={closeLightbox} />
+{/if}
 
 <style lang='scss'>
 	h1 {
@@ -40,6 +56,7 @@
 			background-color: $red;
 			position: relative;
 			overflow: hidden;
+			cursor: pointer;
 
 			:global(img) {
 				transition: all 300ms ease-out;
