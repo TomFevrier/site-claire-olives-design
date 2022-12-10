@@ -27,7 +27,7 @@ gallery:
   - image: /uploads/mikko-toutes.png
     caption: Mikko City
   - image: /uploads/cables-mimiko-c.png
-    caption: Câbles de jeu
+    caption: Les dessous de table
   - image: /uploads/melting-pot.png
     caption: Melting Pot
   - image: /uploads/otono-c3.png
