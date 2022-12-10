@@ -31,7 +31,7 @@ gallery:
   - image: /uploads/melting-pot.png
     caption: Melting Pot
   - image: /uploads/otono-c3.png
-    caption: Coffee table Otoño
+    caption: Coffee Table Otoño
   - image: /uploads/mikko-kilo-14.png
   - image: /uploads/otono-ch.png
     caption: Table de jeu
