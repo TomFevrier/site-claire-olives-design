@@ -38,15 +38,14 @@ models:
     zenithal_view: /uploads/givre-bleu-zen.png
     lateral_view: /uploads/givre-bleu-lat.png
 ---
+**Une série de 4 tables basses aux couleurs de chaque saison. Conçues sur le même principe que les daybeds : un piétement constitué de modules en bois tourné, des finitions mixtes, et une hauteur fixée à 30 cm du sol. Un plateau en verre qui s’encastre parfaitement dans les pieds, formant une surface arasée. Un travail sur les volumes et sur la couleur. Chaque plateau est imprimé d’une bande chromatique en cinq nuances, aux couleurs de chaque saison. Avec le noir en couleur de départ.oici les** 
 
-**Une série de quatre coffee tables conçues sur le même principe que les daybeds : un piétement constitué de modules en bois tourné, des finitions mixtes, et une hauteur fixée à 30 cm du sol. Un plateau en verre qui s’encastre parfaitement dans les pieds, formant une surface arasée. Un travail sur les volumes et sur la couleur. Chaque plateau est imprimé d’une bande chromatique en cinq nuances, aux couleurs de chaque saison. Avec le noir en couleur de départ.**
-
-Plateau imprimé sur fond blanc, verre trempé 6mm  
-Pieds en bois tourné, volumes inversés et finitions mixtes  
-Citations Johannes Itten, Art de la couleur  
+Plateau imprimé sur fond blanc, verre trempé 6mm\
+Pieds en bois tourné, volumes inversés et finitions mixtes\
+Citations Johannes Itten, Art de la couleur\
 Photos Alfredo Piola
 
-Sur commande (deux mois de délai)  
+Sur commande (deux mois de délai)\
 Prix sur demande
 
 L 100 cm l 67 cm H 30 cm
