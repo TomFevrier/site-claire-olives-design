@@ -1,5 +1,5 @@
 ---
-image: /uploads/mimiko-bleue.png
+image: /uploads/vikki.png
 video: ""
-content: La Mimikko bleue est en vente à la boutique du MAD
+content: La Vikki est en vente à la boutique du MAD
 ---
