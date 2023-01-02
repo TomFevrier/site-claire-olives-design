@@ -1,5 +1,5 @@
 ---
-image: /uploads/mimikko-together.png
+image: /uploads/mimiko-bleue.png
 video: ""
-content: La Mimikko, la petite lampe au design régressif
+content: La Mimikko bleue est en vente à la boutique du MAD
 ---
