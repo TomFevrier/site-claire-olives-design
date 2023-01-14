@@ -1,5 +1,5 @@
 ---
-image: /uploads/vikki.png
+image: /uploads/bipolaire-white-blue.png
 video: ""
-content: La Vikki est en vente à la boutique du MAD
+content: La Bipolaire a un sacré caractère
 ---
