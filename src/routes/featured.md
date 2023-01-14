@@ -1,5 +1,5 @@
 ---
 image: /uploads/bipolaire-white-blue.png
 video: ""
-content: La Bipolaire a un sacré caractère
+content: La Bipolaire a du caractère
 ---
