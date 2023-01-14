@@ -47,6 +47,4 @@ gallery:
     caption: Double jeu
   - image: /uploads/vikki-mimikko.png
     caption: Îlot bleu et vert
-  - image: /uploads/rainbo.png
-    caption: Rainbo
 ---
