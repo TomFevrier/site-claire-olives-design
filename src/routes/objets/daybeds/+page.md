@@ -6,7 +6,7 @@ models:
     subtitle: L 180 cm l 60 cm H 30 cm
     cover: /uploads/nagar-perso.png
     zenithal_view: /uploads/nagar-zen.png
-    lateral_view: /uploads/nagar-lat.png
+    lateral_view: /uploads/nagar-pied-04-02.png
   - title: Pilar
     subtitle: L 130 cm l 65 cm H 30 cm
     cover: /uploads/pilar-perso.png
