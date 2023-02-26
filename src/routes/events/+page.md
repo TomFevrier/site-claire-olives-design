@@ -26,7 +26,8 @@ events:
     description: Les Années 80 au MAD. Les pièces du groupe TOTEM exposées dans la
       nef du Musée des Arts décoratifs de Paris en témoins d'une décennie
       dynamique et rebelle, bouleversant les codes du «less is more» qui régnait
-      dans le milieu du design à l'époque.
+      dans le milieu du design à l'époque. Fière d'avoir fait partie de
+      l'aventure Totem !
   - date: 2021-09-08T12:22:14.435Z
     title: Paris Design Week à la Boutique For Tomorrow
     description: A l’occasion de la Paris Design Week 2021, claire olivès investit
