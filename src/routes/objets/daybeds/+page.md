@@ -11,7 +11,7 @@ models:
     subtitle: L 130 cm l 65 cm H 30 cm
     cover: /uploads/pilar-perso.png
     zenithal_view: /uploads/pilar-zen.png
-    lateral_view: /uploads/pilar-lat.png
+    lateral_view: /uploads/pilar-pied-04-02.png
   - title: Shanti
     subtitle: L 130 cm l 65 cm H 30 cm
     cover: /uploads/shanti-perso.png
