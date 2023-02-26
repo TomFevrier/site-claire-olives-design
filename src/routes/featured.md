@@ -1,5 +1,5 @@
 ---
-image: /uploads/bipolaire-white-blue.png
+image: /uploads/sous-haute-surveillance.png
 video: ""
-content: La Bipolaire a du caractère
+content: Sous haute influence !
 ---
