@@ -21,7 +21,7 @@ models:
     subtitle: L 130 cm l 65 cm H 30 cm
     cover: /uploads/kilo-perso.png
     zenithal_view: /uploads/kilo-zen.png
-    lateral_view: /uploads/kilo-lat.png
+    lateral_view: /uploads/kilo-pied-04-02.png
   - title: Solo
     subtitle: L 67 cm l 60 cm H 30 cm
     cover: /uploads/solo-perso.png
