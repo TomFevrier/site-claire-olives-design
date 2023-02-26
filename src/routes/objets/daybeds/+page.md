@@ -16,7 +16,7 @@ models:
     subtitle: L 130 cm l 65 cm H 30 cm
     cover: /uploads/shanti-perso.png
     zenithal_view: /uploads/shanti-zen.png
-    lateral_view: /uploads/shanti-lat.png
+    lateral_view: /uploads/shanti-pied-10-02-2.png
   - title: Kilo
     subtitle: L 130 cm l 65 cm H 30 cm
     cover: /uploads/kilo-perso.png
