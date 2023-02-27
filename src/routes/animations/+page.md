@@ -1,5 +1,8 @@
 ---
 animations:
+  - url: https://vimeo.com/755621556
+    title: MADtime
+    caption: Symphonie pour une trotteuse
   - title: Mimikko
     caption: Somewhere over the Rainbow
     url: https://vimeo.com/708304143
@@ -33,7 +36,4 @@ animations:
   - url: https://vimeo.com/manage/videos/251470235
     title: D﻿aybeds Nagar, indoor & outdoor
     caption: Prendre la vague sur un daybed Nagar
-  - url: https://vimeo.com/755621556
-    title: MADtime
-    caption: Symphonie pour une trotteuse
 ---
