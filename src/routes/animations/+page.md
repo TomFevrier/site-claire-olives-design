@@ -33,4 +33,7 @@ animations:
   - url: https://vimeo.com/manage/videos/251470235
     title: D﻿aybeds Nagar, indoor & outdoor
     caption: Prendre la vague sur un daybed Nagar
+  - url: https://vimeo.com/755621556
+    title: MADtime
+    caption: Symphonie pour une trotteuse
 ---
