@@ -7,7 +7,7 @@ gallery:
   - image: /uploads/mimkko-fluo-tokyo.png
     caption: Planque au Palais de Tokyo
   - image: /uploads/bipolaire-blanche.png
-    caption: Bipolaire blanche
+    caption: Affaire de famille
   - image: /uploads/bipolaire-bureaunelson.png
     caption: Bipolaire turquoise sur un bureau de Georges Nelson
   - image: /uploads/bipolaire-jaune-bleupetrole.png
@@ -17,13 +17,13 @@ gallery:
   - image: /uploads/mimikko-new-arrival-16.png
     caption: Vibration de Mimikko
   - image: /uploads/bipolaire-jaune-rouge.png
-    caption: Harmonie en rouge et jaune
+    caption: Conversation
   - image: /uploads/city-londres.png
-    caption: La City de Londres à l'horizon
+    caption: "So British "
   - image: /uploads/mimikko-new-arrival-19.png
-    caption: Equilibre
+    caption: Avoir la grosse tête
   - image: /uploads/magasins-generaux.png
-    caption: Trio de Mikko
+    caption: Mikko Trio
   - image: /uploads/mikko-toutes.png
     caption: Mikko City
   - image: /uploads/cables-mimiko-c.png
@@ -31,20 +31,21 @@ gallery:
   - image: /uploads/melting-pot.png
     caption: Melting Pot
   - image: /uploads/otono-c3.png
-    caption: Coffee Table Otoño
+    caption: Orange Mood
   - image: /uploads/mikko-kilo-14.png
+    caption: Mikko Kilo
   - image: /uploads/otono-ch.png
-    caption: Table de jeu
+    caption: Play Time
   - image: /uploads/mimikko-new-arrival-21.png
-    caption: En bout de table
+    caption: Livraison
   - image: /uploads/vikki-eames-6.png
     caption: Quand Vikky rencontre Charlie
   - image: /uploads/bipolaire-jaune-bleue.png
-    caption: Dos à dos
+    caption: Dos à Dos
   - image: /uploads/mir-tokyo.png
-    caption: Attention danger
+    caption: Attention Danger
   - image: /uploads/double-jeu.png
-    caption: Double jeu
+    caption: Double Jeu
   - image: /uploads/vikki-mimikko.png
-    caption: Îlot bleu et vert
+    caption: Elfes
 ---
