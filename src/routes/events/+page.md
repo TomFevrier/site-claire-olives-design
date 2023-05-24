@@ -28,6 +28,9 @@ events:
       dynamique et rebelle, bouleversant les codes du «less is more» qui régnait
       dans le milieu du design à l'époque. Fière d'avoir fait partie de
       l'aventure Totem !
+    videos:
+      - url: https://vimeo.com/829937792
+        caption: Totem a donné une conférence au MAD le 13 avril 2023
   - date: 2021-09-08T12:22:14.435Z
     title: Paris Design Week à la Boutique For Tomorrow
     description: A l’occasion de la Paris Design Week 2021, claire olivès investit
