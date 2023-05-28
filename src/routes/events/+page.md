@@ -26,8 +26,7 @@ events:
     description: Les Années 80 au MAD. Les pièces du groupe TOTEM exposées dans la
       nef du Musée des Arts décoratifs de Paris en témoins d'une décennie
       dynamique et rebelle, bouleversant les codes du «less is more» qui régnait
-      dans le milieu du design à l'époque. Fière d'avoir fait partie de
-      l'aventure Totem !
+      dans le milieu du design à l'époque.
     videos:
       - url: https://vimeo.com/829937792
         caption: Totem a donné une conférence au MAD le 13 avril 2023
