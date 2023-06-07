@@ -1,5 +1,5 @@
 ---
-image: /uploads/sticker138-23.png
+image: /uploads/vikkis.png
 video: ""
 content: Double sens
 ---
