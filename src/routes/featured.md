@@ -1,5 +1,5 @@
 ---
-image: /uploads/vikkis.png
+image: /uploads/lampes.png
 video: ""
-content: Vikkiss
+content: Yellow vibes
 ---
