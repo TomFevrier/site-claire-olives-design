@@ -49,4 +49,5 @@ gallery:
   - image: /uploads/vikki-mimikko.png
     caption: Elfes
   - image: /uploads/rainbo.png
+    caption: Mimikko Rainbo
 ---
