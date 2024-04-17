@@ -48,4 +48,6 @@ gallery:
     caption: Elfes
   - image: /uploads/rainbo.png
     caption: Mimikko Rainbo
+  - image: /uploads/bipolaire-nelson-gp.png
+  - image: /uploads/mimikko-fluo-filet.png
 ---
