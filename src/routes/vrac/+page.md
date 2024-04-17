@@ -1,6 +1,5 @@
 ---
 gallery:
-  - image: /uploads/zlip-mimikko.png
   - image: /uploads/bipolaire.png
     caption: La Bipolaire dans tous ses états
   - image: /uploads/mimikko-new-arrival-11.png
@@ -49,4 +48,5 @@ gallery:
     caption: Double Jeu
   - image: /uploads/vikki-mimikko.png
     caption: Elfes
+  - image: /uploads/rainbo.png
 ---
