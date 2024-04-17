@@ -49,6 +49,7 @@ gallery:
   - image: /uploads/rainbo.png
     caption: Mimikko Rainbo
   - image: /uploads/bipolaire-nelson-gp.png
+    caption: Sur un bureau de Georges Nelson
   - image: /uploads/mimikko-fluo-filet.png
     caption: Belle prise
 ---
