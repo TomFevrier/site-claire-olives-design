@@ -8,8 +8,6 @@ gallery:
     caption: Planque au Palais de Tokyo
   - image: /uploads/bipolaire-blanche.png
     caption: Affaire de famille
-  - image: /uploads/bipolaire-bureaunelson.png
-    caption: Bipolaire turquoise sur un bureau de Georges Nelson
   - image: /uploads/bipolaire-jaune-bleupetrole.png
     caption: Entre les deux mon cœur balance
   - image: /uploads/fierté-1.png
