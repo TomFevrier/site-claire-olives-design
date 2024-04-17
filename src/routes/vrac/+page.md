@@ -52,4 +52,6 @@ gallery:
     caption: Sur un bureau de Georges Nelson
   - image: /uploads/mimikko-fluo-filet.png
     caption: Belle prise
+  - image: /uploads/zlip-mimikko.png
+    caption: Chaise Zlip (groupe Totem) et Mimikko verte
 ---
