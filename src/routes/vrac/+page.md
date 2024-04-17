@@ -48,4 +48,6 @@ gallery:
     caption: Double Jeu
   - image: /uploads/vikki-mimikko.png
     caption: Elfes
+  - image: /uploads/zlip-mimikko.png
+    caption: "Filiation : chaise Zlip (Totem) + Mimikko verte"
 ---
