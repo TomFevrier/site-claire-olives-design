@@ -56,4 +56,6 @@ gallery:
     caption: Chaise Zlip (groupe Totem) et Mimikko verte
   - image: /uploads/mir-seule.png
     caption: Lampe Mir
+  - image: /uploads/c-table-hiver-olga.png
+    caption: Table basse de saison, ici l'Hiver
 ---
