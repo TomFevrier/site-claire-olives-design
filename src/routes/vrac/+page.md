@@ -54,4 +54,6 @@ gallery:
     caption: Belle prise
   - image: /uploads/zlip-mimikko.png
     caption: Chaise Zlip (groupe Totem) et Mimikko verte
+  - image: /uploads/mir-seule.png
+    caption: Lampe Mir
 ---
