@@ -38,10 +38,10 @@ models:
     zenithal_view: /uploads/givre-bleu-zen.png
     lateral_view: /uploads/givre-bleu-lat.png
 ---
-**Une série de 4 tables basses de saison. Conçues sur le même principe que les daybeds : un piétement constitué de modules en bois tourné, des finitions mixtes, et une hauteur fixée à 30 cm du sol. Un plateau en verre qui s’encastre parfaitement dans les pieds, formant une surface arasée. Un travail sur les volumes et sur la couleur. Chaque plateau est imprimé d’une bande chromatique en cinq nuances, aux couleurs de chaque saison. Avec le noir en couleur de départ.**
+**Une série de 4 tables basses de saison. Inspirées par le film coréen de Kim Ki-Duk, Printemps, Eté, Automne, Hiver… et Printemps. Comme les daybeds, une norme à 30 cm au-dessus du sol. Pour manger comme dans les films de Yasujiro Ozu. Un travail chromatique sur le plateau en verre, aux couleurs de chaque saison, avec le noir en couleur de départ. Un jeu de volumes inversés pour les pieds en bois tourné laqué et naturel.**
 
 Plateau imprimé sur fond blanc, verre trempé 6mm\
-Pieds en bois tourné, volumes inversés et finitions mixtes\
+Pieds en bois tourné, finitions mixtes\
 Citations Johannes Itten, Art de la couleur\
 Photos Alfredo Piola
 
