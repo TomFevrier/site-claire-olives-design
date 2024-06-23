@@ -1,8 +1,8 @@
 ---
 animations:
-  - url: https://vimeo.com/755621556
+  - url: https://vimeo.com/756104762
     title: MADtime
-    caption: Symphonie pour une trotteuse
+    caption: MadTime
   - title: Mimikko
     caption: Somewhere over the Rainbow
     url: https://vimeo.com/708304143
