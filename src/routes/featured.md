@@ -1,5 +1,5 @@
 ---
-image: ""
-video: https://vimeo.com/935380143?share=copy
-content: ANGELINO
+image: /uploads/kubbi-zlip.png
+video: ""
+content: Meuble à tiroir KUBBI, chaise ZLIP (groupe Totem)
 ---
