@@ -29,7 +29,7 @@ collections:
                 required: false
               - name: caption
                 label: Légende
-          - name: collections
+          - name: series
             label: Collections
             label_singular: Collection
             widget: list
