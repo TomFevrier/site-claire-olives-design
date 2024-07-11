@@ -12,19 +12,62 @@ collections:
   - name: pages
     label: Pages
     files:
-      - name: featured
-        label: À la une
-        file: src/routes/featured.md
+      - name: whats-new
+        label: What’s new
+        file: src/routes/whats-new/+page.md
         fields:
-          - name: image
-            label: Image
-            widget: image
-            required: false
-          - name: video
-            label: Vidéo
-            required: false
-          - name: content
-            label: Texte
+          - name: featured
+            label: À la Une
+            widget: object
+            fields:
+              - name: image
+                label: Image
+                widget: image
+                required: false
+              - name: video
+                label: Vidéo
+                required: false
+              - name: caption
+                label: Légende
+          - name: collections
+            label: Collections
+            label_singular: Collection
+            widget: list
+            add_to_top: true
+            identifier_field: title
+            fields:
+              - name: title
+                label: Titre
+              - name: description
+                label: Description générale
+                widget: text
+              - name: image
+                label: Image principale
+                widget: image
+                required: false
+              - name: video
+                label: Vidéo principale
+                widget: video
+                required: false
+              - name: caption
+                label: Légende
+                required: false
+            - name: models
+              label: Modèles
+              widget: list
+              fields:
+                - name: title
+                  label: Titre
+                - name: dimensions
+                  label: Dimensions
+                  widget: markdown
+                - name: cover
+                  label: Image
+                  widget: image
+                - name: description
+                  label: Description
+                  widget: markdown
+                  required: false
       - name: carousels
         label: Carrousels
         file: src/routes/carousels.md
