@@ -29,7 +29,7 @@ collections:
                 required: false
               - name: caption
                 label: Légende
-          - name: series
+          - name: collections
             label: Collections
             label_singular: Collection
             widget: list
@@ -52,22 +52,22 @@ collections:
               - name: caption
                 label: Légende
                 required: false
-            - name: models
-              label: Modèles
-              widget: list
-              fields:
-                - name: title
-                  label: Titre
-                - name: dimensions
-                  label: Dimensions
-                  widget: markdown
-                - name: cover
-                  label: Image
-                  widget: image
-                - name: description
-                  label: Description
-                  widget: markdown
-                  required: false
+              - name: models
+                label: Modèles
+                widget: list
+                fields:
+                  - name: title
+                    label: Titre
+                  - name: dimensions
+                    label: Dimensions
+                    widget: markdown
+                  - name: cover
+                    label: Image
+                    widget: image
+                  - name: description
+                    label: Description
+                    widget: markdown
+                    required: false
       - name: carousels
         label: Carrousels
         file: src/routes/carousels.md
