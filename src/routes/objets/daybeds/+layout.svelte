@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 
 	import { Content, Image } from '$lib';
+	import { prettifyText } from '$lib/utils';
 
 	const { title, models } = $page.data;
 </script>
@@ -34,7 +35,7 @@
 					</h3>
 					{#if model.description}
 						<p class='description'>
-							{@html model.description.replace(/\n/g, '<br />')}
+							{@html prettifyText(model.description)}
 						</p>
 					{/if}
 				</article>

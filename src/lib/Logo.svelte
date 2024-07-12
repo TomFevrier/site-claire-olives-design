@@ -4,10 +4,11 @@
 	$: ({ routeId } = $page);
 
 	const ROUTES = [
-		'animations',
-		'events',
-		'archives',
+		'whats-new',
 		'vrac',
+		'events',
+		'animations',
+		'archives',
 		'contact'
 	];
 </script>
@@ -48,7 +49,11 @@
 				<rect
 					class='band red'
 					class:full={routeId === 'vrac'}
-					style='--width: 598; --offset: 402;' />
+					style='--width: 348; --offset: 402;' />
+				<rect
+					class='band green'
+					class:full={routeId === 'whats-new'}
+					style='--width: 200; --offset: 750;' />
 			</g>
 		</g>
 	</svg>
@@ -135,6 +140,11 @@
 						&.red {
 							fill: $red;
 							stroke: $red
+						}
+
+						&.green {
+							fill: $green;
+							stroke: $green
 						}
 					}
 

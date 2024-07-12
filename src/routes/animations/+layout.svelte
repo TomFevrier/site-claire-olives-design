@@ -65,5 +65,10 @@
 				}
 			}
 		}
+		
+		@include xs {
+			display: flex;
+			flex-direction: column;
+		}
 	}
 </style>

@@ -1,7 +1,7 @@
 export const csr = true;
 
 export async function load() {
-	const featured = (await import('./featured.md')).metadata;
+	const { featured } = (await import('./whats-new/+page.md')).metadata;
 	const { carousels } = (await import('./carousels.md')).metadata;
 
 	const allObjectFiles = import.meta.glob('/src/routes/objets/*/+page.md');
