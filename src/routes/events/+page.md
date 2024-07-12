@@ -5,9 +5,7 @@ events:
     description: >-
       Deux artistes, deux univers et un event iconoclaste
 
-
       Rencontre inattendue entre deux artistes aux univers et mediums différents, cet happening est placé sous le signe de la couleur, de la découverte et d’une approche festive de l’art. Si les aspects transgressifs et le retour à l’enfance sous-tendent leur travail, ils s’inscrivent également dans une démarche artistique consciente, réfléchie, en prise avec les soubresauts de notre société. Claire Olivès, designer française et José Sierra Vega, artiste colombien, conjuguent ici une passion commune pour un art jubilatoire et résolument engagé.
-
 
       \
 
