@@ -47,7 +47,6 @@ collections:
                 required: false
               - name: video
                 label: Vidéo principale
-                widget: video
                 required: false
               - name: caption
                 label: Légende
