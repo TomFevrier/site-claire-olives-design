@@ -135,52 +135,6 @@
 					}
 				}
 			}
-
-			// article {
-			// 	text-align: left;
-			// 	display: grid;
-			// 	grid-template-areas:
-			// 		"a a a x"
-			// 		"c c c b";
-			// 	gap: 0.5rem;
-			
-			// 	.cover {
-			// 		width: 100%;
-			// 		margin: 1rem 0;
-			// 		grid-area: a;
-			// 	}
-
-			// 	.description {
-			// 		grid-area: c;
-			// 		padding-right: 1rem;
-			// 		max-width: 32rem;
-			// 	}
-
-			// 	.gallery {
-			// 		grid-area: b;
-			// 		display: flex;
-			// 		flex-direction: column;
-			// 		gap: 1.5rem;
-			// 	}
-
-			// 	@include lg {
-			// 		display: flex;
-			// 		flex-direction: column;
-			// 		gap: 0;
-
-			// 		.description {
-			// 			padding: 0;
-			// 		}
-
-			// 		.gallery {
-			// 			display: grid;
-			// 			grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-			// 			gap: 1.5rem 1rem;
-			// 			align-items: flex-end;
-			// 			margin-top: 2rem;
-			// 		}
-			// 	}
-			// }
 		}
 	}
 </style>
