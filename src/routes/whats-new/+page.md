@@ -1,7 +1,8 @@
 ---
 featured:
-  video: https://vimeo.com/756104762
-  caption: Lorem ipsum dolor sit amet
+  video: ""
+  caption: Kubbi et la chaise ZLIP (groupe Totem)
+  image: /uploads/kubbi-zlip-3.png
 collections:
   - title: Collection « Élémentaire »
     description: >-
@@ -18,20 +19,20 @@ collections:
     image: ""
     caption: Lorem ipsum dolor sit amet
     models:
+      - title: Bunki
+        dimensions: H 50 cm L 15 cm Prof. 25 cm
+        description: Le caractère jeune, clair et rayonnant de la nature au printemps
+          est exprimé par des couleurs lumineuses. Le jaune est la couleur la
+          plus proche du blanc, et le jaune-vert constitue une gradation par
+          rapport au jaune.
+        cover: /uploads/bunki-claire.png
       - title: Netti
         dimensions: H 50 cm L 15 cm Prof. 25 cm
         description: Le caractère jeune, clair et rayonnant de la nature au printemps
           est exprimé par des couleurs lumineuses. Le jaune est la couleur la
           plus proche du blanc, et le jaune-vert constitue une gradation par
           rapport au jaune.
-        cover: /uploads/netti.png
-      - title: Netti
-        dimensions: H 50 cm L 15 cm Prof. 25 cm
-        description: Le caractère jeune, clair et rayonnant de la nature au printemps
-          est exprimé par des couleurs lumineuses. Le jaune est la couleur la
-          plus proche du blanc, et le jaune-vert constitue une gradation par
-          rapport au jaune.
-        cover: /uploads/netti.png
+        cover: /uploads/netti-claire.png
     video: https://vimeo.com/756104762
   - title: Collection « Totemic »
     description: >-
