@@ -15,7 +15,7 @@ collections:
       artisanal mis à l’honneur et pensé pour que ces lampes vous rendent heureux.
 
       Fabriquées en Ile-de-France.
-    image: /uploads/totem-mad-11.jpg
+    image: ""
     caption: Lorem ipsum dolor sit amet
     models:
       - title: Netti
@@ -32,6 +32,7 @@ collections:
           plus proche du blanc, et le jaune-vert constitue une gradation par
           rapport au jaune.
         cover: /uploads/netti.png
+    video: https://vimeo.com/756104762
   - title: Collection « Totemic »
     description: >-
       Une famille de luminaires en bois tourné laqué, aux volumes simples,
