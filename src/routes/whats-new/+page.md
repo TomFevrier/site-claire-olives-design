@@ -13,8 +13,8 @@ collections:
       et ma propre synesthésie (clin d’œil au Bauhaus) appliquée aux tiroirs.
       Une variation autour d’un « cube ». Une réflexion sur la notion «
       d’inconfort » d’un meuble. Bousculer les codes et les fonctions"
-    image: ""
-    caption: Lorem ipsum dolor sit amet
+    image: /uploads/bunki-home.png
+    caption: Bunki
     models:
       - title: Bunki
         dimensions: H 93,5 cm L 74 cm Prof. 74 cm
@@ -43,7 +43,7 @@ collections:
           leurs tiroirs respectifs s’ouvrent donc dans le même sens. Le cube
           inférieur est orienté à 45*. KUBBI semble instable mais ce n’est pas
           le cas
-    video: https://vimeo.com/756104762
+    video: ""
   - title: Collection « Totemic »
     description: >-
       Une famille de luminaires en bois tourné laqué, aux volumes simples,
