@@ -49,8 +49,8 @@ collections:
       associe le bois tourné et la céramique.
 
       Une allure de mini-Totem"
-    image: /uploads/totem-mad-11.jpg
-    caption: Lorem ipsum dolor sit amet
+    image: /uploads/totemini-fond-orange.png
+    caption: TOTEMini version céramique blanche
     models:
       - title: Totem
         dimensions: H 50 cm L 15 cm
