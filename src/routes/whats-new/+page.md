@@ -29,7 +29,7 @@ collections:
           est exprimé par des couleurs lumineuses. Le jaune est la couleur la
           plus proche du blanc, et le jaune-vert constitue une gradation par
           rapport au jaune.
-        cover: /uploads/netti-claire.png
+        cover: /uploads/netti-claireok.png
     video: https://vimeo.com/756104762
   - title: Collection « Totemic »
     description: >-
