@@ -37,7 +37,7 @@ collections:
         cover: /uploads/netti-claireok.png
       - title: Kubbi
         dimensions: H 121,5 cm L 65 cm Prof. 65 cm
-        cover: /uploads/kubbi-claire.png
+        cover: /uploads/kubbi-tiroir-ouvert.png
         description: Trois cubes superposés décalés par rapport à leur axe vertical et
           horizontal. Les deux cubes supérieurs sont orientés du même côté,
           leurs tiroirs respectifs s’ouvrent donc dans le même sens. Le cube
