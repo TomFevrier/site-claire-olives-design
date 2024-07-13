@@ -10,7 +10,7 @@ events:
 
 
 
-      Floréal Duran 
+      Floréal Duran  
 
 
       Agent d’artiste, commissaire d’exposition
