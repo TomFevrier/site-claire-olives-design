@@ -28,11 +28,12 @@ collections:
           de laquelle on peut tourner"
         cover: /uploads/bunki-claire.png
       - title: Netti
-        dimensions: H 50 cm L 15 cm Prof. 25 cm
-        description: Le caractère jeune, clair et rayonnant de la nature au printemps
-          est exprimé par des couleurs lumineuses. Le jaune est la couleur la
-          plus proche du blanc, et le jaune-vert constitue une gradation par
-          rapport au jaune.
+        dimensions: H 152 cm L 65,7 cm Prof. 34 cm
+        description: "Trois modules superposés avec une inclinaison horizontale
+          paramétrée différente pour chacun. \x03Les tiroirs demeurent
+          impeccablement alignés sur leur axe mais l’axe\x03du meuble lui-même
+          se décale sur le côté gauche. NETTI donne l’impression qu’il se
+          déhanche"
         cover: /uploads/netti-claireok.png
     video: https://vimeo.com/756104762
   - title: Collection « Totemic »
