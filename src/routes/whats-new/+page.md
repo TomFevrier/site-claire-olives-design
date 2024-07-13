@@ -10,18 +10,22 @@ collections:
       l’équilibre des volumes (par inclinaison d’un module ou décalage d’un
       axe). Trois « meubles à tiroirs » en guise de support, avec un cahier des
       charges identique. Le jeu des formes fondamentales, rond, carré, triangle
-      et la synesthésie (clin d’œil au Bauhaus) appliquée aux tiroirs. Une
-      variation autour d’un « cube ». Une réflexion sur la notion « d’inconfort
-      » d’un meuble. Bousculer les codes et les fonctions"
+      et ma propre synesthésie (clin d’œil au Bauhaus) appliquée aux tiroirs.
+      Une variation autour d’un « cube ». Une réflexion sur la notion «
+      d’inconfort » d’un meuble. Bousculer les codes et les fonctions"
     image: ""
     caption: Lorem ipsum dolor sit amet
     models:
       - title: Bunki
-        dimensions: H 50 cm L 15 cm Prof. 25 cm
-        description: Le caractère jeune, clair et rayonnant de la nature au printemps
-          est exprimé par des couleurs lumineuses. Le jaune est la couleur la
-          plus proche du blanc, et le jaune-vert constitue une gradation par
-          rapport au jaune.
+        dimensions: H 93,5 cm L 74 cm Prof. 74 cm
+        description: "Deux volumes de même profondeur empilés ; le volume supérieur,
+          plus étroit, est penché d’un côté, comme s’il s’était affaissé sous la
+          contrainte d’un poids. La partie supérieure devient un plan incliné
+          sur lequel on ne peut rien poser. Les deux tiroirs sont traversants. A
+          la fois inconfortable et pratique pour son accès bilatéral, BUNKI est
+          déroutant. \x03Il campe fièrement sur ses quatre pieds carrés malgré
+          un effet d’effondrement. Il a l’aspect d’une mini-architecture autour
+          de laquelle on peut tourner"
         cover: /uploads/bunki-claire.png
       - title: Netti
         dimensions: H 50 cm L 15 cm Prof. 25 cm
