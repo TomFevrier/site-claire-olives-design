@@ -44,18 +44,11 @@ collections:
           inférieur est orienté à 45*. KUBBI semble instable mais ce n’est pas
           le cas
     video: ""
-  - title: Collection « Totemic »
-    description: >-
-      Une famille de luminaires en bois tourné laqué, aux volumes simples,
-      empilés, colorés.
+  - title: Lampadaire TOTEMini
+    description: "Un petit lampadaire (1,30 m de hauteur avec l’ampoule) \x03qui
+      associe le bois tourné et la céramique.
 
-      Une ampoule led blanc mat, un dimmer pour moduler la lumière, un câble électrique en
-
-      provenance du Piémont, assorti aux couleurs du modèle, c’est là tout un savoir-faire
-
-      artisanal mis à l’honneur et pensé pour que ces lampes vous rendent heureux.
-
-      Fabriquées en Ile-de-France.
+      Une allure de mini-Totem"
     image: /uploads/totem-mad-11.jpg
     caption: Lorem ipsum dolor sit amet
     models:
