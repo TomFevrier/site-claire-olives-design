@@ -35,6 +35,14 @@ collections:
           se décale sur le côté gauche. NETTI donne l’impression qu’il se
           déhanche"
         cover: /uploads/netti-claireok.png
+      - title: Kubbi
+        dimensions: H 121,5 cm L 65 cm Prof. 65 cm
+        cover: /uploads/kubbi-claire.png
+        description: Trois cubes superposés décalés par rapport à leur axe vertical et
+          horizontal. Les deux cubes supérieurs sont orientés du même côté,
+          leurs tiroirs respectifs s’ouvrent donc dans le même sens. Le cube
+          inférieur est orienté à 45*. KUBBI semble instable mais ce n’est pas
+          le cas
     video: https://vimeo.com/756104762
   - title: Collection « Totemic »
     description: >-
