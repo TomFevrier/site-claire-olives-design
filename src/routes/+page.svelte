@@ -126,24 +126,18 @@
 				display: flex;
 				align-items: flex-end;
 				width: 100%;
-				max-width: 24rem;
+				max-width: 16rem;
 
 				p {
 					position: absolute;
 					font-size: 0.9rem;
 					text-align: right;
-					max-width: 16rem;
+					max-width: 12rem;
 					bottom: 0;
 					left: 0;
 					transform: translateX(calc(-100% - 2rem));
 					color: grey;
 					margin: 1rem;
-				}
-			}
-
-			@include xl {
-				.container {
-					max-width: 16rem;
 				}
 			}
 
