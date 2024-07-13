@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 
 	import { Content, Image } from '$lib';
+	import { prettifyText } from '$lib/utils';
 
 	const {
 		title,
@@ -22,7 +23,7 @@
 <Content>
 	<h1>{title}</h1>
 	<article id='description'>
-		{description}
+		{@html prettifyText(description)}
 	</article>
 	{#if images && images.length > 0}
 		<figure class='cover'>
@@ -40,7 +41,7 @@
 						{model.title}
 					</h2>
 					<p class='dimensions'>
-						{@html model.dimensions.replace(/\n/g, '<br />')}
+						{@html prettifyText(model.dimensions)}
 					</p>
 				</article>
 				{#if model.lateral_view}
@@ -70,7 +71,7 @@
 						{models.at(-1).title}
 					</h2>
 					<p class='dimensions'>
-						{@html models.at(-1).dimensions.replace(/\n/g, '<br />')}
+						{@html prettifyText(models.at(-1).dimensions)}
 					</p>
 				</article>
 				{#if models.at(-1).lateral_view}
@@ -120,12 +121,10 @@
 
 	.models {
 		display: grid;
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+		justify-items: center;
 		gap: 2rem;
-
-		@include sm {
-			grid-template-columns: 1fr;
-		}
+		width: 100%;
 	}
 
 	.model {

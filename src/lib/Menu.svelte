@@ -16,8 +16,13 @@
 			</a>
 		</li>
 		<li>
-			<a href='/animations' data-sveltekit-prefetch>
-				animations
+			<a href='/whats-new' data-sveltekit-prefetch>
+				what’s new
+			</a>
+		</li>
+		<li>
+			<a href='/vrac' data-sveltekit-prefetch>
+				vrac
 			</a>
 		</li>
 		<li>
@@ -26,13 +31,13 @@
 			</a>
 		</li>
 		<li>
-			<a href='/archives' data-sveltekit-prefetch>
-				archives
+			<a href='/animations' data-sveltekit-prefetch>
+				animations
 			</a>
 		</li>
 		<li>
-			<a href='/vrac' data-sveltekit-prefetch>
-				vrac
+			<a href='/archives' data-sveltekit-prefetch>
+				archives
 			</a>
 		</li>
 		<li>
@@ -67,28 +72,28 @@
 				font-size: 1.2rem;
 				transition: transform 100ms ease-out;
 
-				&:nth-child(1) {
+				&:nth-child(1), &:nth-child(7) {
 					color: var(--text-color, $orange);
 				}
 
 				&:nth-child(2) {
-					color: var(--text-color, $blue);
+					color: var(--text-color, $green);
 				}
 
 				&:nth-child(3) {
-					color: var(--text-color, $lavender);
-				}
-
-				&:nth-child(4) {
-					color: var(--text-color, $purple);
-				}
-
-				&:nth-child(5) {
 					color: var(--text-color, $red);
 				}
 
+				&:nth-child(4) {
+					color: var(--text-color, $lavender);
+				}
+
+				&:nth-child(5) {
+					color: var(--text-color, $blue);
+				}
+
 				&:nth-child(6) {
-					color: var(--text-color, $orange);
+					color: var(--text-color, $purple);
 				}
 
 				&:hover {

@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 
 	import { Content, Image, VideoEmbed } from '$lib';
+	import { prettifyText } from '$lib/utils';
 
 	const { events } = $page.data;
 </script>
@@ -12,7 +13,7 @@
 		{#each events.sort((a, b) => new Date(b) - new Date(a)) as event}
 			<li class='event'>
 				<h2 class='title'>
-					{event.title}
+					{@html prettifyText(event.title)}
 				</h2>
 				<h3 class='date'>
 					{new Date(event.date).toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })}
@@ -25,7 +26,7 @@
 						{/if}
 					</figure>
 					<p class='description'>
-						{@html event.description.replace(/\n/g, '<br />')}
+						{@html prettifyText(event.description)}
 					</p>
 					<ul class='gallery'>
 						{#each (event.videos || []) as { url, caption }}

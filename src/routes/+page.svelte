@@ -16,13 +16,15 @@
 	</ul>
 	{#if featured.image || featured.video}
 		<section class='featured'>
-			<h3>A la Une</h3>
+			<a href='/whats-new'>
+				<h3>what’s new</h3>
+			</a>
 			<div class='container'>
-				<p>{featured.content}</p>
+				<p>{featured.caption}</p>
 				{#if featured.video}
-					<VideoEmbed title='A la Une' url={featured.video} loop />
+					<VideoEmbed title='what’s new' url={featured.video} loop autoplay muted />
 				{:else if featured.image}
-					<Image src={featured.image} size={320} alt='A la une' />
+					<Image src={featured.image} size={320} alt='what’s new' />
 				{/if}
 			</div>
 		</section>
@@ -116,7 +118,7 @@
 			h3 {
 				font-family: 'supersize-bk-box', sans-serif;
 				font-size: 1.2rem;
-				color: $red;
+				color: $green;
 				margin: 0.5rem 0;
 			}
 
