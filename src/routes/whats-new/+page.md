@@ -55,7 +55,7 @@ collections:
       - title: TOTEMini
         dimensions: H 130 cm Ø inf. 26 cm
         description: Trois versions du TOTEMini
-        cover: /uploads/totemini-dessins.png
+        cover: /uploads/totemini-dessins-2.png
       - title: Totem
         dimensions: H 50 cm L 15 cm
         description: Le caractère jeune, clair et rayonnant de la nature au printemps
