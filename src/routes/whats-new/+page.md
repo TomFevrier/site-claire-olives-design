@@ -54,11 +54,8 @@ collections:
     models:
       - title: Totem
         dimensions: H 50 cm L 15 cm
-        description: Le caractère jeune, clair et rayonnant de la nature au printemps
-          est exprimé par des couleurs lumineuses. Le jaune est la couleur la
-          plus proche du blanc, et le jaune-vert constitue une gradation par
-          rapport au jaune.
-        cover: /uploads/lampadaires-totemic.png
+        description: Trois versions du TOTEMini
+        cover: /uploads/totemini-dessins.png
       - title: Totem
         dimensions: H 50 cm L 15 cm
         description: Le caractère jeune, clair et rayonnant de la nature au printemps
