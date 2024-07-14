@@ -49,7 +49,7 @@ collections:
       associe le bois tourné et la céramique.
 
       Une allure de mini-Totem"
-    image: /uploads/totemini-fond-orange.png
+    image: /uploads/totemini-kinetic.png
     caption: TOTEMini version céramique blanche
     models:
       - title: Totem
