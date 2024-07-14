@@ -57,7 +57,7 @@ collections:
         description: Trois versions du TOTEMini
         cover: /uploads/totemini-dessins-2.png
       - title: Détail
-        dimensions: H 50 cm L 15 cm
+        dimensions: \-
         description: ""
         cover: /uploads/totemini-ailettes.png
 ---
