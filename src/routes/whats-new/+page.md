@@ -55,9 +55,9 @@ collections:
       - title: TOTEMini
         dimensions: H 130 cm Ø inf. 26 cm
         description: Dessins, trois versions
-        cover: /uploads/totemini-dessins-3.png
+        cover: /uploads/totemini-dessins.png
       - title: Détail
         dimensions: \-
         description: Bois et céramique blanche
-        cover: /uploads/totemini-ailettes-6.png
+        cover: /uploads/totemini-ailettes-5.png
 ---
