@@ -55,7 +55,7 @@ collections:
       - title: TOTEMini
         dimensions: H 130 cm Ø inf. 26 cm
         description: Trois versions du TOTEMini
-        cover: /uploads/totemini-dessins-2.png
+        cover: /uploads/totemini-dessins.png
       - title: Détail
         dimensions: \-
         description: ""
