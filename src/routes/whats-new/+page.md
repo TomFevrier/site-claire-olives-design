@@ -59,5 +59,5 @@ collections:
       - title: Détail
         dimensions: \-
         description: ""
-        cover: /uploads/totemini-ailettes.png
+        cover: /uploads/totemini-ailettes2.png
 ---
