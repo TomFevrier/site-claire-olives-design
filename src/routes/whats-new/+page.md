@@ -53,7 +53,7 @@ collections:
     caption: TOTEMini version céramique blanche
     models:
       - title: Totem
-        dimensions: H 50 cm L 15 cm
+        dimensions: H 130 cm Ø inf. 26 cm
         description: Trois versions du TOTEMini
         cover: /uploads/totemini-dessins.png
       - title: Totem
