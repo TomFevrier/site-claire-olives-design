@@ -58,6 +58,6 @@ collections:
         cover: /uploads/totemini-dessins.png
       - title: Détail
         dimensions: \-
-        description: ""
+        description: Bois et céramique blanche
         cover: /uploads/totemini-ailettes-4.png
 ---
