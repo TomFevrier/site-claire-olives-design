@@ -14,7 +14,7 @@ collections:
       Une variation autour d’un « cube ». Une réflexion sur la notion «
       d’inconfort » d’un meuble. Bousculer les codes et les fonctions"
     image: /uploads/bunki-home.png
-    caption: Bunki
+    caption: Bunki dans son milieu d'origine
     models:
       - title: Bunki
         dimensions: H 93,5 cm L 74 cm Prof. 74 cm
