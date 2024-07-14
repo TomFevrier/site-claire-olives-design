@@ -45,10 +45,10 @@ collections:
           le cas
     video: ""
   - title: Lampadaire TOTEMini
-    description: "Un petit lampadaire (1,30 m de hauteur avec l’ampoule) \x03qui
+    description: "Un petit lampadaire (1,30 m de hauteur avec l’ampoule)\x03qui
       associe le bois tourné et la céramique.
 
-      Une allure de mini-Totem"
+      Inspiration : la croix andine Chakana. Une allure de mini-Totem"
     image: /uploads/totemini-kinetic2.png
     caption: TOTEMini version céramique blanche
     models:
