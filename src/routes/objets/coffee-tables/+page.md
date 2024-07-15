@@ -31,21 +31,21 @@ models:
     lateral_view: /uploads/otono-lat.png
   - title: Givre Bleu
     subtitle: Hiver
-    cover: /uploads/givre-bleu-def.png
+    cover: /uploads/blue-frost-ok.png
     description: Pour représenter l’hiver (…) nous avons besoin de couleurs
       intériorisantes, froides et rayonnantes vers l’intérieur, transparentes et
       spiritualisantes.
     zenithal_view: /uploads/givre-bleu-zen.png
     lateral_view: /uploads/givre-bleu-lat.png
 ---
-**Une série de 4 tables basses de saison. Inspirées par le film coréen de Kim Ki-Duk, *Printemps, Eté, Automne, Hiver… et Printemps.* Comme les daybeds, une norme à 30 cm au-dessus du sol. Pour manger comme dans les films de Yasujiro Ozu. Un travail chromatique sur le plateau en verre, aux couleurs de chaque saison, avec le noir en couleur de départ. Un jeu de volumes inversés pour les pieds en bois tourné laqué et naturel.**
+**Une série de 4 tables basses de saison. Inspirées par le film coréen de Kim Ki-Duk, « Printemps, Eté, Automne, Hiver… et Printemps ». Comme les daybeds, une norme à 30 cm au-dessus du sol. Pour manger comme dans les films de Yasujiro Ozu. Un travail chromatique sur le plateau en verre, aux couleurs de chaque saison, avec le noir en couleur de départ. Un jeu de volumes inversés pour les pieds en bois tourné laqué et naturel.** 
 
-Plateau imprimé sur fond blanc, verre trempé 6mm  
-Pieds en bois tourné, finitions mixtes  
-Citations Johannes Itten, Art de la couleur  
+Plateau imprimé sur fond blanc, verre trempé 6mm\
+Pieds en bois tourné, finitions mixtes\
+Citations Johannes Itten, Art de la couleur\
 Photos Alfredo Piola
 
-Sur commande (deux mois de délai)  
+Sur commande (deux mois de délai)\
 Prix sur demande
 
 L 100 cm l 67 cm H 30 cm
