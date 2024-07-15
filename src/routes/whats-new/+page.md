@@ -1,7 +1,7 @@
 ---
 featured:
   video: ""
-  caption: Kubbi et la chaise ZLIP (groupe Totem)
+  caption: Kubbi et la chaise ZLIP (groupe Totem) Photo Yann Kukucka
   image: /uploads/kubbi-zlip-3.png
 collections:
   - title: Collection « Élémentaire »
