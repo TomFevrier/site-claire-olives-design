@@ -50,7 +50,7 @@ C’est le même principe de fabrication que les banquettes avec en plus un trav
 
 *L’unité dans votre travail c’est le bois tourné.*
 
-Pour le moment oui. A l’âge de 20 ans, j’ai reçu un apprentissage très classique de l’ébénisterie, façon tenons/mortaises. Je reste fidèle au bois, parce que c’est une matière vivante et noble, et à l’artisanat pour le côté pièce unique. Le « défaut unique » je dirais. Mais je ne connaissais pas le bois tourné. Je l’ai découvert grâce à un artisan tourneur-sur-bois à Romainville qui est devenu mon fabricant. Je me permets tous les jeux avec le bois tourné, des luminaires aux piétements. Bois laqué, mat ou brillant, bois naturel, pour des combinaisons de différents volumes et des jeux de finition. C’est ma marque de fabrique, ma signature. Ce sont des pièces en petite série, ou parfois uniques.
+Pour le moment oui. A l’âge de 20 ans, j’ai reçu un apprentissage très classique de l’ébénisterie, façon tenons-mortaises. Je reste fidèle au bois, parce que c’est une matière vivante et noble, et à l’artisanat pour le côté pièce unique. Le « défaut unique » je dirais. Mais je ne connaissais pas le bois tourné. Je l’ai découvert grâce à un artisan tourneur-sur-bois à Romainville qui est devenu mon fabricant. Je me permets tous les jeux avec le bois tourné, des luminaires aux piétements. Bois laqué, mat ou brillant, bois naturel, pour des combinaisons de différents volumes et des jeux de finition. C’est ma marque de fabrique, ma signature. Ce sont des pièces en petite série, ou parfois uniques.
 
 *Quels sont vos autres projets ?*
 
