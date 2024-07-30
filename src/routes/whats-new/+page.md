@@ -59,5 +59,5 @@ collections:
       - title: Détail
         dimensions: \-
         description: Bois et céramique blanche
-        cover: /uploads/totemini-ailettes.png
+        cover: /uploads/totemini-ailettes-fdbleu.png
 ---
