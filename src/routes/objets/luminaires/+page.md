@@ -69,7 +69,7 @@ models:
       l 19 cm  
       H 31 cm  
       Profondeur 12 cm
-    lateral_view: /uploads/bipolaire-lat.png
+    lateral_view: /uploads/bipolaire-alfredo.png
     cover: /uploads/bipolaires-toutes.png
     description: La Bipolaire a un statut à part. De par sa forme hexagonale, elle
       peut s’incliner sur ses deux côtés ou simplement garder la tête haute.
@@ -78,16 +78,15 @@ models:
       sur la face, qui lui donne sa personnalité. La Bipolaire existe sobrement
       en blanc, mais se décline aussi en couleur.
 ---
-
-**La MIR, rouge et blanc, reprend les codes de signalétique d’une balise de sécurité.**  
-**La VIKKI, monochrome, est construite selon le principe basique de la pyramide.**  
-**La MIKKO, mélange les couleurs et les tonalités pour former une mini tour.**  
+**La MIR, rouge et blanc, reprend les codes de signalétique d’une balise de sécurité.**\
+**La VIKKI, monochrome, est construite selon le principe basique de la pyramide.**\
+**La MIKKO, mélange les couleurs et les tonalités pour former une mini tour.**\
 **La MIMIKKO va chercher dans l’inconscient collectif un petit bout de l’enfance, quand on tentait d’enfiler des anneaux colorés sur un axe, pour former une pile harmonieuse… Cinq anneaux : un en bois naturel, un noir, un blanc et deux en couleur. Une combinaison différente pour chaque version couleur.**
 
 **Ici encore, on retrouve un travail sur la couleur.**
 
-*On peut modifier dans une certaine mesure l’aspect d’une couleur sans agir directement sur elle par un mélange matériel quelconque. Il suffit seulement, pour cela, de la placer à côté d’une autre couleur qui selon qu’elle sera analogue ou opposée, atténuera ou exaltera son intensité.*  
+*On peut modifier dans une certaine mesure l’aspect d’une couleur sans agir directement sur elle par un mélange matériel quelconque. Il suffit seulement, pour cela, de la placer à côté d’une autre couleur qui selon qu’elle sera analogue ou opposée, atténuera ou exaltera son intensité.*\
 *Forichon, La Couleur*
 
-*Le blanc possède le son d’un silence que nous arrivons soudainement à comprendre.*  
-*Kandinsky, Le Spiritualisme dans l’Art*
+*Le blanc possède le son d’un silence que nous arrivons soudainement à comprendre.*\
+*Kandinsky, Du Spirituel dans l'Art*
