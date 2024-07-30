@@ -1,8 +1,8 @@
 ---
 featured:
   video: ""
-  caption: KUBBI et la chaise ZLIP (groupe Totem) Photo Yann Kukucka
-  image: /uploads/kubbi-zlip-3.png
+  caption: NETTI, collection ELEMENTAIRE, Photo Yann Kukucka
+  image: /uploads/netti-soucijaune.png
 collections:
   - title: Collection « Élémentaire »
     description: "Une trilogie autour d’un thème :  « l’harmonie dans le
