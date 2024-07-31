@@ -71,12 +71,15 @@ models:
       Profondeur 12 cm
     lateral_view: /uploads/bipolaire-alfredo.png
     cover: /uploads/bipolaires-toutes.png
-    description: La Bipolaire a un statut à part. De par sa forme hexagonale, elle
-      peut s’incliner sur ses deux côtés ou simplement garder la tête haute.
-      Tout en médium laqué, elle se distingue par son placage en palissandre des
-      Indes, en façade et au dos. C’est son interrupteur surdimensionné encastré
-      sur la face, qui lui donne sa personnalité. La Bipolaire existe sobrement
-      en blanc, mais se décline aussi en couleur. Photo Alfredo Piola
+    description: >-
+      La Bipolaire a un statut à part. De par sa forme hexagonale, elle peut
+      s’incliner sur ses deux côtés ou simplement garder la tête haute. Tout en
+      médium laqué, elle se distingue par son placage en palissandre des Indes,
+      en façade et au dos. C’est son interrupteur surdimensionné encastré sur la
+      face, qui lui donne sa personnalité. La Bipolaire existe sobrement en
+      blanc, mais se décline aussi en couleur. \
+
+      Photo Alfredo Piola
 ---
 **La MIR, rouge et blanc, reprend les codes de signalétique d’une balise de sécurité.**\
 **La VIKKI, monochrome, est construite selon le principe basique de la pyramide.**\
