@@ -15,13 +15,13 @@ models:
       H 53 cm  
       Ø Base 17 cm  
       Ø Globe 15 cm
-    lateral_view: /uploads/mir-lat.png
+    lateral_view: /uploads/mir-02.png
     variants: []
   - title: Vikki
     dimensions: |-
       H 50 cm  
       Ø 15 cm
-    lateral_view: /uploads/vikki-lat.png
+    lateral_view: /uploads/vikki.png
     variants:
       - title: Orange amère
         cover: /uploads/vikki-1-orange-amere.png
@@ -37,7 +37,7 @@ models:
     dimensions: |-
       H 67 cm  
       Ø 17 cm
-    lateral_view: /uploads/mikko-lat.png
+    lateral_view: /uploads/mikko.png
     variants:
       - title: Ultra Orange
         cover: /uploads/mikko-1-ultra-orange.png
@@ -52,7 +52,7 @@ models:
       H 36 cm  
       Ø Base 15 cm  
       Ø Globe 15 cm
-    lateral_view: /uploads/dessin-mimikko_plan-de-travail-1.png
+    lateral_view: /uploads/mimikko.png
     variants:
       - title: Vert sprite
         cover: /uploads/mimikko-2-vert-sprite.png
