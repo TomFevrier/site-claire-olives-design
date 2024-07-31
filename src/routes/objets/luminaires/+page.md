@@ -83,7 +83,7 @@ models:
 **La MIKKO, mélange les couleurs et les tonalités pour former une mini tour.**  \
 **La MIMIKKO va chercher dans l’inconscient collectif un petit bout de l’enfance, quand on tentait d’enfiler des anneaux colorés sur un axe, pour former une pile harmonieuse… Cinq anneaux : un en bois naturel, un noir, un blanc et deux en couleur. Une combinaison différente pour chaque version couleur.**
 
-**Ici encore, on retrouve un travail sur la couleur.**
+**Un travail sur la couleur.**
 
 *On peut modifier dans une certaine mesure l’aspect d’une couleur sans agir directement sur elle par un mélange matériel quelconque. Il suffit seulement, pour cela, de la placer à côté d’une autre couleur qui selon qu’elle sera analogue ou opposée, atténuera ou exaltera son intensité.*\
 *Forichon, La Couleur*
