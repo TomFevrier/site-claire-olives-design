@@ -52,7 +52,7 @@ models:
       H 36 cm  
       Ø Base 15 cm  
       Ø Globe 15 cm
-    lateral_view: /uploads/mimikko.png
+    lateral_view: /uploads/quatre-luminaires-mimikko-2.png
     variants:
       - title: Vert sprite
         cover: /uploads/mimikko-2-vert-sprite.png
