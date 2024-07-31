@@ -78,9 +78,9 @@ models:
       sur la face, qui lui donne sa personnalité. La Bipolaire existe sobrement
       en blanc, mais se décline aussi en couleur. Photo Alfredo Piola
 ---
-**La MIR, rouge et blanc, reprend les codes de signalétique d’une balise de sécurité.**  \
-**La VIKKI, monochrome, est construite selon le principe basique de la pyramide.**  \
-**La MIKKO, mélange les couleurs et les tonalités pour former une mini tour.**  \
+**La MIR, rouge et blanc, reprend les codes de signalétique d’une balise de sécurité.**\
+**La VIKKI, monochrome, est construite selon le principe basique de la pyramide.**\
+**La MIKKO, mélange les couleurs et les tonalités pour former une mini tour.**\
 **La MIMIKKO va chercher dans l’inconscient collectif un petit bout de l’enfance, quand on tentait d’enfiler des anneaux colorés sur un axe, pour former une pile harmonieuse… Cinq anneaux : un en bois naturel, un noir, un blanc et deux en couleur. Une combinaison différente pour chaque version couleur.**
 
 **Un travail sur la couleur.**
