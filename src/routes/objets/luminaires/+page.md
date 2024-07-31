@@ -37,7 +37,7 @@ models:
     dimensions: |-
       H 67 cm  
       Ø 17 cm
-    lateral_view: /uploads/mikko.png
+    lateral_view: /uploads/quatre-luminaires-mikko-2.png
     variants:
       - title: Ultra Orange
         cover: /uploads/mikko-1-ultra-orange.png
