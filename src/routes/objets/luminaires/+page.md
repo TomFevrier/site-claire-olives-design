@@ -21,7 +21,7 @@ models:
     dimensions: |-
       H 50 cm  
       Ø 15 cm
-    lateral_view: /uploads/dessin-vikki.png
+    lateral_view: /uploads/quatre-luminaires-vikki-2.png
     variants:
       - title: Orange amère
         cover: /uploads/vikki-1-orange-amere.png
