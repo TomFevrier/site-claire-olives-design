@@ -77,7 +77,7 @@ models:
       médium laqué, elle se distingue par son placage en palissandre des Indes,
       en façade et au dos. C’est son interrupteur surdimensionné encastré sur la
       face, qui lui donne sa personnalité. La Bipolaire existe sobrement en
-      blanc, mais se décline aussi en couleur. \
+      blanc, mais se décline aussi en couleur.  \
 
       Photo Alfredo Piola
 ---
