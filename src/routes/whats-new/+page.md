@@ -1,8 +1,8 @@
 ---
 featured:
   video: ""
-  caption: NETTI, collection ELEMENTAIRE, Photo Yann Kukucka
-  image: /uploads/netti-soucijaune.png
+  caption: Vikki, Mikko, TOTEMini, Mimikko
+  image: /uploads/vikki-mikko-totemini-mimikko.png
 collections:
   - title: Collection « Élémentaire »
     description: "Une trilogie autour d’un thème :  « l’harmonie dans le
