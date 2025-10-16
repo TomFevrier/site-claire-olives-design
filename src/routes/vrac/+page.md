@@ -10,7 +10,7 @@ gallery:
     caption: Affaire de famille
   - image: /uploads/bipolaire-jaune-bleupetrole.png
     caption: Entre les deux mon cœur balance
-  - image: /uploads/fierté-1.png
+  - image: /uploads/fierte-1.png
     caption: Fierté
   - image: /uploads/mimikko-new-arrival-16.png
     caption: Vibration de Mimikko
