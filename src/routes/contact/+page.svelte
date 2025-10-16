@@ -4,7 +4,7 @@
 
 <Content>
 	<h1>contact</h1>
-	<a href='mailto:claire@claireolivesdesign.com' target='_blank'>
+	<a href='mailto:angelapigerouletbecker@gmail.com'>
 		<i class='fi fi-email'></i>
 	</a>
 </Content>

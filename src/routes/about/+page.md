@@ -58,4 +58,6 @@ Je viens d’expérimenter l’impression 3D, avec une collection de six petits 
 
 *Propos recueillis par AMF*
 
+PS: Claire ne manquait pas d’énergie, pour son travail de designer comme dans la vie tout court. Mais cette énergie combinée à un immense courage ne lui a pas suffi pour vaincre un cancer du sein. Elle nous a quittés le 18 février 2025.
+
 ##### 1- La table Totem Exquis figure dans la collection du MAD, musée des Arts décoratifs de Paris. À voir dans l’exposition « Les années 80. Mode, design et graphisme en France » jusqu'au 16 avril 2023
